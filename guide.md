@@ -1,64 +1,34 @@
 # Mapping guide
 
-## Initialising & Uploading
-1. Decide on a namespace. **Make sure that it is not taken.** A list of namespaces will be recorded.
-2. Create a PLA json file and a node json file for each namespace. **They are separate**
-3. Map the city. Steps are covered in another section.
-4. Do check with 7d often if you are doing it properly, especially for the first few times.
-5. If he approves, commit and push to your own branch in the repo for data storage.
-6. If your namespace is complete, create a pull request for 7d to merge :)
+## Setting up your dataset
 
-## Plotting a single node
-You can either type it in manually, or use the node builder.
-Json format:
-```
-{
-  "<node name>": {
-    "x": 2, // x coord of node
-    "y": 5, // y coord of node
-    "connections": [] // leave this empty first
-  },
-  //more here
-}
-```
+Firstly, decide on a namespace. Ideally they are 3 letters long, and will always appear at the start of every component (and node) that you will be plotting. This is to make sure that no two components have the same ID across the map.
 
-## Plotting a PLA
-(aka component)
-You have to type this in manually; in the future I might do a builder for this
-Json format:
-```
-{
-  "<pla name>": {
-    "type": "<type>", // PLA type
-    "displayname": "<displayed name>", // this will show on the map
-    "description": "<desciption>", // description about the PLA
-    "layer": 0, // tells it whether to render this PLA over or under everything else. Default is 0
-    "nodes": [], // a list of nodes that the PLA connects to
-    "attrs": {} // this one can be empty first
-  }
-  // more here
-}
-```
+A list of namespaces can be found in #namespace-list in the MRT Mapping Services discord.
 
-## Using the node builder
-1. Get Python version 3.8.0 - 3.9.5 (3.10 doesnt work)
-2. Run `pip install tile-renderer` in console
-3. `cd` to the directory where your node json file is in
-4. Run `renderer nodebuilder` or `python -m renderer builder`
-5. Indicate the file to write to, eg. `examplenodes.json`
-6. Ingame, do F3+C, and paste it in the input. You are then prompted to title the node.
-7. Repeat this until you are done, then type `exit`.
-8. The new nodes should now be in the json file.
-9. Remember to save often by exiting and re-entering :D
+## Mapping the place (Stencil)
 
-## ID naming guidelines
+Stencil is an online map data editor made by \_\_7d. You can access it online at [https://mrt-map.github.io/stencil].
+
+The current version as of writing is **v1.0**.
+
+A manual should already be provided in Stencil itself. Give it a read, and start plotting your components.
+
+After plotting, export the data (there should be two files).
+
+## Uploading the data
+
+Fork this repository and commit and push your files in there. Components go to the `comps` (or `pla`) folder, and nodes go to the `nodes` folder.
+
+When you are done, create a pull request onto this main repository. After 7d handchecks the data for any mistakes or noncompliances, the data is merged and will be rendered in the next scheduled render.
+
+## Component ID naming guidelines
 **Remember namespace prefix!** Prefix them like this: `<namespace>-<node name>`, eg `enc-cabrilloAv`
 **No spaces in IDs**
-**Roads** for nodes use `<name><nodeNo>`, for pla use `<name>`. Eg `enc-cabrilloAv2`
-**Double-lined roads, eg A/B roads** for nodes use `<name><n|s|e|w><node No>`, for pla use `<name><n|s|e|w>`, eg `B209n1`. Node number should be the same in one direction, ie dont have n1 and s109 next to each other, have n1 and s1
-**Intersections** for nodes use `<name><nodeNo>_<name><nodeNo>`, eg `frn-insanityBlvd2_accidentAv1`
-**Buildings, parks, platforms, etc** for nodes use `<name><nodeNo>`, for pla use `<name>`. if you have similar buildings with no names ID them with A B C D etc. Eg `enc-officeB1` and `enc-officeB`
-**Grouping PLAs** Use `<group name>_<name etc>`, eg. `frn-cityHall_pondA1_sidewalkB8`
+**Roads** just state the name: `<name>`. Eg `enc-cabrilloAv`
+**Double-lined roads, eg A/B roads** use `<name><n|s|e|w>`, eg `B209n`.
+**Buildings, parks, platforms, etc** just state the name too: `<name>`. if you have similar buildings with no names ID them with A B C D etc. Eg `enc-officeB`
+**Grouping componentss** Use `<group name>-<name etc>`, eg. `frn-cityHall-pondA1-sidewalkB8`
 
 ## Steps to map a city
 1a. Map the roads. They are linear components. if there is an intersection, two roads can go onto one road.
@@ -90,7 +60,6 @@ Json format:
 - If you have a plaza, use `plaza`.
 4. Mark individual services (optional)
 - All are point components. They are parking, bikeRack, shop, restaurant, hotel, arcade, supermarket, clinic, library, placeOfWorship, petrol, cinema, bank, gym, shelter, playground, fountain, taxiStand, pickUpDropOff, attraction
-- Either you create a new node for the markers, _or you use the "icon" key in the PLA json (soon tm)_
 5. Map the zones of the city.
 - Types: residentialArea, industrialArea, commercialArea, officeArea, residentialOfficeArea, schoolArea, healthArea, agricultureArea, militaryArea
 - If you have a national park area dont use this
@@ -109,7 +78,7 @@ Json format:
 - They are area components btw
 
 ## Important things to remember
-- Always namespace all nodes and PLAs. This can be done by providing a 3-letter prefix followed by a dash. For example, `abc-IdkRoad` instead of just `IdkRoad`.
+- Always namespace all nodes and componentss. This can be done by providing a 3-letter prefix followed by a dash. For example, `abc-IdkRoad` instead of just `IdkRoad`.
 - If you are mapping, do check with me often if the format is correct. You might be mapping it wrong, who knows?
 - You can reference nodes from another namespace.
 
