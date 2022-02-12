@@ -10,7 +10,7 @@ A list of namespaces can be found in #namespace-list in the MRT Mapping Services
 
 Stencil is an online map data editor made by \_\_7d. You can access it online at [https://mrt-map.github.io/stencil].
 
-The current version as of writing is **v1.0**.
+The current version as of writing is **v1.1b4**.
 
 A manual should already be provided in Stencil itself. Give it a read, and start plotting your components.
 
