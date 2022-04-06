@@ -24,7 +24,7 @@ def main():
     for comp_file in glob("comps/*"):
         comps_json.update(read_file(comp_file))
     comps = renderer.ComponentList(comps_json, node_json)
-    renderer.render(comps, nodes, 8, 8, 64, save_dir=Path("./tiles"))
+    renderer.render(comps, nodes, 8, 8, 64, save_dir=Path("./tiles"), offset=renderer.Coord(0, -32))
 
     for tile in tqdm(glob("tiles/*")):
         tile: str
