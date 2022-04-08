@@ -456,23 +456,6 @@
     ],
     "type": "transportBuilding"
   },
-  "enc-ecjApron": {
-    "attrs": {},
-    "description": "Encinitas",
-    "displayname": "",
-    "layer": 0,
-    "nodes": [
-      "ORTZFBxkFgA-nu8kvp39sAAAAAA",
-      "ORTZFBxkFgA-InHP/vwuAAAAAAA",
-      "ORTZFByKPAA-wGD9Q+MhUAAAAAA",
-      "ORTZFByKPAA-lQJ67iZy0AAAAAA",
-      "ORTZFByKPAA-v2ZF1AnR0AAAAAA",
-      "ORTZFByKPAA-W5w64/AhgAAAAAA",
-      "ORTZFByKPAA-cyflL7vQ4AAAAAA",
-      "ORTZFBxkFgA-tDAmWyVooAAAAAA"
-    ],
-    "type": "apron"
-  },
   "enc-ecjTaxiway": {
     "attrs": {},
     "description": "Encinitas",
@@ -1325,7 +1308,7 @@
     "attrs": {},
     "description": "Encinitas, Escondido-Costa",
     "displayname": "",
-    "layer": 0,
+    "layer": 1,
     "nodes": [
       "ORTZFCFO8AA-Btu2W/X+cAAAAAA",
       "ORTZFCFO8AA-7+3luDMG4AAAAAA",
@@ -2159,7 +2142,7 @@
     "attrs": {},
     "description": "Encinitas",
     "displayname": "",
-    "layer": 0,
+    "layer": 1,
     "nodes": [
       "ORTZFCskogA-Lg1R13j68AAAAAA",
       "ORTZFCskogA-jgRO0Qb9kAAAAAA",
@@ -2184,7 +2167,7 @@
     "attrs": {},
     "description": "Encinitas",
     "displayname": "",
-    "layer": 0,
+    "layer": 1,
     "nodes": [
       "ORTZFCu9OgA-uj3DhESMgAAAAAA",
       "ORTZFCvjXgA-Ba0YChBnYAAAAAA",
@@ -4458,5 +4441,97 @@
       "ORTZFBtZDgA-nN5I8lxtgAAAAAA"
     ],
     "type": "pathway"
+  },
+  "enc-aqualinq": {
+    "type": "ferryStop",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTnvKhMZdAA-bs0IqdxxYAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "enc-ecjApron": {
+    "type": "apron",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "ORTZFByKPAA-QtTzlgOZoAAAAAA",
+      "OTnvKhNlwAA-PKOtWcoHQAAAAAA",
+      "OTnvKhNlwAA-Z2fwahL5QAAAAAA",
+      "ORTZFBxkFgA-tDAmWyVooAAAAAA",
+      "ORTZFBxkFgA-nu8kvp39sAAAAAA",
+      "OTnvKhOyDAA-vyJDycxmAAAAAAA",
+      "OTnvKhOyDAA-PVFzyilYwAAAAAA",
+      "ORTZFByKPAA-jigUHm8I8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "enc-ecjGate1": {
+    "type": "gate",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTnvKhOyDAA-vyJDycxmAAAAAAA",
+      "ORTZFBxkFgA-nu8kvp39sAAAAAA",
+      "OTnvKhQkfAA-N/jNaxd4sAAAAAA",
+      "OTnvKhQkfAA-PszMaMrvIAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "enc-ecjGate2": {
+    "type": "gate",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTnvKhQkfAA-PszMaMrvIAAAAAA",
+      "OTnvKhQkfAA-N/jNaxd4sAAAAAA",
+      "OTnvKhRwyAA-LmeyTqdvsAAAAAA",
+      "OTnvKhSW7AA-JYKealPQIAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "enc-ecjGate5": {
+    "type": "gate",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTnvKhSW7AA-B7VSGKD3gAAAAAA",
+      "OTnvKhS9EgA-QwM+wmnHUAAAAAA",
+      "ORTZFBxkFgA-tDAmWyVooAAAAAA",
+      "OTnvKhNlwAA-Z2fwahL5QAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "enc-ecjGate3": {
+    "type": "gate",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTnvKhSW7AA-JYKealPQIAAAAAA",
+      "OTnvKhRwyAA-LmeyTqdvsAAAAAA",
+      "OTnvKhUvhAA-803Vb/c38AAAAAA",
+      "OTnvKhUvhAA-1RBcyr3e8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "enc-ecjGate4": {
+    "type": "gate",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTnvKhUvhAA-1RBcyr3e8AAAAAA",
+      "OTnvKhUvhAA-803Vb/c38AAAAAA",
+      "OTnvKhS9EgA-QwM+wmnHUAAAAAA",
+      "OTnvKhSW7AA-B7VSGKD3gAAAAAA"
+    ],
+    "attrs": {}
   }
 }
