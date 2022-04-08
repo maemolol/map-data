@@ -1,0 +1,540 @@
+{
+  "kze-setsuritsuAvA": {
+    "type": "localMainRoad",
+    "displayname": "設立大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11npqaAA-8zjZvtCvkAAAAAA",
+      "OTn11npqaAA-pAv1Q806wAAAAAA",
+      "OTn11npqaAA-QV0gLNxOwAAAAAA",
+      "OTn11npqaAA-jsSM1yRWAAAAAAA",
+      "OTn11npqaAA-LBNTxxUxoAAAAAA",
+      "OTn11npqaAA-UMrL5DqLIAAAAAA",
+      "OTn11npqaAA-NQF0k7GlkAAAAAA",
+      "OTn11npqaAA-rJoTkqM8EAAAAAA",
+      "OTn11npqaAA-xbScuF9usAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-setsuritsuAvB": {
+    "type": "localTertiaryRoad",
+    "displayname": "設立大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11npqaAA-xbScuF9usAAAAAA",
+      "OTn11npqaAA-VHNieruz4AAAAAA",
+      "OTn11npqaAA-fNq52jof0AAAAAA",
+      "OTn11nqQjgA-Jov0HER34AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-setsuritsumachiSt2": {
+    "type": "localTertiaryRoad",
+    "displayname": "設立町第2通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-iTlTptBmgAAAAAA",
+      "OTn11npqaAA-fNq52jof0AAAAAA",
+      "OTn11nqQjgA-2hZC60llUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-setsuritsumachiSt1": {
+    "type": "localTertiaryRoad",
+    "displayname": "設立町第1通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11npqaAA-VHNieruz4AAAAAA",
+      "OTn11nqQjgA-bmyKeodlIAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-setsuritsukawaSt": {
+    "type": "localTertiaryRoad",
+    "displayname": "設立川通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-taWuA755YAAAAAA",
+      "OTn11nqQjgA-7E/ebw0vsAAAAAA",
+      "OTn11nqQjgA-Ci4kp4jwAAAAAAA",
+      "OTn11nqQjgA-5VbcBm6r8AAAAAA",
+      "OTn11nqQjgA-3zqwYIR+gAAAAAA",
+      "OTn11npqaAA-xbScuF9usAAAAAA",
+      "OTn11nqQjgA-MBkUFOrK4AAAAAA",
+      "OTn11nqQjgA-cU5RPNsFoAAAAAA",
+      "OTn11nqQjgA-tDYv6sKU4AAAAAA",
+      "OTn11nqQjgA-qzoA3IQ5MAAAAAA",
+      "OTn11nqQjgA-e8JQyZzgoAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-setsuritsukawaStSlip": {
+    "type": "localTertiaryRoad oneWay",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11npqaAA-rJoTkqM8EAAAAAA",
+      "OTn11nqQjgA-fVhDW0D2UAAAAAA",
+      "OTn11nqQjgA-7E/ebw0vsAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-takagawarakaiganSt": {
+    "type": "localTertiaryRoad",
+    "displayname": "高河原海岸通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-/Pvj9MPmYAAAAAA",
+      "OTn11nqQjgA-u4qEdFLIYAAAAAA",
+      "OTn11nqQjgA-UcNGLWQEcAAAAAA",
+      "OTn11nqQjgA-CLFjxfGpUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-chuokoenAvB": {
+    "type": "localMainRoad",
+    "displayname": "中央公園大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-8LTnU43cAAAAAAA",
+      "OTn11nqQjgA-mub0xcYY0AAAAAA",
+      "OTn11npqaAA-NQF0k7GlkAAAAAA",
+      "OTn11nqQjgA-YHW8FE81EAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-chuokoenAvA": {
+    "type": "localTertiaryRoad",
+    "displayname": "中央公園大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-8LTnU43cAAAAAAA",
+      "OTn11nqQjgA-imJ04eKCwAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-chuokoenAvD": {
+    "type": "localTertiaryRoad",
+    "displayname": "中央公園大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-ISXflmTEkAAAAAA",
+      "OTn11nqQjgA-L4PRCYhfoAAAAAA",
+      "OTn11nqQjgA-0zDPuy2M8AAAAAA",
+      "OTn11nqQjgA-RxInd0KPUAAAAAA",
+      "OTn11nqQjgA-8ClUyBfsAAAAAAA",
+      "OTn11nqQjgA-+4P0mXG5AAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-centralMarketSt": {
+    "type": "localTertiaryRoad",
+    "displayname": "中央市場通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-hHLfH7D1QAAAAAA",
+      "OTn11nqQjgA-WjR+S4rUIAAAAAA",
+      "OTn11npqaAA-UMrL5DqLIAAAAAA",
+      "OTn11nqQjgA-aMtJbRsOEAAAAAA",
+      "OTn11nqQjgA-bzq6u4sp8AAAAAA",
+      "OTn11nqQjgA-+HJ5/wcTkAAAAAA",
+      "OTn11nqQjgA-JEStZhhLcAAAAAA",
+      "OTn11nqQjgA-HK7hgTC2EAAAAAA",
+      "OTn11nqQjgA-llqXXWGPkAAAAAA",
+      "OTn11nq2tAA-JBIdXcxdsAAAAAA",
+      "OTn11nq2tAA-wkBy4BFDkAAAAAA",
+      "OTn11nq2tAA-m/l0+1bQsAAAAAA",
+      "OTn11nq2tAA-im/1p62+gAAAAAA",
+      "OTn11nqQjgA-8ClUyBfsAAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-dareStA": {
+    "type": "localTertiaryRoad",
+    "displayname": "誰通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nq2tAA-uT0tUVdJwAAAAAA",
+      "OTn11nq2tAA-tXSDDEyE8AAAAAA",
+      "OTn11npqaAA-LBNTxxUxoAAAAAA",
+      "OTn11nq2tAA-yGmLiEBHsAAAAAA",
+      "OTn11nq2tAA-GM3oy6G94AAAAAA",
+      "OTn11nq2tAA-uuuO1J8LgAAAAAA",
+      "OTn11nq2tAA-FeqVb5lEkAAAAAA",
+      "OTn11nq2tAA-+ux2q9p1IAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-dareStB": {
+    "type": "localSecondaryRoad",
+    "displayname": "誰通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nq2tAA-+ux2q9p1IAAAAAA",
+      "OTn11nq2tAA-4yMcGEsQwAAAAAA",
+      "OTn11nrc2AA-CRDsIb8UkAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-playgroundSt": {
+    "type": "localTertiaryRoad",
+    "displayname": "遊び場通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nrc2AA-4RKSFkIuYAAAAAA",
+      "OTn11nrc2AA-pRnGmjeZIAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-fiveHillsSt": {
+    "type": "localTertiaryRoad",
+    "displayname": "五つ丘通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nq2tAA-wkBy4BFDkAAAAAA",
+      "OTn11nrc2AA-BGJH+E0l8AAAAAA",
+      "OTn11nrc2AA-iVoW2WYeIAAAAAA",
+      "OTn11nrc2AA-NB8vck5x0AAAAAA",
+      "OTn11nrc2AA-piX0NsEmYAAAAAA",
+      "OTn11nrc2AA-DyHbOjaSkAAAAAA",
+      "OTn11nrc2AA-QHT50uEEsAAAAAA",
+      "OTn11nrc2AA-uJJF746BcAAAAAA",
+      "OTn11nrc2AA-4n3SNTYkoAAAAAA",
+      "OTn11nrc2AA-+H83RSEboAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-saikoCoastRoad": {
+    "type": "localQuaternaryRoad",
+    "displayname": "西湖岸道",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nrc2AA-+H83RSEboAAAAAA",
+      "OTn11nrc2AA-ZJdC/StVYAAAAAA",
+      "OTn11nrc2AA-TqsBpIZ04AAAAAA",
+      "OTn11nrc2AA-/grzqG1L8AAAAAA",
+      "OTn11nrc2AA-CpWzdGgyIAAAAAA",
+      "OTn11nrc2AA-2SYUW3JdkAAAAAA",
+      "OTn11nrc2AA-DgILu2OK8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-ekimaeAvA": {
+    "type": "localMainRoad",
+    "displayname": "駅前大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nrc2AA-+H83RSEboAAAAAA",
+      "OTn11nq2tAA-FeqVb5lEkAAAAAA",
+      "OTn11nrc2AA-ueZC3YRtUAAAAAA",
+      "OTn11npqaAA-jsSM1yRWAAAAAAA",
+      "OTn11nrc2AA-fm6HkxUqUAAAAAA",
+      "OTn11nsC/gA-nfYwtP0sQAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-muimiSt": {
+    "type": "localTertiaryRoad",
+    "displayname": "無意味通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nsC/gA-lGKw7/TsQAAAAAA",
+      "OTn11nq2tAA-+ux2q9p1IAAAAAA",
+      "OTn11nsC/gA-1nffv8a2EAAAAAA",
+      "OTn11npqaAA-QV0gLNxOwAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-unnamedSt": {
+    "type": "localTertiaryRoad",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11npqaAA-pAv1Q806wAAAAAA",
+      "OTn11nsC/gA-+zXDckEaMAAAAAA",
+      "OTn11nq2tAA-4yMcGEsQwAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-templeOfWindAvA": {
+    "type": "localSecondaryRoad",
+    "displayname": "風寺大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nsC/gA-+zXDckEaMAAAAAA",
+      "OTn11nsC/gA-1nffv8a2EAAAAAA",
+      "OTn11nrc2AA-ueZC3YRtUAAAAAA",
+      "OTn11nq2tAA-yGmLiEBHsAAAAAA",
+      "OTn11nsC/gA-cdFwuSb10AAAAAA",
+      "OTn11nsC/gA-hc6GHlThcAAAAAA",
+      "OTn11nsC/gA-wc20a6RxwAAAAAA",
+      "OTn11nsC/gA-jWi/ktdfoAAAAAA",
+      "OTn11nqQjgA-bzq6u4sp8AAAAAA",
+      "OTn11nsC/gA-/HCPYatF0AAAAAA",
+      "OTn11nsC/gA-NFeEip8ZkAAAAAA",
+      "OTn11nsC/gA-2XqMIrvHoAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-templeOfWindAvB": {
+    "type": "localTertiaryRoad",
+    "displayname": "風寺大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nsC/gA-2XqMIrvHoAAAAAA",
+      "OTn11nsC/gA-vSACoBr5UAAAAAA",
+      "OTn11nsC/gA-pxZDhpn+AAAAAAA",
+      "OTn11nsC/gA-cwSC0mWdgAAAAAA",
+      "OTn11nspJAA-lIkagTdjgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-stationRd": {
+    "type": "localQuaternaryRoad",
+    "displayname": "駅道",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-RxInd0KPUAAAAAA",
+      "OTn11nspJAA-BF1bx6Fg4AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-fireStationRd": {
+    "type": "localTertiaryRoad",
+    "displayname": "消防署道",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-+HJ5/wcTkAAAAAA",
+      "OTn11nspJAA-0Wlog3rDUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-tokotoshokanStAa": {
+    "type": "localTertiaryRoad oneWay",
+    "displayname": "東湖図書館通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-YHW8FE81EAAAAAA",
+      "OTn11nspJAA-ERlfiFoMwAAAAAA",
+      "OTn11nsC/gA-/HCPYatF0AAAAAA",
+      "OTn11nspJAA-0Wlog3rDUAAAAAA",
+      "OTn11nspJAA-rPcW2Q6D0AAAAAA",
+      "OTn11nspJAA-fMRRglSMEAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-tokotoshokanAb": {
+    "type": "localTertiaryRoad oneWay",
+    "displayname": "東湖図書館通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nspJAA-fMRRglSMEAAAAAA",
+      "OTn11nsC/gA-NFeEip8ZkAAAAAA",
+      "OTn11nspJAA-KcR18+61UAAAAAA",
+      "OTn11nqQjgA-YHW8FE81EAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-chuokoenAvC": {
+    "type": "localMainRoad_elevated",
+    "displayname": "中央公園大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-YHW8FE81EAAAAAA",
+      "OTn11nspJAA-XsHiF4PZ0AAAAAA",
+      "OTn11nspJAA-brN6M22sgAAAAAA",
+      "OTn11nqQjgA-ISXflmTEkAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-tokotoshokanStB": {
+    "type": "localTertiaryRoad",
+    "displayname": "図書館通り通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nspJAA-fMRRglSMEAAAAAA",
+      "OTn11nspJAA-BwSUbuwo0AAAAAA",
+      "OTn11nspJAA-jHery4DikAAAAAA",
+      "OTn11nsC/gA-cwSC0mWdgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-odaibaAv": {
+    "type": "localSecondaryRoad",
+    "displayname": "お台場大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nqQjgA-u4qEdFLIYAAAAAA",
+      "OTn11nqQjgA-tDYv6sKU4AAAAAA",
+      "OTn11nqQjgA-mub0xcYY0AAAAAA",
+      "OTn11nqQjgA-WjR+S4rUIAAAAAA",
+      "OTn11nq2tAA-tXSDDEyE8AAAAAA",
+      "OTn11nrc2AA-fm6HkxUqUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-unnamedAv": {
+    "type": "localSecondaryRoad",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nsC/gA-nfYwtP0sQAAAAAA",
+      "OTn11nq2tAA-uT0tUVdJwAAAAAA",
+      "OTn11nspJAA-Q8tlkXA/UAAAAAA",
+      "OTn11nspJAA-pxGO0VpOgAAAAAA",
+      "OTn11ntPSgA-ahQRHZ0QMAAAAAA",
+      "OTn11nqQjgA-hHLfH7D1QAAAAAA",
+      "OTn11nqQjgA-8LTnU43cAAAAAAA",
+      "OTn11nqQjgA-qzoA3IQ5MAAAAAA",
+      "OTn11nqQjgA-UcNGLWQEcAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-ekimaeAvB": {
+    "type": "localTertiaryRoad",
+    "displayname": "駅前大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nrc2AA-+H83RSEboAAAAAA",
+      "OTn11ntPSgA-T0TBBIJwoAAAAAA",
+      "OTn11ntPSgA-FS7CYPwBgAAAAAA",
+      "OTn11ntPSgA-mx4bguhroAAAAAA",
+      "OTn11ntPSgA-QYzfn3iCgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-aomiRd": {
+    "type": "localTertiaryRoad",
+    "displayname": "青見通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11ntPSgA-X05XC7n8kAAAAAA",
+      "OTn11ntPSgA-Uw+Km5oa8AAAAAA",
+      "OTn11ntPSgA-bS6wwt7WwAAAAAA",
+      "OTn11ntPSgA-x3cB8qxJQAAAAAA",
+      "OTn11nt1cAA-6wXAgrhJUAAAAAA",
+      "OTn11nt1cAA-7bVzg49J4AAAAAA",
+      "OTn11nt1cAA-YC6GzTxtUAAAAAA",
+      "OTn11nt1cAA-b1YXxZtIsAAAAAA",
+      "OTn11nt1cAA-u2EtaDN3gAAAAAA",
+      "OTn11nt1cAA-mScMmiC4AAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-kazekoriAv": {
+    "type": "localQuaternaryRoad",
+    "displayname": "風氷大通り",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11ntPSgA-bS6wwt7WwAAAAAA",
+      "OTn11nt1cAA-mvLLcWn3AAAAAAA",
+      "OTn11nt1cAA-h/xxCFNuUAAAAAA",
+      "OTn11nt1cAA-xQ4BsAFq0AAAAAA",
+      "OTn11nt1cAA-hqzviL188AAAAAA",
+      "OTn11nt1cAA-2oUrMk/J8AAAAAA",
+      "OTn11nt1cAA-EY+aVfNI0AAAAAA",
+      "OTn11nt1cAA-5yr4Ef9kgAAAAAA",
+      "OTn11nt1cAA-HFLb1e+F8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-flrSetsuritsumachiOffice": {
+    "type": "building",
+    "displayname": "FLR風島設立町事務所",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nt1cAA-wTmqdIPoEAAAAAA",
+      "OTn11nt1cAA-BUHVsFWVIAAAAAA",
+      "OTn11nt1cAA-HQ/nsu/0kAAAAAA",
+      "OTn11nt1cAA-QQ06soYJIAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-foresinnSetsuritsumachi": {
+    "type": "building",
+    "displayname": "フォレーイン 風島設立町",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nt1cAA-OGeuyMq7sAAAAAA",
+      "OTn11nt1cAA-cb00Ea85oAAAAAA",
+      "OTn11nt1cAA-ksoTtiFbMAAAAAA",
+      "OTn11nt1cAA-ccyrJXf6MAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-cityHall": {
+    "type": "cityHall",
+    "displayname": "風島市役所",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nt1cAA-cb00Ea85oAAAAAA",
+      "OTn11nt1cAA-HprP+zgN4AAAAAA",
+      "OTn11nublAA-hNat1wH9QAAAAAA",
+      "OTn11nublAA-mJQIBbBOUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-forescoSetsuritsumachiOffice": {
+    "type": "building",
+    "displayname": "フォレース会社 風島設立町事務所",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nublAA-C2cGLktb8AAAAAA",
+      "OTn11nublAA-Y+AZ4Ca8YAAAAAA",
+      "OTn11nublAA-eZb+IiOrYAAAAAA",
+      "OTn11nublAA-qqdHYaNbAAAAAAA",
+      "OTn11nublAA-/Sr8XDZZUAAAAAA",
+      "OTn11nublAA-5x4/YSdfQAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-mayorsResidence": {
+    "type": "building",
+    "displayname": "市長の住居",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTn11nublAA-sS1NVjMGkAAAAAA",
+      "OTn11nublAA-KoHc+WUL8AAAAAA",
+      "OTn11nublAA-R3T9ubBDkAAAAAA",
+      "OTn11nublAA-CwTGzeOiwAAAAAA"
+    ],
+    "attrs": {}
+  }
+}
