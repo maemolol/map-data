@@ -2,6 +2,7 @@ import json
 import os
 import re
 import shutil
+import sys
 from glob import glob
 from pathlib import Path
 
@@ -16,14 +17,22 @@ def read_file(path) -> dict:  # extract from JSON as dict
 
 def main():
     node_json = {}
-    for node_file in glob("nodes/*"):
-        node_json.update(read_file(node_file))
-    nodes = renderer.NodeList(node_json)
-
     comps_json = {}
-    for comp_file in glob("comps/*"):
-        comps_json.update(read_file(comp_file))
+    if sys.argv[1:]:
+        for ns in sys.argv[1:]:
+            node_json.update(read_file(f"nodes/{ns}.nodes.pla"))
+            comps_json.update(read_file(f"comps/{ns}.comps.pla"))
+    else:
+        for node_file in glob("nodes/*"):
+            node_json.update(read_file(node_file))
+        for comp_file in glob("comps/*"):
+            comps_json.update(read_file(comp_file))
+
+    nodes = renderer.NodeList(node_json)
     comps = renderer.ComponentList(comps_json, node_json)
+
+    print(f"Rendering {', '.join(sys.argv[1:]) or 'everything'}")
+
     renderer.render(comps, nodes, 0, 9, 32, save_dir=Path("./tiles"), offset=renderer.Coord(0, 32))
 
     for tile in tqdm(glob("tiles/*")):
