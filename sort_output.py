@@ -15,7 +15,9 @@ def main():
         z, x, y = regex.group(1), regex.group(2), regex.group(3)
         Path(f"./tiles/{z}/{x}").mkdir(parents=True, exist_ok=True)
         shutil.move(tile, Path(f"./tiles/{z}/{x}"))
-        os.remove(Path(f"./tiles/{z}/{x}/{y}.png"))
+        try:
+            os.remove(Path(f"./tiles/{z}/{x}/{y}.png"))
+        except Exception: pass
         os.rename(Path(f"./tiles/{z}/{x}")/Path(tile).name, Path(f"./tiles/{z}/{x}/{y}.png"))
 
 if __name__ == "__main__":
