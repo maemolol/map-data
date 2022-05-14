@@ -1,13 +1,11 @@
 import json
-import os
-import re
-import shutil
 import sys
 from glob import glob
 from pathlib import Path
 
 import renderer
-from tqdm import tqdm
+
+import sort_output
 
 
 def read_file(path) -> dict:  # extract from JSON as dict
@@ -36,13 +34,6 @@ def main():
     renderer.render(comps, nodes, renderer.ZoomParams(0, 9, 32),
                     save_dir=Path("./tiles"), offset=renderer.Coord(0, 32), use_ray=False)
 
-    for tile in tqdm(glob("tiles/*")):
-        tile: str
-        regex = re.search(r"tiles/(-?\d+), (-?\d+), (-?\d+)\.png", tile)
-        if regex is None: continue
-        z, x, y = regex.group(1), regex.group(2), regex.group(3)
-        Path(f"./tiles/{z}/{x}").mkdir(parents=True, exist_ok=True)
-        shutil.move(tile, Path(f"./tiles/{z}/{x}"))
-        os.rename(f"./tiles/{z}/{x}/"+tile.removeprefix("tiles/"), f"./tiles/{z}/{x}/{y}.png")
+    sort_output.main()
 
 if __name__ == "__main__": main()
