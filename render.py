@@ -1,9 +1,12 @@
+import gc
 import json
 import sys
 from glob import glob
 from pathlib import Path
 
+import ray
 import renderer
+from renderer.tools import components
 
 import sort_output
 
@@ -31,9 +34,17 @@ def main():
 
     print(f"Rendering {', '.join(sys.argv[1:]) or 'everything'}")
 
-    renderer.render(comps, nodes, renderer.ZoomParams(0, 9, 32),
-                    save_dir=Path("./tiles"), offset=renderer.Coord(0, 32), use_ray=False)
+    tiles = components.rendered_in(comps, nodes, 0, 9, 32)
+    print(f"{len(tiles)} tiles to render")
 
-    sort_output.main()
+    for i, batch in enumerate(tiles[x:x + 1000] for x in range(0, len(tiles), 1000)):
+        print(f"Batch {i} of {int(len(tiles) // 1000)}")
+        renderer.render(comps, nodes, renderer.ZoomParams(0, 9, 32),
+                        save_dir=Path("./tiles"), offset=renderer.Coord(0, 32),
+                        tiles=batch, use_ray=True)
+
+        sort_output.main()
+        ray.shutdown()
+        gc.collect()
 
 if __name__ == "__main__": main()

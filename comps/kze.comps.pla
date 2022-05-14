@@ -1,9 +1,9 @@
 {
   "kze-lakeGunto": {
-    "type": "waterLarge",
-    "displayname": "",
+    "attrs": {},
     "description": "",
-    "layer": 0,
+    "displayname": "",
+    "layer": -1,
     "nodes": [
       "OTqFiks3MgA-hLz++IZuAAAAAAA",
       "OTqFiktdWAA-VSWPXWfj8AAAAAA",
@@ -22,7 +22,7 @@
       "OTqFik2ZjAA-kmHnOXCyIAAAAAA",
       "OTqFik2/sgA-MHxfyPNtwAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterLarge"
   },
   "kze-mainland": {
     "attrs": {},
@@ -828,7 +828,7 @@
       "OTpgEeF+vAA-kkTY/oVDwAAAAAA",
       "OTpgEeHLBgA-G0jaSXgzcAAAAAA"
     ],
-    "type": "localTertiaryRoad"
+    "type": "localQuaternaryRoad"
   },
   "kze-tokotoshokanStAa": {
     "attrs": {},
@@ -874,7 +874,7 @@
   "kze-tokotoshokanStB": {
     "attrs": {},
     "description": "",
-    "displayname": "図書館通り通り",
+    "displayname": "図書館通り",
     "layer": 0,
     "nodes": [
       "OTpgEeHLBgA-cHbkcS/t4AAAAAA",
@@ -3025,7 +3025,7 @@
       "OTpgEe+AjAA-Pwq9co+a4AAAAAA",
       "OTpgEe+msgA-TUDIdsi3sAAAAAA"
     ],
-    "type": "rail_elevated"
+    "type": "rail"
   },
   "kze-flr-N2nB": {
     "attrs": {},
@@ -3762,7 +3762,7 @@
     "attrs": {},
     "description": "",
     "displayname": "中央湖畔",
-    "layer": 0,
+    "layer": -0.25,
     "nodes": [
       "OTpgEeGk4AA-OoKA/Cm9cAAAAAA",
       "OTpgEeGk4AA-irUW+oXTgAAAAAA",
@@ -3871,7 +3871,7 @@
     "attrs": {},
     "description": "",
     "displayname": "風森",
-    "layer": 0,
+    "layer": -0.25,
     "nodes": [
       "OTpgEea14AA-rkR5WPRaAAAAAAA",
       "OTpgEea14AA-GsdXlr4SQAAAAAA",
@@ -4028,9 +4028,9 @@
     "type": "forest"
   },
   "kze-setsuritsuIsland": {
-    "type": "landSmall",
-    "displayname": "設立島",
+    "attrs": {},
     "description": "",
+    "displayname": "設立島",
     "layer": 0,
     "nodes": [
       "OTplbjE1YAA-4oZC2JpOwAAAAAA",
@@ -4087,12 +4087,12 @@
       "OTqFiX26hgA-keqGFRo/cAAAAAA",
       "OTplbjE1YAA-LGuAQGITkAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-setsuritsuIslet1": {
-    "type": "landSmall",
-    "displayname": "設立第1小島",
+    "attrs": {},
     "description": "",
+    "displayname": "設立第1小島",
     "layer": 0,
     "nodes": [
       "OTqFiX4G0AA-iT6pP0WHUAAAAAA",
@@ -4100,12 +4100,12 @@
       "OTqFiX4s9gA-zJ90aYAnYAAAAAA",
       "OTqFiX4s9gA-E61pXKfiUAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-setsuritsuIslet4": {
-    "type": "landSmall",
-    "displayname": "設立第4小島",
+    "attrs": {},
     "description": "",
+    "displayname": "設立第4小島",
     "layer": 0,
     "nodes": [
       "OTqFiX5THAA-nHzM5YoVEAAAAAA",
@@ -4116,12 +4116,12 @@
       "OTqFiX7FjAA-JKX+2Q0L8AAAAAA",
       "OTqFiX7FjAA-qUKQnAlEAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-setsuritsuIslet6": {
-    "type": "landSmall",
-    "displayname": "設立第6小島",
+    "attrs": {},
     "description": "",
+    "displayname": "設立第6小島",
     "layer": 0,
     "nodes": [
       "OTqFiX7rsgA-gew3T9mhoAAAAAA",
@@ -4136,12 +4136,12 @@
       "OTplbjE1YAA-oqCikRvioAAAAAA",
       "OTqFiX+qbgA-m7IicPl7oAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet1": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiX/QlAA-jH67dr8CgAAAAAA",
@@ -4152,12 +4152,12 @@
       "OTqFiYAc4AA-gRgxYhEd0AAAAAA",
       "OTqFiYBDBAA-9t0gtHq3sAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet2": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiYBpKgA-yUEZfQhm4AAAAAA",
@@ -4172,12 +4172,12 @@
       "OTqFiYEn5gA-+OLPxdnecAAAAAA",
       "OTqFiYFODAA-kzCn9vr9wAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet3": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiYFODAA-3lYnawj1IAAAAAA",
@@ -4188,12 +4188,12 @@
       "OTqFiYHAfgA-SpmdXgNGIAAAAAA",
       "OTqFiYHAfgA-QkHW2/74IAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-kasenshima": {
-    "type": "landSmall",
-    "displayname": "下線島",
+    "attrs": {},
     "description": "",
+    "displayname": "下線島",
     "layer": 0,
     "nodes": [
       "OTqFiYHmogA-MdtUcgY3EAAAAAA",
@@ -4250,12 +4250,12 @@
       "OTqFiYY45gA-i/EAjyCQIAAAAAA",
       "OTqFiYZfDAA-nZ66nWWRoAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet4": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiYZfDAA-OmmLQwuUAAAAAA",
@@ -4265,12 +4265,12 @@
       "OTqFiYbRfAA-rXUiPsNnkAAAAAA",
       "OTqFiYbRfAA-MRLv3vSq0AAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet5": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiYb3ogA-K75Pb7OZYAAAAAA",
@@ -4283,12 +4283,12 @@
       "OTqFiYeQOAA-evrli2sjEAAAAAA",
       "OTqFiYe2XgA-uSSKsjQZIAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet6": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiYe2XgA-m4q8sKlkkAAAAAA",
@@ -4299,24 +4299,24 @@
       "OTqFiYgo0AA-ZYde1m2TgAAAAAA",
       "OTqFiYhO9AA-64xR7Sc/YAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet7": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiYhO9AA-KpZVSTo6kAAAAAA",
       "OTqFiYh1GgA-idUkkZ6BYAAAAAA",
       "OTqFiYibQAA-UFAP5iZfcAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-kazekorijima": {
-    "type": "landSmall",
-    "displayname": "風氷島",
+    "attrs": {},
     "description": "",
+    "displayname": "風氷島",
     "layer": 0,
     "nodes": [
       "OTqFiYibQAA-UTjBEXsNYAAAAAA",
@@ -4402,12 +4402,12 @@
       "OTqFiY/odAA-zYgVkMmbMAAAAAA",
       "OTqFiY/odAA-ZJZXFjhCoAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-korihashijima": {
-    "type": "landSmall",
-    "displayname": "氷橋島",
+    "attrs": {},
     "description": "",
+    "displayname": "氷橋島",
     "layer": 0,
     "nodes": [
       "OTqFiZAOmgA-rtz0D4XEMAAAAAA",
@@ -4418,12 +4418,12 @@
       "OTqFiZCBCgA-0Ci4Pcfr8AAAAAA",
       "OTqFiZCnMAA-eDdSRl+ywAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-koriminamijima": {
-    "type": "landSmall",
-    "displayname": "氷南島",
+    "attrs": {},
     "description": "",
+    "displayname": "氷南島",
     "layer": 0,
     "nodes": [
       "OTqFiZCnMAA-v53iLwS4gAAAAAA",
@@ -4432,24 +4432,24 @@
       "OTqFiZDzfAA-osjY0wg7MAAAAAA",
       "OTqFiZEZoAA-ZQJfliN9EAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-koriasasejima": {
-    "type": "landSmall",
-    "displayname": "氷浅瀬島",
+    "attrs": {},
     "description": "",
+    "displayname": "氷浅瀬島",
     "layer": 0,
     "nodes": [
       "OTqFiZEZoAA-yDJiH/ENQAAAAAA",
       "OTqFiZE/xgA-dcQXsej5IAAAAAA",
       "OTqFiZE/xgA-dwkBlf5VsAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-korihidaritejima": {
-    "type": "landSmall",
-    "displayname": "氷左手島",
+    "attrs": {},
     "description": "",
+    "displayname": "氷左手島",
     "layer": 0,
     "nodes": [
       "OTqFiZFl7AA-eBV29bDDUAAAAAA",
@@ -4459,12 +4459,12 @@
       "OTqFiZHYXAA-t271+mzh0AAAAAA",
       "OTqFiZHYXAA-ySPWKlLMYAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-korimigitejima": {
-    "type": "landSmall",
-    "displayname": "氷右手島",
+    "attrs": {},
     "description": "",
+    "displayname": "氷右手島",
     "layer": 0,
     "nodes": [
       "OTqFiYzHXgA-85gBoSGRAAAAAAA",
@@ -4473,12 +4473,12 @@
       "OTqFiZJKzgA-t011vNq/YAAAAAA",
       "OTqFiZJKzgA-3jDHHtmKwAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet8": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZJw9AA-D4UOzfERwAAAAAA",
@@ -4486,12 +4486,12 @@
       "OTqFiZKXGAA-fYbelfcIcAAAAAA",
       "OTqFiZK9PgA-xF+7AkIRwAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet9": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZLjZAA-hKRQevrSYAAAAAA",
@@ -4499,12 +4499,12 @@
       "OTqFiZMJigA-8GKNi5Jd0AAAAAA",
       "OTqFiZMJigA-puohzw7KUAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet10": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZMvsAA-ERWCjzoLQAAAAAA",
@@ -4512,12 +4512,12 @@
       "OTqFiZNV1AA-M3CNqbF0kAAAAAA",
       "OTqFiZN7+gA-6giMX4tLMAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet11": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZOiIAA-XLW/C5uk8AAAAAA",
@@ -4526,12 +4526,12 @@
       "OTqFiZPubAA-TWhXRvOc0AAAAAA",
       "OTqFiZQUkgA-CGc/QD36kAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet12": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZQ6tgA-DFK+krvoIAAAAAA",
@@ -4544,12 +4544,12 @@
       "OTqFiZTTTgA-RyFuUa84sAAAAAA",
       "OTqFiZT5cgA-pD4HyBSt0AAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet13": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZUfmAA-Pz5duEKLAAAAAAA",
@@ -4558,12 +4558,12 @@
       "OTqFiZVr5AA-39NfGEPBoAAAAAA",
       "OTqFiZVr5AA-YeDqLLbQAAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet14": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZWSCgA-wzuy+hCxkAAAAAA",
@@ -4576,12 +4576,12 @@
       "OTqFiZZQxgA-6UFJoGO8MAAAAAA",
       "OTqFiZZQxgA-65rVdcT+EAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet15": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZZ27AA-T0IGmzM2MAAAAAA",
@@ -4599,12 +4599,12 @@
       "OTqFiZeoGAA-4nIlQjuaMAAAAAA",
       "OTqFiZfOPgA-wjlOgI5pMAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet16": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZfOPgA-EG8eYEjLYAAAAAA",
@@ -4619,12 +4619,12 @@
       "OTqFiZizIAA-gDaxUj7SMAAAAAA",
       "OTqFiZjZRgA-y81oUDFDcAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet17": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiZj/agA-WKhqJqct0AAAAAA",
@@ -4635,12 +4635,12 @@
       "OTqFiZlx3AA-mZGAyhYmUAAAAAA",
       "OTqFiZmYAgA-uZKftjVUwAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-kitsunebishima": {
-    "type": "landSmall",
-    "displayname": "狐尾島",
+    "attrs": {},
     "description": "",
+    "displayname": "狐尾島",
     "layer": 0,
     "nodes": [
       "OTplblGxagA-6YM1O1fpUAAAAAA",
@@ -4713,12 +4713,12 @@
       "OTqFiaCY6gA-14N9TRq9wAAAAAA",
       "OTplblGxagA-7EuzmhPsEAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-sonzaishinaishima": {
-    "type": "landSmall",
-    "displayname": "存在しない島",
+    "attrs": {},
     "description": "",
+    "displayname": "存在しない島",
     "layer": 0,
     "nodes": [
       "OTqFiaC/EAA-dnAejetyMAAAAAA",
@@ -4784,12 +4784,12 @@
       "OTqFiacBPAA-oJ7PgJqJUAAAAAA",
       "OTqFiacnYgA-Vatyjd50IAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-yubiwajima": {
-    "type": "landSmall",
-    "displayname": "指輪島",
+    "attrs": {},
     "description": "",
+    "displayname": "指輪島",
     "layer": 0,
     "nodes": [
       "OTplbjvJ0AA-n1weddh88AAAAAA",
@@ -4883,12 +4883,12 @@
       "OTqFibCKpAA-QOryINu4oAAAAAA",
       "OTplbjvv9gA-i3eonPz28AAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-saiko": {
-    "type": "waterSmall",
-    "displayname": "西湖",
+    "attrs": {},
     "description": "",
+    "displayname": "西湖",
     "layer": 0,
     "nodes": [
       "OTplbkwt+gA-IFcmrwgm8AAAAAA",
@@ -4962,13 +4962,13 @@
       "OTqFibhwbgA-9LwPFyeCQAAAAAA",
       "OTplbkwt+gA-xceQaFcREAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-chuoko": {
-    "type": "waterSmall",
-    "displayname": "中央湖",
+    "attrs": {},
     "description": "",
-    "layer": 0,
+    "displayname": "中央湖",
+    "layer": 1,
     "nodes": [
       "OTqFibiWlAA-n/MPpHE/wAAAAAA",
       "OTqFibi8uAA-DBcGzrBn8AAAAAA",
@@ -5010,12 +5010,12 @@
       "OTqFibzo1gA-LACBbyLk8AAAAAA",
       "OTqFib0O/AA-E618qFLT4AAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-chuokoenRiver": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeUSQgA-Rz4liSxGAAAAAAA",
@@ -5042,12 +5042,12 @@
       "OTqFib+XfAA-+kgas1Mr4AAAAAA",
       "OTqFib+9ogA-i+kneY/WAAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-toko": {
-    "type": "waterSmall",
-    "displayname": "東湖",
+    "attrs": {},
     "description": "",
+    "displayname": "東湖",
     "layer": 0,
     "nodes": [
       "OTplbjomMgA-05bF1OlHcAAAAAA",
@@ -5072,12 +5072,12 @@
       "OTplbjomMgA-+A8P3Wm5AAAAAAA",
       "OTplbjomMgA-xS0d4JeVYAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-river1": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTplbjR8nAA-Xjm+7MYsAAAAAAA",
@@ -5111,12 +5111,12 @@
       "OTplbjrk7gA-dJX0xGJZ4AAAAAA",
       "OTplbjrk7gA-gUTIoEbTEAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-river2": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTplbjSiwgA-OKV6KiIfsAAAAAA",
@@ -5156,12 +5156,12 @@
       "OTqFicm5egA-/M9UeEeRcAAAAAA",
       "OTqFicm5egA-twlARUm/UAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-river3": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFicnfoAA-ReRyHESH0AAAAAA",
@@ -5243,12 +5243,12 @@
       "OTqFidL2lgA-zGt2Xf7NUAAAAAA",
       "OTqFidMcvAA-NVJjg2+EcAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-river4": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFidNC4gA-wJ4Sc072cAAAAAA",
@@ -5302,12 +5302,12 @@
       "OTqFidk4xAA-YE/vtVPv0AAAAAA",
       "OTqFidk4xAA-cwZE4+JPAAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-korihamaZooLake": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFidle6AA-ygYBsp9GsAAAAAA",
@@ -5358,12 +5358,12 @@
       "OTqFid8IfgA-HdagOVNH8AAAAAA",
       "OTqFid8upAA-lDh75Vf5MAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-river5": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiWv/CAA-RsOi12Z3UAAAAAA",
@@ -5396,12 +5396,12 @@
       "OTqFieLoUAA-MDYaCLp2kAAAAAA",
       "OTplbknLoAA-SDj4YMXPQAAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-river6": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTplbkXrzgA-er+uc8F2cAAAAAA",
@@ -5420,12 +5420,12 @@
       "OTqFieTYOgA-VDaH3ryIYAAAAAA",
       "OTplbkXrzgA-F6eS10gz8AAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-river7": {
-    "type": "waterSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTplbjcrQgA-bXHwevM3AAAAAAA",
@@ -5451,46 +5451,46 @@
       "OTqFiefTKgA-tefI7JHrkAAAAAA",
       "OTqFief5UAA-NQiY4xhE0AAAAAA"
     ],
-    "attrs": {}
+    "type": "waterSmall"
   },
   "kze-setsuritsuParkPath1": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiegfdgA-TAxJmcaz0AAAAAA",
       "OTqFiehFnAA-oDplsn0QsAAAAAA",
       "OTqFiehrwAA-cvLBPYk2QAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-setsuritsuParkPath2": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiehFnAA-oDplsn0QsAAAAAA",
       "OTqFieiR5gA-YSl7Z8NtIAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-setsuritsuParkPath3": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTplbjGBrAA-px4TbF95sAAAAAA",
       "OTqFiejeMgA-U48agKlSUAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-setsuritsuParkPath4": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiekEWAA-43sYlcpgAAAAAA",
@@ -5510,24 +5510,24 @@
       "OTqFier0QAA-2Kex1TQmIAAAAAA",
       "OTqFiesaZgA-LiHc772nMAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-setsuritsuParkPath5": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiX26hgA-h3bn7BtQAAAAAAA",
       "OTqFietmsgA-BWfx58PPIAAAAAA",
       "OTqFiX1uOgA-mYPNgJbP4AAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-setsuritsuBeachwalk": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFieuy/AA-IjMYEupBcAAAAAA",
@@ -5535,23 +5535,23 @@
       "OTqFiO0v9gA-Uk+xpwCaQAAAAAA",
       "OTqFiev/SAA-4BZLjoVjsAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-setsuritsuParkPath6": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiewlbgA-Tw+HGlVrUAAAAAA",
       "OTqFiexLlAA-GmOtavRswAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-setsuritsuParkPath7": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiev/SAA-4BZLjoVjsAAAAAA",
@@ -5559,23 +5559,23 @@
       "OTqFiey+BAA-pUxneg8BMAAAAAA",
       "OTpgEeFYlgA-zr3/BqGqMAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-setsuritsuParkPath8": {
-    "type": "pathway_elevated",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeFYlgA-zr3/BqGqMAAAAAA",
       "OTpgEeIXUgA-npuWFwH/MAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway_elevated"
   },
   "kze-setsuritsuParkPath9": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeIXUgA-npuWFwH/MAAAAAA",
@@ -5584,12 +5584,12 @@
       "OTqFie2i5gA-+oWsXg9v8AAAAAA",
       "OTpgEeFYlgA-3czaYQkaQAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-tokotoshokanPath": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeHLBgA-HuqCF8IUEAAAAAA",
@@ -5604,69 +5604,69 @@
       "OTqFie8gXgA-xQ3O5s0i4AAAAAA",
       "OTqFie9GhAA-4LRhae9DgAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-alley1": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiPZtEgA-a9LpZ3/KcAAAAAA",
       "OTqFie9sqgA-pZobAEdM0AAAAAA",
       "OTqFie+SzgA-t49p5UJiYAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-alley2": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFie9sqgA-pZobAEdM0AAAAAA",
       "OTqFiO3IjAA-GqYZ3znIoAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-centralMarketPath": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifAFQAA-ipVxMQAV4AAAAAA",
       "OTqFifArZgA-j4cNZToWMAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath1": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifBRjAA-hmbhBuk/8AAAAAA",
       "OTqFifB3sAA-ZGDM2wJI0AAAAAA",
       "OTqFifCd1gA-fySPOkWn8AAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath2": {
-    "type": "pathway_elevated",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifCd1gA-fySPOkWn8AAAAAA",
       "OTqFifDqIgA-mZq/Bb3isAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway_elevated"
   },
   "kze-chuokoenPath3": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifB3sAA-ZGDM2wJI0AAAAAA",
@@ -5677,24 +5677,24 @@
       "OTqFifHPBAA-kbKF1c/egAAAAAA",
       "OTqFifHPBAA-5Rd9mLSZAAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath4": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifH1KAA-h8LH5s4LgAAAAAA",
       "OTqFifFckgA-Xqht7k/DEAAAAAA",
       "OTqFiPYgxgA-tCBaz1tiYAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath5": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifDqIgA-mZq/Bb3isAAAAAA",
@@ -5703,12 +5703,12 @@
       "OTqFifLaCgA-LNJ8UjmkkAAAAAA",
       "OTqFifMAMAA-njpTX/44AAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath6": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifMmVgA-015j++nDYAAAAAA",
@@ -5721,81 +5721,81 @@
       "OTqFifQLOAA-1oVLITM9EAAAAAA",
       "OTqFifQxXgA-5n9mPXws0AAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath7": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifRXggA-l+5HTijkIAAAAAA",
       "OTqFifR9qAA-MmRSh+qWMAAAAAA",
       "OTqFifNyogA-es+zEZm8AAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath8": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifQLOAA-1oVLITM9EAAAAAA",
       "OTqFifTJ9AA-hUG0QZfmgAAAAAA",
       "OTpgEeFYlgA-FT8uOqvYUAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath9": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifTJ9AA-hUG0QZfmgAAAAAA",
       "OTpgEejL7gA-FqdzFl1ncAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath10": {
-    "type": "pathway_elevated",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifQxXgA-5n9mPXws0AAAAAA",
       "OTqFifWIsAA-26Lu2Q6nUAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway_elevated"
   },
   "kze-chuokoenPath11": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifWIsAA-26Lu2Q6nUAAAAAA",
       "OTqFifXU/AA-032/Gz2VgAAAAAA",
       "OTqFifX7IAA-qRgdQ46RsAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokoenPath12": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifXU/AA-032/Gz2VgAAAAAA",
       "OTqFifZHbAA-BgsO+N0jcAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-alley3": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiPHOhAA-zqCW5oi3UAAAAAA",
@@ -5806,34 +5806,34 @@
       "OTqFifcsTgA-T+nzd8CCQAAAAAA",
       "OTqFiOxxOAA-p3U2oJ/5sAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-alley7": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiPWuVgA-bE06ineR8AAAAAA",
       "OTqFifaTuAA-hl3wUp1owAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-alley6": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifbgAgA-TU9bx0NjcAAAAAA",
       "OTqFiPCdVgA-IVMk03VRsAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-alley5": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiOwk7gA-JrqK74duwAAAAAA",
@@ -5843,23 +5843,23 @@
       "OTqFifiDoAA-7R0fV0U9QAAAAAA",
       "OTqFiPHOhAA-nLe3ToUvYAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-alley4": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifgRMAA-LBmxtW1UcAAAAAA",
       "OTqFiPRXBAA-lrZeTrBEMAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-alley8": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiPRXBAA-f06yWrN1kAAAAAA",
@@ -5867,23 +5867,23 @@
       "OTqFiflCXAA-7GWPqHZZQAAAAAA",
       "OTqFifhdegA-GvzA1UxWQAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-alley9": {
-    "type": "localPedestrianQuaternaryRoad",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifkcNgA-1UOgRUQIEAAAAAA",
       "OTqFiPWIMAA-v8C4rHBAwAAAAAA"
     ],
-    "attrs": {}
+    "type": "localPedestrianQuaternaryRoad"
   },
   "kze-deptOfScienceParkPath1": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifna9AA-kT07UDYQIAAAAAA",
@@ -5895,34 +5895,34 @@
       "OTqFifq/1AA-soDEhXO/kAAAAAA",
       "OTqFifrl+gA-BEtsf4e4oAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-deptOfScienceParkPath2": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFifsMIAA-s5I6CrOTIAAAAAA",
       "OTqFifsyRgA-hKOyZvV/oAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-deptOfScienceParkPath3": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFiftYbAA-bPemt4xqwAAAAAA",
       "OTqFifonPgA-M3kMA4j3MAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-sonzaishinaiRiverParkPathA": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeh/pAA-JrGu6XBvQAAAAAA",
@@ -5937,12 +5937,12 @@
       "OTqFifzV5AA-k6erCA1NAAAAAAA",
       "OTpgEeMiWgA-apv02/SgsAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath1": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFif0iLgA-K3sEe3NKAAAAAAA",
@@ -5952,12 +5952,12 @@
       "OTqFif26xgA-V4nstNuwwAAAAAA",
       "OTpgEeGk4AA-goiUZX60sAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath2": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFif26xgA-V4nstNuwwAAAAAA",
@@ -5966,12 +5966,12 @@
       "OTqFif5TXAA-/zg+BBSGIAAAAAA",
       "OTpgEeF+vAA-7+QnfM06QAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath3": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeF+vAA-kkTY/oVDwAAAAAA",
@@ -5982,12 +5982,12 @@
       "OTqFif1uegA-M8ZaqxfwEAAAAAA",
       "OTqFif+EiAA-LyGrk4CjMAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath4": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFif1IVAA-TTaV69TN8AAAAAA",
@@ -6000,12 +6000,12 @@
       "OTqFigCPkAA-24XbA8MqEAAAAAA",
       "OTqFigC1tgA-LCA2QZ1kkAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath5": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFigDb3AA-DnyR87IO0AAAAAA",
@@ -6014,24 +6014,24 @@
       "OTqFigCPkAA-24XbA8MqEAAAAAA",
       "OTqFigF0cgA-oJ7x46x8AAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath6": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFigBDRAA-jQ86QJzGgAAAAAA",
       "OTqFibwD9AA-h7JhLmWjMAAAAAA",
       "OTqFigHm4gA-84xUGe1rcAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath7": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFigINCAA-FSLpyFl9UAAAAAA",
@@ -6046,60 +6046,60 @@
       "OTqFigM+NgA-vMGdryf+EAAAAAA",
       "OTqFigNkXAA-5iyN6LZ7kAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath8": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFigLx6gA-J6nfy1iIAAAAAAA",
       "OTqFigOwpgA-cHDsVTuisAAAAAA",
       "OTqFigPWzAA-r8G4czsl8AAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath9": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeF+vAA-MiJ5pJLjIAAAAAA",
       "OTqFigQjGAA-zxR6IUqD4AAAAAA",
       "OTpgEek+YAA-cWWoimXV4AAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-chuokohanPath10": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeF+vAA-xD43G9fKkAAAAAA",
       "OTqFigSViAA-KpwslJO9MAAAAAA",
       "OTqFigSViAA-KpwslJO9MAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-tokoParkPath1": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFigS7rgA-yQrgWQWIQAAAAAA",
       "OTqFigTh1AA-s9r2oJiXIAAAAAA",
       "OTqFigUH+AA-upSVgIl8cAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-tokoParkPath2": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFigTh1AA-s9r2oJiXIAAAAAA",
@@ -6108,24 +6108,24 @@
       "OTpgEeF+vAA-8IbWo7Ff8AAAAAA",
       "OTqFigXGtAA-1GT0X01bkAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-tokoParkPath3": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFigXs2gA-DdEOh8Ym4AAAAAA",
       "OTqFigYTAAA-STrJIR6+QAAAAAA",
       "OTqFigY5JgA-MdzA6m5KUAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-tokoParkPath4": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFigZfTAA-Kn26pTceIAAAAAA",
@@ -6135,12 +6135,12 @@
       "OTqFigb34gA-XEmHmDVoEAAAAAA",
       "OTpgEeHLBgA-U60TI1NYQAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-kao-h2": {
-    "type": "helipad",
-    "displayname": "H2",
+    "attrs": {},
     "description": "",
+    "displayname": "H2",
     "layer": 0,
     "nodes": [
       "OTqFigdELgA-0NsGzBv5MAAAAAA",
@@ -6148,12 +6148,12 @@
       "OTqFigeQeAA-lz6aqQsxAAAAAAA",
       "OTqFige2ngA-JYszQ6sdsAAAAAA"
     ],
-    "attrs": {}
+    "type": "helipad"
   },
   "kze-kao-h1": {
-    "type": "helipad",
-    "displayname": "H1",
+    "attrs": {},
     "description": "",
+    "displayname": "H1",
     "layer": 0,
     "nodes": [
       "OTqFige2ngA-d5d/R+o6sAAAAAA",
@@ -6161,12 +6161,12 @@
       "OTqFiggC6gA-ZaRDOEWFsAAAAAA",
       "OTqFiggpEAA-ll+G+9RkgAAAAAA"
     ],
-    "attrs": {}
+    "type": "helipad"
   },
   "kze-kao-path": {
-    "type": "pathway",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFighPNAA-pQ+6regNYAAAAAA",
@@ -6181,12 +6181,12 @@
       "OTqFigmmiAA-jCEmLSdLMAAAAAA",
       "OTqFignMrAA-+6qZ7XDPQAAAAAA"
     ],
-    "attrs": {}
+    "type": "pathway"
   },
   "kze-terminalIslet1": {
-    "type": "landSmall",
-    "displayname": "タミナール第1小島",
+    "attrs": {},
     "description": "",
+    "displayname": "タミナール第1小島",
     "layer": 0,
     "nodes": [
       "OTqFigny0gA-h53b4Cy/sAAAAAA",
@@ -6198,12 +6198,12 @@
       "OTqFigrXtAA-EJefXTXB0AAAAAA",
       "OTqFigr92gA-187BJXSZgAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-terminalIslet2": {
-    "type": "landSmall",
-    "displayname": "タミナール第2小島",
+    "attrs": {},
     "description": "",
+    "displayname": "タミナール第2小島",
     "layer": 0,
     "nodes": [
       "OTqFigskAAA-FVwxpAoYgAAAAAA",
@@ -6213,12 +6213,12 @@
       "OTqFigu8lgA-Pu5Imo4kEAAAAAA",
       "OTqFigvivAA-2VSgiFkPwAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-kft-B": {
-    "type": "transportBuilding",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 1,
     "nodes": [
       "OTqFigwI4gA-36+kcCp/EAAAAAA",
@@ -6226,12 +6226,12 @@
       "OTqFigxVLAA-UnFSxSMSUAAAAAA",
       "OTqFigxVLAA-RYJP8XhI0AAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-A": {
-    "type": "transportBuilding",
-    "displayname": "風島フェリータミナール",
+    "attrs": {},
     "description": "",
+    "displayname": "風島フェリータミナール",
     "layer": 1,
     "nodes": [
       "OTqFigx7UgA-sArFT/OnIAAAAAA",
@@ -6239,12 +6239,12 @@
       "OTqFigztxAA-WOVMhkWdcAAAAAA",
       "OTqFig0T6AA-1R5MTGxn4AAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-pierB": {
-    "type": "transportBuilding",
-    "displayname": "B桟橋",
+    "attrs": {},
     "description": "",
+    "displayname": "B桟橋",
     "layer": 0.5,
     "nodes": [
       "OTqFig06DgA-taOycLHo4AAAAAA",
@@ -6252,12 +6252,12 @@
       "OTqFig2GWgA-gCPM+XZZAAAAAAA",
       "OTqFig2GWgA-j+9yje/tEAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-pierA": {
-    "type": "transportBuilding",
-    "displayname": "A桟橋",
+    "attrs": {},
     "description": "",
+    "displayname": "A桟橋",
     "layer": 0.5,
     "nodes": [
       "OTqFig2sgAA-384hoAUwIAAAAAA",
@@ -6265,12 +6265,12 @@
       "OTqFig34ygA-blDwzgoN8AAAAAA",
       "OTqFig5FFgA-ve1gCkw/YAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-pierZ": {
-    "type": "transportBuilding",
-    "displayname": "Z桟橋",
+    "attrs": {},
     "description": "",
+    "displayname": "Z桟橋",
     "layer": 0.5,
     "nodes": [
       "OTqFig5rPAA-VFhBD8twcAAAAAA",
@@ -6278,12 +6278,12 @@
       "OTqFig6RYAA-YooPVvDE0AAAAAA",
       "OTqFig63hgA-edXLDevmcAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateA1": {
-    "type": "transportBuilding",
-    "displayname": "A1",
+    "attrs": {},
     "description": "",
+    "displayname": "A1",
     "layer": 0,
     "nodes": [
       "OTqFig8D0gA-pfGbfVylIAAAAAA",
@@ -6291,12 +6291,12 @@
       "OTqFig9QHAA-bxJUUL2lkAAAAAA",
       "OTqFig92QgA-/47M5EPAAAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateA2": {
-    "type": "transportBuilding",
-    "displayname": "A2",
+    "attrs": {},
     "description": "",
+    "displayname": "A2",
     "layer": 0,
     "nodes": [
       "OTqFig+caAA-9wRKzzE0EAAAAAA",
@@ -6304,12 +6304,12 @@
       "OTqFig/otAA-q75zURw7gAAAAAA",
       "OTqFihAO2gA-C3kcqebL0AAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateA3": {
-    "type": "transportBuilding",
-    "displayname": "A3",
+    "attrs": {},
     "description": "",
+    "displayname": "A3",
     "layer": 0,
     "nodes": [
       "OTqFihAO2gA-h/TCTmf7oAAAAAA",
@@ -6317,12 +6317,12 @@
       "OTqFihCBSgA-zcdhUZjS8AAAAAA",
       "OTqFihCncAA-82VjuLvbMAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateA4": {
-    "type": "transportBuilding",
-    "displayname": "A4",
+    "attrs": {},
     "description": "",
+    "displayname": "A4",
     "layer": 0,
     "nodes": [
       "OTqFihDNlgA-K6kUKhYTUAAAAAA",
@@ -6330,12 +6330,12 @@
       "OTqFihDzugA-2432jFadAAAAAAA",
       "OTqFihEZ4AA-QVRCWazB8AAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateA5": {
-    "type": "transportBuilding",
-    "displayname": "A5",
+    "attrs": {},
     "description": "",
+    "displayname": "A5",
     "layer": 0,
     "nodes": [
       "OTqFihFABgA-fNJ1zBcYwAAAAAA",
@@ -6343,12 +6343,12 @@
       "OTqFihGMUgA-KxUD2KgZIAAAAAA",
       "OTqFihGyeAA-WVeFJnCOkAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateA6": {
-    "type": "transportBuilding",
-    "displayname": "A6",
+    "attrs": {},
     "description": "",
+    "displayname": "A6",
     "layer": 0,
     "nodes": [
       "OTqFihHYnAA-oY7a4oSqwAAAAAA",
@@ -6356,12 +6356,12 @@
       "OTqFihIk6AA-oiEtBwVbwAAAAAA",
       "OTqFihJLDgA-36Dh+1kuQAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateA7": {
-    "type": "transportBuilding",
-    "displayname": "A7",
+    "attrs": {},
     "description": "",
+    "displayname": "A7",
     "layer": 0,
     "nodes": [
       "OTqFihJxNAA-bWkWIdHIUAAAAAA",
@@ -6369,12 +6369,12 @@
       "OTqFihK9fgA-w0liEAuPIAAAAAA",
       "OTqFihLjpAA-fgA6Ntl5EAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateB1": {
-    "type": "transportBuilding",
-    "displayname": "B1",
+    "attrs": {},
     "description": "",
+    "displayname": "B1",
     "layer": 0,
     "nodes": [
       "OTqFihMJygA-ZdudsSU2UAAAAAA",
@@ -6382,12 +6382,12 @@
       "OTqFihNWFAA-Uqo47qSqAAAAAAA",
       "OTqFihN8OgA-2n4Lke+xMAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateB2": {
-    "type": "transportBuilding",
-    "displayname": "B2",
+    "attrs": {},
     "description": "",
+    "displayname": "B2",
     "layer": 0,
     "nodes": [
       "OTqFihOiYAA-E4fzNqcIIAAAAAA",
@@ -6395,12 +6395,12 @@
       "OTqFihPurAA-0vVzfM++4AAAAAA",
       "OTqFihQU0AA-YIg9mtDikAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateB3": {
-    "type": "transportBuilding",
-    "displayname": "B3",
+    "attrs": {},
     "description": "",
+    "displayname": "B3",
     "layer": 0,
     "nodes": [
       "OTqFihQ69gA-gmLOYD+zQAAAAAA",
@@ -6408,12 +6408,12 @@
       "OTqFihSHQgA-n0qvvs0zcAAAAAA",
       "OTqFihStaAA-7wMZZA6AcAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateB4": {
-    "type": "transportBuilding",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFihTTjgA-/8pFHweXsAAAAAA",
@@ -6421,12 +6421,12 @@
       "OTqFihUf2AA-jo69sHkZUAAAAAA",
       "OTqFihVF/gA-9yAnoa2tcAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateB5": {
-    "type": "transportBuilding",
-    "displayname": "B5",
+    "attrs": {},
     "description": "",
+    "displayname": "B5",
     "layer": 0,
     "nodes": [
       "OTqFihVsJAA-HXBGyb3AYAAAAAA",
@@ -6434,12 +6434,12 @@
       "OTqFihW4bgA-jG+3MeYA4AAAAAA",
       "OTqFihXelAA-hWVSAcy4IAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateB6": {
-    "type": "transportBuilding",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFihYEugA-UBXysj4mQAAAAAA",
@@ -6447,12 +6447,12 @@
       "OTqFihZRBgA-qJpexWLrsAAAAAA",
       "OTqFihZ3LAA-lmp7SZ0A0AAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateZ1": {
-    "type": "transportBuilding",
-    "displayname": "Z1",
+    "attrs": {},
     "description": "",
+    "displayname": "Z1",
     "layer": 0,
     "nodes": [
       "OTqFihadUAA-Fad0Vq6dAAAAAAA",
@@ -6460,12 +6460,12 @@
       "OTqFihbpnAA-bfPYU7o/QAAAAAA",
       "OTqFihcPwgA-BRYeNwfUAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-kft-gateZ2": {
-    "type": "transportBuilding",
-    "displayname": "Z2",
+    "attrs": {},
     "description": "",
+    "displayname": "Z2",
     "layer": 0,
     "nodes": [
       "OTqFihc16AA-lK8b8pFaUAAAAAA",
@@ -6473,22 +6473,22 @@
       "OTqFiheCMgA-CFngpyTEYAAAAAA",
       "OTqFiheoWAA-MSO37D0AwAAAAAA"
     ],
-    "attrs": {}
+    "type": "transportBuilding"
   },
   "kze-wboat-kft": {
-    "type": "ferryStop",
-    "displayname": "風島フェリータミナール",
+    "attrs": {},
     "description": "",
+    "displayname": "風島フェリータミナール",
     "layer": 0,
     "nodes": [
       "OTqFihfOfgA-3gWhzv/UYAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-farIslet1": {
-    "type": "landSmall",
-    "displayname": "遠い第1小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第1小島",
     "layer": 0,
     "nodes": [
       "OTqFihf0pAA-1M/ed9N/4AAAAAA",
@@ -6498,12 +6498,12 @@
       "OTqFihiNOgA-8J5Lb7zMoAAAAAA",
       "OTqFihizYAA-Jm0MvxzGUAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-farIslet3": {
-    "type": "landSmall",
-    "displayname": "遠い第3小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第3小島",
     "layer": 0,
     "nodes": [
       "OTqFihjZhAA-5ZGgZsUZgAAAAAA",
@@ -6514,12 +6514,12 @@
       "OTqFihmYQgA-twH5JTC9QAAAAAA",
       "OTqFihm+ZgA-oKV1n0COYAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-farIslet4": {
-    "type": "landSmall",
-    "displayname": "遠い第4小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第4小島",
     "layer": 0,
     "nodes": [
       "OTqFihnkjAA-J97gYPTOQAAAAAA",
@@ -6529,12 +6529,12 @@
       "OTqFihp9IgA-O6SrGMdMsAAAAAA",
       "OTqFihqjSAA-1UKlKh5ZgAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-farIslet6": {
-    "type": "landSmall",
-    "displayname": "遠い第1小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第1小島",
     "layer": 0,
     "nodes": [
       "OTqFihrJbgA-3Ik6ZN6GIAAAAAA",
@@ -6542,12 +6542,12 @@
       "OTqFihsVugA-2vN8Eda24AAAAAA",
       "OTqFihs74AA-4tr3bMevcAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-farIslet7": {
-    "type": "landSmall",
-    "displayname": "遠い第7小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第7小島",
     "layer": 0,
     "nodes": [
       "OTqFihuIKgA-wvj9XueaMAAAAAA",
@@ -6557,62 +6557,62 @@
       "OTqFihv6nAA-k9MuH2tWgAAAAAA",
       "OTqFihwgwAA-YDJvEw224AAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-wboat-fi1": {
-    "type": "ferryStop",
-    "displayname": "遠い第1小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第1小島",
     "layer": 0,
     "nodes": [
       "OTqFihgayAA-X/buqnkogAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-fi3": {
-    "type": "ferryStop",
-    "displayname": "遠い第3小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第3小島",
     "layer": 0,
     "nodes": [
       "OTqFihjZhAA-5ZGgZsUZgAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-fi4": {
-    "type": "ferryStop",
-    "displayname": "遠い第4小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第4小島",
     "layer": 0,
     "nodes": [
       "OTqFihnkjAA-J97gYPTOQAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-fi6": {
-    "type": "ferryStop",
-    "displayname": "遠い第6小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第6小島",
     "layer": 0,
     "nodes": [
       "OTqFihrvlAA-DpF0DrXfIAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-fi7": {
-    "type": "ferryStop",
-    "displayname": "遠い第7小島",
+    "attrs": {},
     "description": "",
+    "displayname": "遠い第7小島",
     "layer": 0,
     "nodes": [
       "OTqFihwgwAA-YDJvEw224AAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-etajima": {
-    "type": "landSmall",
-    "displayname": "絵田島",
+    "attrs": {},
     "description": "",
+    "displayname": "絵田島",
     "layer": 0,
     "nodes": [
       "OTqFih0FogA-9ei8DBMJ0AAAAAA",
@@ -6670,12 +6670,12 @@
       "OTqFiiTrbAA-ztXtpU7mYAAAAAA",
       "OTqFiiURkgA-N6YprILq4AAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-taminamiIsle": {
-    "type": "landSmall",
-    "displayname": "田南小島",
+    "attrs": {},
     "description": "",
+    "displayname": "田南小島",
     "layer": 0,
     "nodes": [
       "OTqFiiU3uAA-oc9UsXnYEAAAAAA",
@@ -6686,12 +6686,12 @@
       "OTqFiiX2dAA-fzUmiwFrcAAAAAA",
       "OTqFiiYcmgA-OpCNRkkEoAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-meiwakujima": {
-    "type": "landSmall",
-    "displayname": "迷惑島",
+    "attrs": {},
     "description": "",
+    "displayname": "迷惑島",
     "layer": 0,
     "nodes": [
       "OTqFiiZCwAA-yaIrGA9EEAAAAAA",
@@ -6725,12 +6725,12 @@
       "OTqFiipu3AA-GvuxFFP10AAAAAA",
       "OTqFiiqVAgA-JACbSt/uAAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-kyokusenjima": {
-    "type": "landSmall",
-    "displayname": "曲線島",
+    "attrs": {},
     "description": "",
+    "displayname": "曲線島",
     "layer": 0,
     "nodes": [
       "OTqFiiq7KAA-qCQhLb4oAAAAAAA",
@@ -6776,12 +6776,12 @@
       "OTqFijDXLgA-e0Zj3UugMAAAAAA",
       "OTqFijD9VAA-WbNvmh+DcAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-warajima": {
-    "type": "landSmall",
-    "displayname": "藁島",
+    "attrs": {},
     "description": "",
+    "displayname": "藁島",
     "layer": 0,
     "nodes": [
       "OTqFijEjegA-6j5rkZbtcAAAAAA",
@@ -6825,12 +6825,12 @@
       "OTqFijbzNgA-OzPaCSgWgAAAAAA",
       "OTqFijc/gAA-mtNCgR/XMAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-konaejima": {
-    "type": "landSmall",
-    "displayname": "小苗島",
+    "attrs": {},
     "description": "",
+    "displayname": "小苗島",
     "layer": 0,
     "nodes": [
       "OTqFijdlpgA-FAwXa9m+YAAAAAA",
@@ -6861,12 +6861,12 @@
       "OTqFijtFeAA-WWVILCoSwAAAAAA",
       "OTqFijtrngA-ofcS2MmoIAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-unnamedIslet18": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFijuRxAA-l4l83ja0kAAAAAA",
@@ -6886,12 +6886,12 @@
       "OTqFij3N+AA-oVlBcEOn0AAAAAA",
       "OTqFij30HgA-7GPBdcCG4AAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-daiminamikengishima": {
-    "type": "landSmall",
-    "displayname": "大南嫌疑島",
+    "attrs": {},
     "description": "",
+    "displayname": "大南嫌疑島",
     "layer": 0,
     "nodes": [
       "OTqFij4aRAA-Pcom4eEAgAAAAAA",
@@ -6914,12 +6914,12 @@
       "OTqFikDI6AA-yThO6jBmAAAAAAA",
       "OTqFikDvDgA-xcW7XUVQgAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-shominamikengishima": {
-    "type": "landSmall",
-    "displayname": "小南嫌疑島",
+    "attrs": {},
     "description": "",
+    "displayname": "小南嫌疑島",
     "layer": 0,
     "nodes": [
       "OTqFikEVNAA-+AJh6f8kIAAAAAA",
@@ -6937,12 +6937,12 @@
       "OTqFikMFHAA-q9I+95rWkAAAAAA",
       "OTqFikMrQgA-CQbIgYGgcAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-daikitakengishima": {
-    "type": "landSmall",
-    "displayname": "大北嫌疑島",
+    "attrs": {},
     "description": "",
+    "displayname": "大北嫌疑島",
     "layer": 0,
     "nodes": [
       "OTqFikNRaAA-JKjTRe2ekAAAAAA",
@@ -6963,12 +6963,12 @@
       "OTqFikWzwgA-uWrmAKtXYAAAAAA",
       "OTqFikYADgA-fJhTgO4XUAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-shokitakengishima": {
-    "type": "landSmall",
-    "displayname": "小北嫌疑島",
+    "attrs": {},
     "description": "",
+    "displayname": "小北嫌疑島",
     "layer": 0,
     "nodes": [
       "OTqFikYmNAA-g1ikjVTn0AAAAAA",
@@ -6981,12 +6981,12 @@
       "OTqFikcxOgA-YOexPW/yoAAAAAA",
       "OTqFikdXYAA-VokaNDh4UAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-anseijima": {
-    "type": "landSmall",
-    "displayname": "安静島",
+    "attrs": {},
     "description": "",
+    "displayname": "安静島",
     "layer": 0,
     "nodes": [
       "OTqFikd9hgA-S5kc++9ZoAAAAAA",
@@ -6998,12 +6998,12 @@
       "OTqFikiIjAA-QbUazfSqUAAAAAA",
       "OTqFikiusgA-XckrJeKFwAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-triangleArchi1": {
-    "type": "landSmall",
-    "displayname": "三角群島",
+    "attrs": {},
     "description": "",
+    "displayname": "三角群島",
     "layer": 0,
     "nodes": [
       "OTqFikjU2AA-hFK9MF0F4AAAAAA",
@@ -7012,12 +7012,12 @@
       "OTqFiklHSgA-JXlbgAKNkAAAAAA",
       "OTqFikltbgA-1uw2gD41YAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-triangleArchi2": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFikmTlAA-Os3xkrHK0AAAAAA",
@@ -7025,29 +7025,543 @@
       "OTqFikoGBgA-oaMjNjB4QAAAAAA",
       "OTqFikosKgA-eJIRso8jMAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-triangleArchi3": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFikpSUAA-WhoxBlbeAAAAAAA",
       "OTqFikp4dgA-RFNwzbaCUAAAAAA",
       "OTqFikqenAA-sA2xXIn/QAAAAAA"
     ],
-    "attrs": {}
+    "type": "landSmall"
   },
   "kze-triangleArchi4": {
-    "type": "landSmall",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTqFikrEwgA-IAhXqK3YcAAAAAA",
       "OTqFikrq6AA-h9VIL6HNoAAAAAA",
       "OTqFiksRDAA-fyr9se9j8AAAAAA"
+    ],
+    "type": "landSmall"
+  },
+  "kze-wboat-etm": {
+    "type": "ferryStop",
+    "displayname": "絵田町",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFiiRS1gA-fVgoHMscQAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-mwm": {
+    "type": "ferryStop",
+    "displayname": "迷惑町",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFiih+9AA-Y+TUf0UBYAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-kew": {
+    "type": "ferryStop",
+    "displayname": "藁町",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPI91PgA-TyWTPiOzcAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-knm": {
+    "type": "ferryStop",
+    "displayname": "小苗町",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFijiW1AA-rf95wPLDEAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-mke": {
+    "type": "ferryStop",
+    "displayname": "南嫌疑群島",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFij5AaAA-cigbRwMoEAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-kke": {
+    "type": "ferryStop",
+    "displayname": "北嫌疑群島",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFikWzwgA-uWrmAKtXYAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-asj": {
+    "type": "ferryStop",
+    "displayname": "安静島",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFikiusgA-XckrJeKFwAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-skk": {
+    "type": "ferryStop",
+    "displayname": "三角群島",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFikj6/gA-VvJTHtNTwAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-mcc": {
+    "type": "ferryStop",
+    "displayname": "Macece Island",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJBaIAA-yQrJjFr6YAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-hkm": {
+    "type": "ferryStop",
+    "displayname": "辺境町 Henkyomachi",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJCARAA-ZDCBxD8woAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-sth": {
+    "type": "ferryStop",
+    "displayname": "St Helena",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJDMkAA-6D+YigsMgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-tdc": {
+    "type": "ferryStop",
+    "displayname": "Tristan de Cunha",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJDytgA-xRtukihjwAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-idm": {
+    "type": "ferryStop",
+    "displayname": "Isla de Mona",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJEY3AA-KNlUC/tpYAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-asc": {
+    "type": "ferryStop",
+    "displayname": "Ascension Island",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJE/AgA-ZNn/EjdmwAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-gua": {
+    "type": "ferryStop",
+    "displayname": "Guano Island",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJFlJgA-wu71HdzwMAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-roi": {
+    "type": "ferryStop",
+    "displayname": "Rose Island",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJGxcgA-RMnFxf05wAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-mqr": {
+    "type": "ferryStop",
+    "displayname": "Macquarie Island",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJHXmAA-HFfZNOFV0AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-wyg": {
+    "type": "ferryStop",
+    "displayname": "Wenyanga",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJH9vgA-ssVT1LbG0AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-cbdZone1": {
+    "type": "officeArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTpgEeFYlgA-H9vh44e94AAAAAA",
+      "OVVNPJJKCAA-IesfHvOFMAAAAAA",
+      "OTpgEeFYlgA-ml2JmUwUYAAAAAA",
+      "OVVNPJKWVAA-lJQSD3QusAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-cbdZone2": {
+    "type": "officeArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTpgEeFYlgA-Dv6eNQBegAAAAAA",
+      "OTplbjKMtAA-mmDDvyiIcAAAAAA",
+      "OTplbjKMtAA-FSXhEdXEgAAAAAA",
+      "OTplbjJAaAA-M8GRqwgbcAAAAAA",
+      "OTplbjJAaAA-3gI5M/faUAAAAAA",
+      "OTplbjJAaAA-4HlutnQuwAAAAAA",
+      "OTplbjIaQgA-p4CZbzkh4AAAAAA",
+      "OTpgEeFYlgA-C6VaquMPoAAAAAA",
+      "OTpgEeFYlgA-H9vh44e94AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-owomachiZone": {
+    "type": "commercialArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTpgEeFYlgA-9l55EPRWsAAAAAA",
+      "OTpgEeGk4AA-zXUENRRQ8AAAAAA",
+      "OVVNPJSGPAA-0biiyY/qgAAAAAA",
+      "OTpgEeFYlgA-4i/yQiI9IAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-cbdZone3": {
+    "type": "officeArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTplbjLY/gA-dx94cmb3sAAAAAA",
+      "OTpgEeFYlgA-/wu2AmWbQAAAAAA",
+      "OTpgEeHLBgA-SoEfB4Vb4AAAAAA",
+      "OTplbjyusgA-7ifjPuy5kAAAAAA",
+      "OTplbjyusgA-70kqFUDOEAAAAAA",
+      "OTplbjyusgA-nhitdvNFUAAAAAA",
+      "OTplbjyIjAA-e/GSuoCvsAAAAAA",
+      "OTplbjyIjAA-eCFZ59BcMAAAAAA",
+      "OTplbjxiZgA-wwY7Y3fvUAAAAAA",
+      "OTplbjxiZgA-OnL8zcKLsAAAAAA",
+      "OVVNPJKWVAA-lJQSD3QusAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-setsuritsuZone": {
+    "type": "officeArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTpgEeFYlgA-zr3/BqGqMAAAAAA",
+      "OTpgEeFYlgA-I/Xe6cfmEAAAAAA",
+      "OTpgEeIXUgA-mm33bNqAsAAAAAA",
+      "OTpgEeIXUgA-Sfd2jst3UAAAAAA",
+      "OTpgEeeawgA-L4rD3BZ5YAAAAAA",
+      "OTplbjGn0gA-Snz2EoiegAAAAAA",
+      "OTpgEeIXUgA-GqaByG/pgAAAAAA",
+      "OTpgEeIXUgA-d5diIvSGkAAAAAA",
+      "OTplbjGn0gA-8cKYzt0bUAAAAAA",
+      "OTqFiXom/gA-E0q+iLrOIAAAAAA",
+      "OTpgEeIXUgA-W5CQpXwEoAAAAAA",
+      "OTpgEeIXUgA-IbMpEUKBsAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-northNakaZone": {
+    "type": "residentialArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTpgEeHLBgA-Gr8qGeiP8AAAAAA",
+      "OTpgEeF+vAA-p+CSVqJMQAAAAAA",
+      "OTpgEeF+vAA-pGgbI5iW8AAAAAA",
+      "OTplbjMlSgA-xKNgUjrqIAAAAAA",
+      "OTpgEeF+vAA-7+QnfM06QAAAAAA",
+      "OTpgEeF+vAA-U5RakzXyoAAAAAA",
+      "OTpgEeF+vAA-p4a2soJekAAAAAA",
+      "OTplbjNLcAA-3XJQ3ZwiIAAAAAA",
+      "OTpgEek+YAA-cWWoimXV4AAAAAA",
+      "OTpgEemw0AA-tDGn2dbdIAAAAAA",
+      "OTpgEemw0AA-PVcs//BNQAAAAAA",
+      "OTplbjNxlAA-MsIGViZ0AAAAAAA",
+      "OTqFicN3TgA-RT2v9+LXwAAAAAA",
+      "OTqFicNRKAA-SQ3KaksEYAAAAAA",
+      "OTpgEemw0AA-JyLiwLrtoAAAAAA",
+      "OTpgEewTKgA-l8vY8qrc0AAAAAA",
+      "OTpgEewTKgA-+8GEAfm3EAAAAAA",
+      "OTpgEeXQ/gA-ixlVDTVAcAAAAAA",
+      "OTpgEeXQ/gA-HjigjIu1oAAAAAA",
+      "OTpgEeXQ/gA-qqsOXBLH0AAAAAA",
+      "OVVNPJv5lgA-zCY9EhVe4AAAAAA",
+      "OTpgEeWq2AA-wK1DdBmjEAAAAAA",
+      "OTpgEeFYlgA-/jo50SfdwAAAAAA",
+      "OTpgEeHLBgA-fbq5BZ9rYAAAAAA",
+      "OTpgEeHLBgA-v75nHgceMAAAAAA",
+      "OTplbjTI6AA-Zm+BHxWykAAAAAA",
+      "OTpgEeHLBgA-cHbkcS/t4AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-nakaDistrCentresZone": {
+    "type": "industrialArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTpgEfOsqgA-oKIVxpToUAAAAAA",
+      "OTplbjX6FAA-QQ8yKEifMAAAAAA",
+      "OTplbjO94AA-3nhaHUj7wAAAAAA",
+      "OTpgEea14AA-rkR5WPRaAAAAAAA",
+      "OTpgEea14AA-f9xPCp8M8AAAAAA",
+      "OTpgEea14AA-feIaVqFrQAAAAAA",
+      "OTqFibREUAA-gmJaXnQL8AAAAAA",
+      "OTqFibREUAA-cKQ3yKAFMAAAAAA",
+      "OVVNPJ5b8AA-vgCFRzwowAAAAAA",
+      "OTpgEecoUAA-TBCmc14ZYAAAAAA",
+      "OTpgEecoUAA-KQdXdCayMAAAAAA",
+      "OTplbjU7WAA-G8KgihDpgAAAAAA",
+      "OTplbjWtygA-SfTvyIwzgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-ss": {
+    "type": "ferryLine",
+    "displayname": "風舟SS線",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTplbjEPOgA-RNcL462VUAAAAAA",
+      "OVVNPJ9m+AA-JIrwrVjjgAAAAAA",
+      "OTqFiUCiRAA-HS9Hhbs3kAAAAAA",
+      "OVVNPJ+zQgA-2h1qgS6kQAAAAAA",
+      "OTplbjE1YAA-oqCikRvioAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-EU": {
+    "type": "ferryLine",
+    "displayname": "風舟EU線",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTplbjEPOgA-RNcL462VUAAAAAA",
+      "OVVNPKBL2gA-L5C/og614AAAAAA",
+      "OVVNPKBx/gA-UOFLStnJQAAAAAA",
+      "OTqFihfOfgA-3gWhzv/UYAAAAAA",
+      "OVVNPKC+SgA-w2sNeDWMcAAAAAA",
+      "OVVNPKDkcAA-Dcf9PJvl8AAAAAA",
+      "OVVNPKEKlgA-xOYYFJUeAAAAAAA",
+      "OVVNPKEwvAA-TTHdCCC5AAAAAAA",
+      "OVVNPKFW4AA-7gZQz6OiUAAAAAA",
+      "OTqFijiW1AA-rf95wPLDEAAAAAA",
+      "OVVNPKHJUgA-tIrCL3o8kAAAAAA",
+      "OVVNPKHveAA-eLIKRH1rkAAAAAA",
+      "OVVNPKIVnAA-sPqe+YRhIAAAAAA",
+      "OVVNPJBaIAA-yQrJjFr6YAAAAAA",
+      "OVVNPKJh6AA-ZWELWlP30AAAAAA",
+      "OVVNPKKIDgA-igFIvzVvkAAAAAA",
+      "OVVNPKKuNAA-syeMuI9xkAAAAAA",
+      "OVVNPKLUWAA-Ls6IL9ChIAAAAAA",
+      "OVVNPKMgpAA-DkZpJ15GkAAAAAA",
+      "OVVNPJCARAA-ZDCBxD8woAAAAAA",
+      "OVVNPKNs8AA-FdmcaqLaQAAAAAA",
+      "OVVNPKOTFAA-RTCkvV64cAAAAAA",
+      "OVVNPKO5OgA-itQZtHoSAAAAAAA",
+      "OVVNPKPfYAA-mfA6rCnA4AAAAAA",
+      "OVVNPKQrrAA-0WEvhIoKUAAAAAA",
+      "OVVNPKRR0gA-OD+k4V0rYAAAAAA",
+      "OVVNPKR39gA-nzqq7MiqUAAAAAA",
+      "OVVNPKSeHAA-jaQiVUL/8AAAAAA",
+      "OVVNPJDMkAA-6D+YigsMgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-FI": {
+    "type": "ferryLine",
+    "displayname": "風舟FI線",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPKC+SgA-w2sNeDWMcAAAAAA",
+      "OVVNPKUQjgA-4HaIj634AAAAAA",
+      "OVVNPKU2sgA-M8M5e80MMAAAAAA",
+      "OTqFihgayAA-X/buqnkogAAAAAA",
+      "OTqFihjZhAA-5ZGgZsUZgAAAAAA",
+      "OVVNPKXPSgA-ZpFcradPsAAAAAA",
+      "OTqFihnkjAA-J97gYPTOQAAAAAA",
+      "OVVNPKYblAA-EmOcjmOn0AAAAAA",
+      "OVVNPKZBugA-T4mqdvagUAAAAAA",
+      "OTqFihrvlAA-DpF0DrXfIAAAAAA",
+      "OVVNPKaOBgA-2vppDiDiIAAAAAA",
+      "OVVNPKbaUAA-l4XYBeyj4AAAAAA",
+      "OVVNPKcAdgA-SABoCv//MAAAAAA",
+      "OVVNPKcmnAA-e+2LSNCpIAAAAAA",
+      "OTqFihwgwAA-YDJvEw224AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wboat-kze-KN1": {
+    "type": "ferryLine",
+    "displayname": "風舟KN線",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFijOF1AA-HcX/a0kwoAAAAAA",
+      "OVVNPKeZDAA-EULKRV5h0AAAAAA",
+      "OVVNPKe/MgA-EW+e94HVUAAAAAA",
+      "OVVNPKHJUgA-tIrCL3o8kAAAAAA",
+      "OTqFijiW1AA-rf95wPLDEAAAAAA",
+      "OVVNPKhXyAA-mctVM8wDIAAAAAA",
+      "OTqFij5AaAA-cigbRwMoEAAAAAA",
+      "OVVNPKikFAA-kbyiMjBbAAAAAAA",
+      "OVVNPKjKOgA-YesM0zn/kAAAAAA",
+      "OVVNPKjwYAA-IKRRoecO4AAAAAA",
+      "OTqFikWzwgA-uWrmAKtXYAAAAAA",
+      "OVVNPKk8qgA-Q8L4BRsLsAAAAAA",
+      "OVVNPKmI9gA-XRbEfOC48AAAAAA",
+      "OVVNPKmvHAA-nkDzASmAAAAAAAA",
+      "OVVNPKnVQgA-mqVos+Z8gAAAAAA",
+      "OVVNPKn7ZgA-iklzHVnV8AAAAAA",
+      "OVVNPKohjAA-xBlXqeqIoAAAAAA",
+      "OVVNPKpHsgA-JGsnYNeYAAAAAA",
+      "OTqFikj6/gA-VvJTHtNTwAAAAAA",
+      "OVVNPKq6JAA-Kn9CTCUYEAAAAAA",
+      "OVVNPKrgSAA-BqEnaUv/oAAAAAA",
+      "OVVNPJBaIAA-yQrJjFr6YAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-KN2": {
+    "type": "ferryLine",
+    "displayname": "風舟KN線",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFikWzwgA-uWrmAKtXYAAAAAA",
+      "OVVNPKtSugA-bl02hQaLkAAAAAA",
+      "OVVNPKt44AA-8b0bMoJ9cAAAAAA",
+      "OTqFikiIjAA-QbUazfSqUAAAAAA",
+      "OVVNPKvrUAA-0K0knpqNwAAAAAA",
+      "OVVNPKwRdgA-y2j31PGxgAAAAAA",
+      "OVVNPJH9vgA-ssVT1LbG0AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-MQ": {
+    "type": "ferryLine",
+    "displayname": "Windboat MQ Route",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJCARAA-ZDCBxD8woAAAAAA",
+      "OVVNPJHXmAA-HFfZNOFV0AAAAAA",
+      "OVVNPKyqDAA-cKa41sbMkAAAAAA",
+      "OVVNPKz2WAA-LPrFLmmvoAAAAAA",
+      "OVVNPK0cfAA-mpINjZy8oAAAAAA",
+      "OVVNPK1CogA-Vpk3weNI4AAAAAA",
+      "OVVNPKRR0gA-OD+k4V0rYAAAAAA",
+      "OVVNPKR39gA-nzqq7MiqUAAAAAA",
+      "OVVNPKSeHAA-jaQiVUL/8AAAAAA",
+      "OVVNPJDMkAA-6D+YigsMgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wboat-kze-HE": {
+    "type": "ferryLine",
+    "displayname": "Windboat HE Route",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OVVNPJDMkAA-6D+YigsMgAAAAAA",
+      "OVVNPJDytgA-xRtukihjwAAAAAA",
+      "OVVNPK5z0AA-LOXmXGXgAAAAAA",
+      "OVVNPK6Z9gA-7M1Fdc+ccAAAAAA",
+      "OVVNPK7AGgA-KjEzjJ8uwAAAAAA",
+      "OVVNPK8MZgA-LCPJ1b+4sAAAAAA",
+      "OVVNPK8yjAA-wm6diPjJoAAAAAA",
+      "OVVNPJEY3AA-KNlUC/tpYAAAAAA",
+      "OVVNPK9+2AA-vyiaostz0AAAAAA",
+      "OVVNPK+k/AA-RaTeccXPoAAAAAA",
+      "OVVNPJE/AgA-ZNn/EjdmwAAAAAA",
+      "OVVNPK/xSAA-T5edajdJ0AAAAAA",
+      "OVVNPJFlJgA-wu71HdzwMAAAAAA",
+      "OVVNPLBjuAA-fnFy6IRp8AAAAAA",
+      "OVVNPLCJ3gA-aWOSsQrLsAAAAAA",
+      "OVVNPJGxcgA-RMnFxf05wAAAAAA",
+      "OVVNPLDWKgA-HhD6EgQjsAAAAAA",
+      "OVVNPKR39gA-nzqq7MiqUAAAAAA",
+      "OVVNPKSeHAA-jaQiVUL/8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "kze-wboat-ET": {
+    "type": "ferryLine",
+    "displayname": "風舟ET線",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OTqFiiRS1gA-fVgoHMscQAAAAAA",
+      "OVVNPLGU5gA-/1V/EExYEAAAAAA",
+      "OVVNPLG7DAA-2evAcVxr0AAAAAA",
+      "OVVNPLIHVgA-04eP6nJHwAAAAAA",
+      "OVVNPLItfAA-g1TLEnEDEAAAAAA",
+      "OTqFiih+9AA-Y+TUf0UBYAAAAAA",
+      "OVVNPLJ5yAA-oas74vCuoAAAAAA",
+      "OVVNPLKf7gA-wC65xaKwwAAAAAA",
+      "OVVNPKU2sgA-M8M5e80MMAAAAAA",
+      "OVVNPKUQjgA-4HaIj634AAAAAA",
+      "OVVNPKC+SgA-w2sNeDWMcAAAAAA",
+      "OTqFihfOfgA-3gWhzv/UYAAAAAA"
     ],
     "attrs": {}
   }

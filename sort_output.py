@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 
 def main():
-    for tile in tqdm(glob("./tiles/*")):
+    for tile in tqdm(glob("./tiles/*"), desc="Sorting tiles"):
         tile: str
         regex = re.search(r"[\\/](-?\d+), (-?\d+), (-?\d+)\.png", tile)
         if regex is None: continue
