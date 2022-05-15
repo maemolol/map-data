@@ -70,7 +70,7 @@ def main():
     last_batch = get_batch(args.namespaces)
 
     for i, batch in enumerate(tiles[x:x + 1000] for x in range(0, len(tiles), 1000)):
-        if i < last_batch: continue
+        if i <= last_batch: continue
         print(f"Batch {i} of {int(len(tiles) // 1000)}")
         renderer.render(deepcopy(all_comps), deepcopy(all_nodes), renderer.ZoomParams(0, 9, 32),
                         save_dir=Path("./tiles"), offset=renderer.Coord(0, 32),

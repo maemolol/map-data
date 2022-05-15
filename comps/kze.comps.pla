@@ -3794,7 +3794,7 @@
       "OTplbjO94AA-/7s9A/38AAAAAA",
       "OTpgEeF+vAA-w1zzLyW2AAAAAAA",
       "OTplbjPkBgA-UZiJGDyiYAAAAAA",
-      "OTplbjPkBgA-rsMF+UqSYAAAAAA",
+      "OVZCmz6AyAA-6FTPwnKnQAAAAAA",
       "OTplbjPkBgA-9NBSFxdC4AAAAAA",
       "OTpgEeF+vAA-JG+ngVmnEAAAAAA",
       "OTpgEeF+vAA-uVMPXsWMUAAAAAA",
@@ -4914,6 +4914,7 @@
       "OTpgEecCLAA-KgUyXfaegAAAAAA",
       "OTpgEecCLAA-UhQEEOY7cAAAAAA",
       "OTplbjPkBgA-9NBSFxdC4AAAAAA",
+      "OVZCmz6AyAA-6FTPwnKnQAAAAAA",
       "OTplbjPkBgA-UZiJGDyiYAAAAAA",
       "OTpgEeF+vAA-w1zzLyW2AAAAAAA",
       "OTqFibOrugA-u84sXsxjIAAAAAA",
@@ -4968,7 +4969,7 @@
     "attrs": {},
     "description": "",
     "displayname": "中央湖",
-    "layer": 1,
+    "layer": 0,
     "nodes": [
       "OTqFibiWlAA-n/MPpHE/wAAAAAA",
       "OTqFibi8uAA-DBcGzrBn8AAAAAA",
@@ -4989,7 +4990,7 @@
       "OTqFibqGfAA-yOTFwGDi8AAAAAA",
       "OTqFibqsogA-J6fnx4VvsAAAAAA",
       "OTqFibqsogA-4oWEG42jYAAAAAA",
-      "OTplbjPkBgA-rsMF+UqSYAAAAAA",
+      "OVZCmz6AyAA-6FTPwnKnQAAAAAA",
       "OTqFibr47gA-vcAK8cQXAAAAAAA",
       "OTqFibsfEgA-pq7j89aFIAAAAAA",
       "OTqFibsfEgA-e3PWwDpksAAAAAA",
@@ -7052,189 +7053,189 @@
     "type": "landSmall"
   },
   "kze-wboat-etm": {
-    "type": "ferryStop",
-    "displayname": "絵田町",
+    "attrs": {},
     "description": "",
+    "displayname": "絵田町",
     "layer": 0,
     "nodes": [
       "OTqFiiRS1gA-fVgoHMscQAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-mwm": {
-    "type": "ferryStop",
-    "displayname": "迷惑町",
+    "attrs": {},
     "description": "",
+    "displayname": "迷惑町",
     "layer": 0,
     "nodes": [
       "OTqFiih+9AA-Y+TUf0UBYAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-kew": {
-    "type": "ferryStop",
-    "displayname": "藁町",
+    "attrs": {},
     "description": "",
+    "displayname": "藁町",
     "layer": 0,
     "nodes": [
       "OVVNPI91PgA-TyWTPiOzcAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-knm": {
-    "type": "ferryStop",
-    "displayname": "小苗町",
+    "attrs": {},
     "description": "",
+    "displayname": "小苗町",
     "layer": 0,
     "nodes": [
       "OTqFijiW1AA-rf95wPLDEAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-mke": {
-    "type": "ferryStop",
-    "displayname": "南嫌疑群島",
+    "attrs": {},
     "description": "",
+    "displayname": "南嫌疑群島",
     "layer": 0,
     "nodes": [
       "OTqFij5AaAA-cigbRwMoEAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-kke": {
-    "type": "ferryStop",
-    "displayname": "北嫌疑群島",
+    "attrs": {},
     "description": "",
+    "displayname": "北嫌疑群島",
     "layer": 0,
     "nodes": [
       "OTqFikWzwgA-uWrmAKtXYAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-asj": {
-    "type": "ferryStop",
-    "displayname": "安静島",
+    "attrs": {},
     "description": "",
+    "displayname": "安静島",
     "layer": 0,
     "nodes": [
       "OTqFikiusgA-XckrJeKFwAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-skk": {
-    "type": "ferryStop",
-    "displayname": "三角群島",
+    "attrs": {},
     "description": "",
+    "displayname": "三角群島",
     "layer": 0,
     "nodes": [
       "OTqFikj6/gA-VvJTHtNTwAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-mcc": {
-    "type": "ferryStop",
-    "displayname": "Macece Island",
+    "attrs": {},
     "description": "",
+    "displayname": "Macece Island",
     "layer": 0,
     "nodes": [
       "OVVNPJBaIAA-yQrJjFr6YAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-hkm": {
-    "type": "ferryStop",
-    "displayname": "辺境町 Henkyomachi",
+    "attrs": {},
     "description": "",
+    "displayname": "辺境町 Henkyomachi",
     "layer": 0,
     "nodes": [
       "OVVNPJCARAA-ZDCBxD8woAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-sth": {
-    "type": "ferryStop",
-    "displayname": "St Helena",
+    "attrs": {},
     "description": "",
+    "displayname": "St Helena",
     "layer": 0,
     "nodes": [
       "OVVNPJDMkAA-6D+YigsMgAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-tdc": {
-    "type": "ferryStop",
-    "displayname": "Tristan de Cunha",
+    "attrs": {},
     "description": "",
+    "displayname": "Tristan de Cunha",
     "layer": 0,
     "nodes": [
       "OVVNPJDytgA-xRtukihjwAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-idm": {
-    "type": "ferryStop",
-    "displayname": "Isla de Mona",
+    "attrs": {},
     "description": "",
+    "displayname": "Isla de Mona",
     "layer": 0,
     "nodes": [
       "OVVNPJEY3AA-KNlUC/tpYAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-asc": {
-    "type": "ferryStop",
-    "displayname": "Ascension Island",
+    "attrs": {},
     "description": "",
+    "displayname": "Ascension Island",
     "layer": 0,
     "nodes": [
       "OVVNPJE/AgA-ZNn/EjdmwAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-gua": {
-    "type": "ferryStop",
-    "displayname": "Guano Island",
+    "attrs": {},
     "description": "",
+    "displayname": "Guano Island",
     "layer": 0,
     "nodes": [
       "OVVNPJFlJgA-wu71HdzwMAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-roi": {
-    "type": "ferryStop",
-    "displayname": "Rose Island",
+    "attrs": {},
     "description": "",
+    "displayname": "Rose Island",
     "layer": 0,
     "nodes": [
       "OVVNPJGxcgA-RMnFxf05wAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-mqr": {
-    "type": "ferryStop",
-    "displayname": "Macquarie Island",
+    "attrs": {},
     "description": "",
+    "displayname": "Macquarie Island",
     "layer": 0,
     "nodes": [
       "OVVNPJHXmAA-HFfZNOFV0AAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-wboat-wyg": {
-    "type": "ferryStop",
-    "displayname": "Wenyanga",
+    "attrs": {},
     "description": "",
+    "displayname": "Wenyanga",
     "layer": 0,
     "nodes": [
       "OVVNPJH9vgA-ssVT1LbG0AAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryStop"
   },
   "kze-cbdZone1": {
-    "type": "officeArea",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeFYlgA-H9vh44e94AAAAAA",
@@ -7242,12 +7243,12 @@
       "OTpgEeFYlgA-ml2JmUwUYAAAAAA",
       "OVVNPJKWVAA-lJQSD3QusAAAAAA"
     ],
-    "attrs": {}
+    "type": "officeArea"
   },
   "kze-cbdZone2": {
-    "type": "officeArea",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeFYlgA-Dv6eNQBegAAAAAA",
@@ -7260,12 +7261,12 @@
       "OTpgEeFYlgA-C6VaquMPoAAAAAA",
       "OTpgEeFYlgA-H9vh44e94AAAAAA"
     ],
-    "attrs": {}
+    "type": "officeArea"
   },
   "kze-owomachiZone": {
-    "type": "commercialArea",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeFYlgA-9l55EPRWsAAAAAA",
@@ -7273,12 +7274,12 @@
       "OVVNPJSGPAA-0biiyY/qgAAAAAA",
       "OTpgEeFYlgA-4i/yQiI9IAAAAAA"
     ],
-    "attrs": {}
+    "type": "commercialArea"
   },
   "kze-cbdZone3": {
-    "type": "officeArea",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTplbjLY/gA-dx94cmb3sAAAAAA",
@@ -7293,12 +7294,12 @@
       "OTplbjxiZgA-OnL8zcKLsAAAAAA",
       "OVVNPJKWVAA-lJQSD3QusAAAAAA"
     ],
-    "attrs": {}
+    "type": "officeArea"
   },
   "kze-setsuritsuZone": {
-    "type": "officeArea",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeFYlgA-zr3/BqGqMAAAAAA",
@@ -7314,12 +7315,12 @@
       "OTpgEeIXUgA-W5CQpXwEoAAAAAA",
       "OTpgEeIXUgA-IbMpEUKBsAAAAAA"
     ],
-    "attrs": {}
+    "type": "officeArea"
   },
   "kze-northNakaZone": {
-    "type": "residentialArea",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEeHLBgA-Gr8qGeiP8AAAAAA",
@@ -7350,12 +7351,12 @@
       "OTplbjTI6AA-Zm+BHxWykAAAAAA",
       "OTpgEeHLBgA-cHbkcS/t4AAAAAA"
     ],
-    "attrs": {}
+    "type": "residentialArea"
   },
   "kze-nakaDistrCentresZone": {
-    "type": "industrialArea",
-    "displayname": "",
+    "attrs": {},
     "description": "",
+    "displayname": "",
     "layer": 0,
     "nodes": [
       "OTpgEfOsqgA-oKIVxpToUAAAAAA",
@@ -7372,12 +7373,12 @@
       "OTplbjU7WAA-G8KgihDpgAAAAAA",
       "OTplbjWtygA-SfTvyIwzgAAAAAA"
     ],
-    "attrs": {}
+    "type": "industrialArea"
   },
   "kze-wboat-ss": {
-    "type": "ferryLine",
-    "displayname": "風舟SS線",
+    "attrs": {},
     "description": "",
+    "displayname": "風舟SS線",
     "layer": 0,
     "nodes": [
       "OTplbjEPOgA-RNcL462VUAAAAAA",
@@ -7386,12 +7387,12 @@
       "OVVNPJ+zQgA-2h1qgS6kQAAAAAA",
       "OTplbjE1YAA-oqCikRvioAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryLine"
   },
   "kze-wboat-EU": {
-    "type": "ferryLine",
-    "displayname": "風舟EU線",
+    "attrs": {},
     "description": "",
+    "displayname": "風舟EU線",
     "layer": 0,
     "nodes": [
       "OTplbjEPOgA-RNcL462VUAAAAAA",
@@ -7424,12 +7425,12 @@
       "OVVNPKSeHAA-jaQiVUL/8AAAAAA",
       "OVVNPJDMkAA-6D+YigsMgAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryLine"
   },
   "kze-wboat-FI": {
-    "type": "ferryLine",
-    "displayname": "風舟FI線",
+    "attrs": {},
     "description": "",
+    "displayname": "風舟FI線",
     "layer": 0,
     "nodes": [
       "OVVNPKC+SgA-w2sNeDWMcAAAAAA",
@@ -7448,12 +7449,12 @@
       "OVVNPKcmnAA-e+2LSNCpIAAAAAA",
       "OTqFihwgwAA-YDJvEw224AAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryLine"
   },
   "wboat-kze-KN1": {
-    "type": "ferryLine",
-    "displayname": "風舟KN線",
+    "attrs": {},
     "description": "",
+    "displayname": "風舟KN線",
     "layer": 0,
     "nodes": [
       "OTqFijOF1AA-HcX/a0kwoAAAAAA",
@@ -7479,12 +7480,12 @@
       "OVVNPKrgSAA-BqEnaUv/oAAAAAA",
       "OVVNPJBaIAA-yQrJjFr6YAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryLine"
   },
   "kze-wboat-KN2": {
-    "type": "ferryLine",
-    "displayname": "風舟KN線",
+    "attrs": {},
     "description": "",
+    "displayname": "風舟KN線",
     "layer": 0,
     "nodes": [
       "OTqFikWzwgA-uWrmAKtXYAAAAAA",
@@ -7495,12 +7496,12 @@
       "OVVNPKwRdgA-y2j31PGxgAAAAAA",
       "OVVNPJH9vgA-ssVT1LbG0AAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryLine"
   },
   "kze-wboat-MQ": {
-    "type": "ferryLine",
-    "displayname": "Windboat MQ Route",
+    "attrs": {},
     "description": "",
+    "displayname": "Windboat MQ Route",
     "layer": 0,
     "nodes": [
       "OVVNPJCARAA-ZDCBxD8woAAAAAA",
@@ -7514,12 +7515,12 @@
       "OVVNPKSeHAA-jaQiVUL/8AAAAAA",
       "OVVNPJDMkAA-6D+YigsMgAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryLine"
   },
   "wboat-kze-HE": {
-    "type": "ferryLine",
-    "displayname": "Windboat HE Route",
+    "attrs": {},
     "description": "",
+    "displayname": "Windboat HE Route",
     "layer": 0,
     "nodes": [
       "OVVNPJDMkAA-6D+YigsMgAAAAAA",
@@ -7542,12 +7543,12 @@
       "OVVNPKR39gA-nzqq7MiqUAAAAAA",
       "OVVNPKSeHAA-jaQiVUL/8AAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryLine"
   },
   "kze-wboat-ET": {
-    "type": "ferryLine",
-    "displayname": "風舟ET線",
+    "attrs": {},
     "description": "",
+    "displayname": "風舟ET線",
     "layer": 0,
     "nodes": [
       "OTqFiiRS1gA-fVgoHMscQAAAAAA",
@@ -7563,6 +7564,6 @@
       "OVVNPKC+SgA-w2sNeDWMcAAAAAA",
       "OTqFihfOfgA-3gWhzv/UYAAAAAA"
     ],
-    "attrs": {}
+    "type": "ferryLine"
   }
 }
