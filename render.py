@@ -4,6 +4,7 @@ import sys
 from glob import glob
 from pathlib import Path
 
+import psutil
 import ray
 import renderer
 from renderer.tools import components
@@ -38,10 +39,11 @@ def main():
     print(f"{len(tiles)} tiles to render")
 
     for i, batch in enumerate(tiles[x:x + 1000] for x in range(0, len(tiles), 1000)):
+        if i < 9: continue # TODO caching thingy
         print(f"Batch {i} of {int(len(tiles) // 1000)}")
         renderer.render(comps, nodes, renderer.ZoomParams(0, 9, 32),
                         save_dir=Path("./tiles"), offset=renderer.Coord(0, 32),
-                        tiles=batch, use_ray=True)
+                        tiles=batch, use_ray=True, processes=psutil.cpu_count()//2)
 
         sort_output.main()
         ray.shutdown()
