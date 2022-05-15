@@ -80,5 +80,6 @@ def main():
         ray.shutdown()
         gc.collect()
         set_batch(args.namespaces, i)
+    set_batch(args.namespaces, -1)
 
 if __name__ == "__main__": main()
