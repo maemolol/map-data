@@ -1,0 +1,78 @@
+{
+  "wyg-cityhall": {
+    "type": "cityHall",
+    "displayname": "Wenyanga City Hall",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgrnIAA-EDhCby0gwAAAAAA",
+      "OV3fOgrnIAA-rJIstqRNoAAAAAA",
+      "OV3fOgrnIAA-ioKqbFE1kAAAAAA",
+      "OV3fOgrnIAA-da+Ap34qoAAAAAA"
+    ],
+    "attrs": {
+      "1653481930730": {
+        "name": "",
+        "value": ""
+      }
+    }
+  },
+  "wyg-build1": {
+    "type": "residentialOfficeArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgrnIAA-hqS68xPfYAAAAAA",
+      "OV3fOgsNRgA-2uLSU9MjQAAAAAA",
+      "OV3fOgsNRgA-gJFPua4SEAAAAAA",
+      "OV3fOgsNRgA-/6s9S7EbcAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-build3": {
+    "type": "residentialOfficeArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-Q+e6ebvuUAAAAAA",
+      "OV3fOgsNRgA-QsfV/RYZ8AAAAAA",
+      "OV3fOgsNRgA-seRvYYgAwAAAAAA",
+      "OV3fOgsNRgA-+39KELkSYAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-oldtown": {
+    "type": "district",
+    "displayname": "Oustad",
+    "description": "Old Town",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-DXHgj9XBEAAAAAA",
+      "OV3fOgsNRgA-hlEi4L/m8AAAAAA",
+      "OV3fOgsNRgA-ZuvH25aAAAAAAAA",
+      "OV3fOgsNRgA-ZqwBDC0o4AAAAAA",
+      "OV3fOgsNRgA-42ipxl7eUAAAAAA",
+      "OV3fOgsNRgA-pnlAR3tUoAAAAAA",
+      "OV3fOgsNRgA-ZIVuQylKwAAAAAA",
+      "OV3fOgsNRgA-Z5J1Stx0UAAAAAA",
+      "OV3fOgsNRgA-zJatnwNuAAAAAAA",
+      "OV3fOgsNRgA-waFM1UuDYAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-port": {
+    "type": "transportBuilding",
+    "displayname": "Port Wenyanga Cruise Terminal",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-UFcAusHOsAAAAAA",
+      "OV3fOgsNRgA-vN/iWlPNsAAAAAA",
+      "OV3fOgsNRgA-McPLupa+YAAAAAA",
+      "OV3fOgsNRgA-Imm3XuuwcAAAAAA"
+    ],
+    "attrs": {}
+  }
+}
