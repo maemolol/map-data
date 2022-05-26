@@ -1,0 +1,410 @@
+{
+  "wyg-cityhall": {
+    "attrs": {
+      "1653481930730": {
+        "name": "",
+        "value": ""
+      }
+    },
+    "description": "",
+    "displayname": "Wenyanga City Hall",
+    "layer": 0,
+    "nodes": [
+      "OV64eouUzgA-UTwyEy8OMAAAAAA",
+      "OV64eouUzgA-HVpxPdE84AAAAAA",
+      "OV64eou69AA-NTX08qcj0AAAAAA",
+      "OV64eou69AA-7t9djWGY8AAAAAA"
+    ],
+    "type": "cityHall"
+  },
+  "wyg-build1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgrnIAA-hqS68xPfYAAAAAA",
+      "OV3fOgsNRgA-2uLSU9MjQAAAAAA",
+      "OV3fOgsNRgA-gJFPua4SEAAAAAA",
+      "OV3fOgsNRgA-/6s9S7EbcAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-build2": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-Q+e6ebvuUAAAAAA",
+      "OV3fOgsNRgA-QsfV/RYZ8AAAAAA",
+      "OV3fOgsNRgA-seRvYYgAwAAAAAA",
+      "OV3fOgsNRgA-+39KELkSYAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-port": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Port Wenyanga Cruise Terminal",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-UFcAusHOsAAAAAA",
+      "OV3fOgsNRgA-vN/iWlPNsAAAAAA",
+      "OV3fOgsNRgA-McPLupa+YAAAAAA",
+      "OV3fOgsNRgA-Imm3XuuwcAAAAAA"
+    ],
+    "type": "transportBuilding"
+  },
+  "wyg-kagalo1": {
+    "type": "building",
+    "displayname": "Kagalo Hotel 1",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-sYRe1N00wAAAAAA",
+      "OV64eou69AA-2efHDXnXoAAAAAA",
+      "OV64eou69AA-7rBTDaf9oAAAAAA",
+      "OV64eou69AA-Wib02uL2kAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-sifiso": {
+    "type": "building",
+    "displayname": "Sifiso Heights",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-ptIEJInzUAAAAAA",
+      "OV64eou69AA-KVxnq1HSAAAAAAA",
+      "OV64eou69AA-06/ouEOZ8AAAAAA",
+      "OV64eou69AA-YG+9NTie0AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-kagalo2": {
+    "type": "building",
+    "displayname": "Kagalo Hotel 2",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-PgnlG5PS0AAAAAA",
+      "OV64eou69AA-xmcpMAK8QAAAAAA",
+      "OV64eou69AA-caIpE5kycAAAAAA",
+      "OV64eou69AA-7rBTDaf9oAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-sandile": {
+    "type": "building",
+    "displayname": "Sandile Tower",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-KVxnq1HSAAAAAAA",
+      "OV64eou69AA-7eIutE7q0AAAAAA",
+      "OV64eou69AA-E9wPHziNQAAAAAA",
+      "OV64eou69AA-06/ouEOZ8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-harbor": {
+    "type": "transportBuilding",
+    "displayname": "Wenyanga Harbor",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-pwzAsmU8AAAAAAA",
+      "OV64eou69AA-g64ubv13AAAAAAA",
+      "OV64eovhGgA-9Qg3o1WWEAAAAAA",
+      "OV64eovhGgA-ZCG8JQ89AAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-flrn208": {
+    "type": "building",
+    "displayname": "FLR N208",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eovhGgA-ZCG8JQ89AAAAAAA",
+      "OV64eovhGgA-9Qg3o1WWEAAAAAA",
+      "OV64eovhGgA-ZJ7j625BwAAAAAA",
+      "OV64eovhGgA-1Enfqe0AQAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-enb1": {
+    "type": "building",
+    "displayname": "Eat 'n Bowl Oustad",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-ZuvH25aAAAAAAAA",
+      "OV64eovhGgA-oNO4IAm4cAAAAAA",
+      "OV64eovhGgA-kabNynkgQAAAAAA",
+      "OV64eovhGgA-zyGl/KmREAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-enb2": {
+    "type": "building",
+    "displayname": "Eat 'n Bowl Port Wenyanga",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eovhGgA-Ij/6+XF7cAAAAAA",
+      "OV64eovhGgA-UDRDelTV8AAAAAA",
+      "OV3fOgsNRgA-UFcAusHOsAAAAAA",
+      "OV64eovhGgA-8ir7AEL3IAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-enb3": {
+    "type": "building",
+    "displayname": "Eat 'n Bowl Sifiso Heights",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eovhGgA-Prd1OVM44AAAAAA",
+      "OV64eovhGgA-WyG/L3iuoAAAAAA",
+      "OV64eowHPgA-Epj27hwcQAAAAAA",
+      "OV64eowHPgA-PDts6wQD4AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-enb4": {
+    "type": "building",
+    "displayname": "Eat 'n Bowl Kagalo Hotel",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eowHPgA-3A855VlpcAAAAAA",
+      "OV64eowHPgA-ID2/gBM1QAAAAAA",
+      "OV64eowHPgA-t+V8l68JwAAAAAA",
+      "OV64eowHPgA-1edMhH+IoAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-enb5": {
+    "type": "building",
+    "displayname": "Eat 'n Bowl Wenyanga Harbour",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eowHPgA-XV5GUSXb4AAAAAA",
+      "OV64eowHPgA-E7SKaRw6cAAAAAA",
+      "OV64eowHPgA-HhkYoefn0AAAAAA",
+      "OV64eowHPgA-1e9fsIWXUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-enb6": {
+    "type": "building",
+    "displayname": "Eat 'n Bowl Nuwestad",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eowHPgA-ntlGql7I4AAAAAA",
+      "OV64eowHPgA-UvPSM4vdIAAAAAA",
+      "OV64eowHPgA-0VjkOuQtQAAAAAA",
+      "OV64eowHPgA-P4WpeF29IAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-enb7": {
+    "type": "building",
+    "displayname": "Eat 'n Bowl Wenyanga Mall",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eowHPgA-CRLPz5/r0AAAAAA",
+      "OV64eowtZAA-TDMw9UiaEAAAAAA",
+      "OV64eowtZAA-w9atDe7hYAAAAAA",
+      "OV64eowtZAA-ymh8ixtNYAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-mallbd": {
+    "type": "building",
+    "displayname": "Wenyanga Mall",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eowtZAA-FpIWPlmGoAAAAAA",
+      "OV64eowtZAA-lxQQl9wosAAAAAA",
+      "OV64eowtZAA-xImAih+NgAAAAAA",
+      "OV64eowtZAA-oiZj43e0AAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-library": {
+    "type": "building",
+    "displayname": "Wenyanga Public Library",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eowtZAA-8LJFLDsqcAAAAAA",
+      "OV64eowtZAA-baImfmxTgAAAAAA",
+      "OV64eowtZAA-QdzluZmQ8AAAAAA",
+      "OV64eowtZAA-QU8S2mOOYAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-southoaktwr": {
+    "type": "building",
+    "displayname": "Southoak Tower",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eowtZAA-X0mUv7THAAAAAAA",
+      "OV64eowtZAA-ntkDAb8U4AAAAAA",
+      "OV64eoxTigA-myNqtWc7wAAAAAA",
+      "OV64eoxTigA-N7kKZIbCEAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-build3": {
+    "type": "building",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoxTigA-F0cPd7pzwAAAAAA",
+      "OV64eoxTigA-KQg2E+xG8AAAAAA",
+      "OV64eoxTigA-BQNodpiccAAAAAA",
+      "OV64eoxTigA-CybQTlswUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-princeweier": {
+    "type": "building",
+    "displayname": "Prince Weier Building",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoxTigA-jHE5BKkMUAAAAAA",
+      "OV64eoxTigA-MLkjb90TUAAAAAA",
+      "OV64eoxTigA-JE4vMQzWYAAAAAA",
+      "OV64eoxTigA-NiUqRaRY0AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-sansinnwyg": {
+    "type": "building",
+    "displayname": "SansInn Wenyanga",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoxTigA-qVY9dnpicAAAAAA",
+      "OV64eoxTigA-tWfqVCll4AAAAAA",
+      "OV64eoxTigA-KSciai328AAAAAA",
+      "OV64eoxTigA-9c3u0xrRgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-mayor": {
+    "type": "building",
+    "displayname": "Mayoral Mansion",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoxTigA-tpqw1OAkQAAAAAA",
+      "OV64eoxTigA-w+tzAXgZAAAAAAA",
+      "OV64eoxTigA-Ctfe/0xPQAAAAAA",
+      "OV64eox5sAA-WjxBJgEQgAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-helipad": {
+    "type": "helipad",
+    "displayname": "Wenyanga Helipad",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eox5sAA-L64+/osSgAAAAAA",
+      "OV64eox5sAA-3wAFVSSAkAAAAAA",
+      "OV64eox5sAA-rG94uYJ24AAAAAA",
+      "OV64eox5sAA-Xc8MXUCQUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-central": {
+    "type": "plaza",
+    "displayname": "Central Square",
+    "description": "Flag of Wenyanga",
+    "layer": 0,
+    "nodes": [
+      "OV64eox5sAA-/IDWGkG0cAAAAAA",
+      "OV64eox5sAA-WcL18Rr+UAAAAAA",
+      "OV64eox5sAA-XbVd8e5ZUAAAAAA",
+      "OV64eox5sAA-hVIZAktmUAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-lighthouse": {
+    "type": "building",
+    "displayname": "Wenyanga Lighthouse",
+    "description": "Built in 1832",
+    "layer": 0,
+    "nodes": [
+      "OV64eox5sAA-9TEcW6xp8AAAAAA",
+      "OV64eox5sAA-U5hMR/biIAAAAAA",
+      "OV64eox5sAA-v2tYM4S20AAAAAA",
+      "OV64eox5sAA-0jr33cT8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "d69-station": {
+    "type": "transportBuilding",
+    "displayname": "D69 Station",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eox5sAA-DLidYTbhMAAAAAA",
+      "OV64eox5sAA-YWHK3SN3MAAAAAA",
+      "OV64eox5sAA-+ZcBKJzAwAAAAAA",
+      "OV64eoyf1gA-vQyQS/Qv8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-resoff1": {
+    "type": "residentialOfficeArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoyf1gA-MxKW7xJL0AAAAAA",
+      "OV64eoyf1gA-2erIr+kSEAAAAAA",
+      "OV64eoyf1gA-xMTcXHnuoAAAAAA",
+      "OV64eoyf1gA-aKCq6x1hcAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-res1": {
+    "type": "residentialArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoyf1gA-UsjV/VnqwAAAAAA",
+      "OV64eou69AA-xmcpMAK8QAAAAAA",
+      "OV64eou69AA-E9wPHziNQAAAAAA",
+      "OV64eou69AA-YG+9NTie0AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-cmr1": {
+    "type": "commercialArea",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoyf1gA-SHDw5DEloAAAAAA",
+      "OV64eoyf1gA-CymEIyNY4AAAAAA",
+      "OV64eoyf1gA-yN2BFwmo8AAAAAA",
+      "OV64eozF/AA-BFwWZdj0MAAAAAA"
+    ],
+    "attrs": {}
+  }
+}
