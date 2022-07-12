@@ -1,0 +1,1368 @@
+{
+  "wyg-cityhall": {
+    "attrs": {
+      "1653481930730": {
+        "name": "",
+        "value": ""
+      }
+    },
+    "description": "",
+    "displayname": "Wenyanga City Hall",
+    "layer": 0,
+    "nodes": [
+      "OV64eouUzgA-UTwyEy8OMAAAAAA",
+      "OV64eouUzgA-HVpxPdE84AAAAAA",
+      "OV64eou69AA-NTX08qcj0AAAAAA",
+      "OV64eou69AA-7t9djWGY8AAAAAA"
+    ],
+    "type": "cityHall"
+  },
+  "wyg-build1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgrnIAA-hqS68xPfYAAAAAA",
+      "OV3fOgsNRgA-2uLSU9MjQAAAAAA",
+      "OV3fOgsNRgA-gJFPua4SEAAAAAA",
+      "OV3fOgsNRgA-/6s9S7EbcAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-build2": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-Q+e6ebvuUAAAAAA",
+      "OV3fOgsNRgA-QsfV/RYZ8AAAAAA",
+      "OV3fOgsNRgA-seRvYYgAwAAAAAA",
+      "OV3fOgsNRgA-+39KELkSYAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-port": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Port Wenyanga Cruise Terminal",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-UFcAusHOsAAAAAA",
+      "OV3fOgsNRgA-vN/iWlPNsAAAAAA",
+      "OV3fOgsNRgA-McPLupa+YAAAAAA",
+      "OV3fOgsNRgA-Imm3XuuwcAAAAAA"
+    ],
+    "type": "transportBuilding"
+  },
+  "wyg-kagalo1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Kagalo Hotel 1",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-sYRe1N00wAAAAAA",
+      "OV64eou69AA-2efHDXnXoAAAAAA",
+      "OV64eou69AA-7rBTDaf9oAAAAAA",
+      "OV64eou69AA-Wib02uL2kAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-sifiso": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Sifiso Heights",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-ptIEJInzUAAAAAA",
+      "OV64eou69AA-KVxnq1HSAAAAAAA",
+      "OV64eou69AA-06/ouEOZ8AAAAAA",
+      "OV64eou69AA-YG+9NTie0AAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-kagalo2": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Kagalo Hotel 2",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-PgnlG5PS0AAAAAA",
+      "OV64eou69AA-xmcpMAK8QAAAAAA",
+      "OV64eou69AA-caIpE5kycAAAAAA",
+      "OV64eou69AA-7rBTDaf9oAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-sandile": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Sandile Tower",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-KVxnq1HSAAAAAAA",
+      "OV64eou69AA-7eIutE7q0AAAAAA",
+      "OV64eou69AA-E9wPHziNQAAAAAA",
+      "OV64eou69AA-06/ouEOZ8AAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-harbor": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Wenyanga Harbor",
+    "layer": 0,
+    "nodes": [
+      "OV64eou69AA-pwzAsmU8AAAAAAA",
+      "OV64eou69AA-g64ubv13AAAAAAA",
+      "OV64eovhGgA-9Qg3o1WWEAAAAAA",
+      "OV64eovhGgA-ZCG8JQ89AAAAAAA"
+    ],
+    "type": "transportBuilding"
+  },
+  "wyg-flrn208": {
+    "attrs": {},
+    "description": "",
+    "displayname": "FLR N208",
+    "layer": 0,
+    "nodes": [
+      "OV64eovhGgA-ZCG8JQ89AAAAAAA",
+      "OV64eovhGgA-9Qg3o1WWEAAAAAA",
+      "OV64eovhGgA-ZJ7j625BwAAAAAA",
+      "OV64eovhGgA-1Enfqe0AQAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-enb1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Eat 'n Bowl Oustad",
+    "layer": 0,
+    "nodes": [
+      "OV3fOgsNRgA-ZuvH25aAAAAAAAA",
+      "OV64eovhGgA-oNO4IAm4cAAAAAA",
+      "OV64eovhGgA-kabNynkgQAAAAAA",
+      "OV64eovhGgA-zyGl/KmREAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-enb2": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Eat 'n Bowl Port Wenyanga",
+    "layer": 0,
+    "nodes": [
+      "OV64eovhGgA-Ij/6+XF7cAAAAAA",
+      "OV64eovhGgA-UDRDelTV8AAAAAA",
+      "OV3fOgsNRgA-UFcAusHOsAAAAAA",
+      "OV64eovhGgA-8ir7AEL3IAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-enb3": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Eat 'n Bowl Sifiso Heights",
+    "layer": 0,
+    "nodes": [
+      "OV64eovhGgA-Prd1OVM44AAAAAA",
+      "OV64eovhGgA-WyG/L3iuoAAAAAA",
+      "OV64eowHPgA-Epj27hwcQAAAAAA",
+      "OV64eowHPgA-PDts6wQD4AAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-enb4": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Eat 'n Bowl Kagalo Hotel",
+    "layer": 0,
+    "nodes": [
+      "OV64eowHPgA-3A855VlpcAAAAAA",
+      "OV64eowHPgA-ID2/gBM1QAAAAAA",
+      "OV64eowHPgA-t+V8l68JwAAAAAA",
+      "OV64eowHPgA-1edMhH+IoAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-enb5": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Eat 'n Bowl Wenyanga Harbour",
+    "layer": 0,
+    "nodes": [
+      "OV64eowHPgA-XV5GUSXb4AAAAAA",
+      "OV64eowHPgA-E7SKaRw6cAAAAAA",
+      "OV64eowHPgA-HhkYoefn0AAAAAA",
+      "OV64eowHPgA-1e9fsIWXUAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-enb6": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Eat 'n Bowl Nuwestad",
+    "layer": 0,
+    "nodes": [
+      "OV64eowHPgA-ntlGql7I4AAAAAA",
+      "OV64eowHPgA-UvPSM4vdIAAAAAA",
+      "OV64eowHPgA-0VjkOuQtQAAAAAA",
+      "OV64eowHPgA-P4WpeF29IAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-enb7": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Eat 'n Bowl Wenyanga Mall",
+    "layer": 0,
+    "nodes": [
+      "OV64eowHPgA-CRLPz5/r0AAAAAA",
+      "OV64eowtZAA-TDMw9UiaEAAAAAA",
+      "OV64eowtZAA-w9atDe7hYAAAAAA",
+      "OV64eowtZAA-ymh8ixtNYAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-mallbd": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Wenyanga Mall",
+    "layer": 0,
+    "nodes": [
+      "OV64eowtZAA-FpIWPlmGoAAAAAA",
+      "OV64eowtZAA-lxQQl9wosAAAAAA",
+      "OV64eowtZAA-xImAih+NgAAAAAA",
+      "OV64eowtZAA-oiZj43e0AAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-library": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Wenyanga Public Library",
+    "layer": 0,
+    "nodes": [
+      "OV64eowtZAA-8LJFLDsqcAAAAAA",
+      "OV64eowtZAA-baImfmxTgAAAAAA",
+      "OV64eowtZAA-QdzluZmQ8AAAAAA",
+      "OV64eowtZAA-QU8S2mOOYAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-southoaktwr": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Southoak Tower",
+    "layer": 0,
+    "nodes": [
+      "OV64eowtZAA-X0mUv7THAAAAAAA",
+      "OV64eowtZAA-ntkDAb8U4AAAAAA",
+      "OV64eoxTigA-myNqtWc7wAAAAAA",
+      "OV64eoxTigA-N7kKZIbCEAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-build3": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoxTigA-F0cPd7pzwAAAAAA",
+      "OV64eoxTigA-KQg2E+xG8AAAAAA",
+      "OV64eoxTigA-BQNodpiccAAAAAA",
+      "OV64eoxTigA-CybQTlswUAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-princeweier": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Prince Weier Building",
+    "layer": 0,
+    "nodes": [
+      "OV64eoxTigA-jHE5BKkMUAAAAAA",
+      "OV64eoxTigA-MLkjb90TUAAAAAA",
+      "OV64eoxTigA-JE4vMQzWYAAAAAA",
+      "OV64eoxTigA-NiUqRaRY0AAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-sansinnwyg": {
+    "attrs": {},
+    "description": "",
+    "displayname": "SansInn Wenyanga",
+    "layer": 0,
+    "nodes": [
+      "OV64eoxTigA-qVY9dnpicAAAAAA",
+      "OV64eoxTigA-tWfqVCll4AAAAAA",
+      "OV64eoxTigA-KSciai328AAAAAA",
+      "OV64eoxTigA-9c3u0xrRgAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-mayor": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Mayoral Mansion",
+    "layer": 0,
+    "nodes": [
+      "OV64eoxTigA-tpqw1OAkQAAAAAA",
+      "OV64eoxTigA-w+tzAXgZAAAAAAA",
+      "OV64eoxTigA-Ctfe/0xPQAAAAAA",
+      "OV64eox5sAA-WjxBJgEQgAAAAAA"
+    ],
+    "type": "building"
+  },
+  "wyg-helipad": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Wenyanga Helipad",
+    "layer": 0,
+    "nodes": [
+      "OV64eox5sAA-L64+/osSgAAAAAA",
+      "OV64eox5sAA-3wAFVSSAkAAAAAA",
+      "OV64eox5sAA-rG94uYJ24AAAAAA",
+      "OV64eox5sAA-Xc8MXUCQUAAAAAA"
+    ],
+    "type": "helipad"
+  },
+  "wyg-central": {
+    "attrs": {},
+    "description": "Flag of Wenyanga",
+    "displayname": "Central Square",
+    "layer": 0,
+    "nodes": [
+      "OV64eox5sAA-/IDWGkG0cAAAAAA",
+      "OV64eox5sAA-WcL18Rr+UAAAAAA",
+      "OV64eox5sAA-XbVd8e5ZUAAAAAA",
+      "OV64eox5sAA-hVIZAktmUAAAAAA"
+    ],
+    "type": "plaza"
+  },
+  "wyg-lighthouse": {
+    "attrs": {},
+    "description": "Built in 1832",
+    "displayname": "Wenyanga Lighthouse",
+    "layer": 0,
+    "nodes": [
+      "OV64eox5sAA-9TEcW6xp8AAAAAA",
+      "OV64eox5sAA-U5hMR/biIAAAAAA",
+      "OV64eox5sAA-v2tYM4S20AAAAAA",
+      "OV64eox5sAA-0jr33cT8AAAAAA"
+    ],
+    "type": "building"
+  },
+  "d69-station": {
+    "attrs": {},
+    "description": "",
+    "displayname": "D69 Station",
+    "layer": 0,
+    "nodes": [
+      "OV64eox5sAA-DLidYTbhMAAAAAA",
+      "OV64eox5sAA-YWHK3SN3MAAAAAA",
+      "OV64eox5sAA-+ZcBKJzAwAAAAAA",
+      "OV64eoyf1gA-vQyQS/Qv8AAAAAA"
+    ],
+    "type": "transportBuilding"
+  },
+  "wyg-resoff1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoyf1gA-MxKW7xJL0AAAAAA",
+      "OV64eoyf1gA-2erIr+kSEAAAAAA",
+      "OV64eoyf1gA-xMTcXHnuoAAAAAA",
+      "OV64eoyf1gA-aKCq6x1hcAAAAAA"
+    ],
+    "type": "residentialOfficeArea"
+  },
+  "wyg-res1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoyf1gA-UsjV/VnqwAAAAAA",
+      "OV64eou69AA-xmcpMAK8QAAAAAA",
+      "OV64eou69AA-E9wPHziNQAAAAAA",
+      "OV64eou69AA-YG+9NTie0AAAAAA"
+    ],
+    "type": "residentialArea"
+  },
+  "wyg-cmr1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV64eoyf1gA-SHDw5DEloAAAAAA",
+      "OV64eoyf1gA-CymEIyNY4AAAAAA",
+      "OV64eoyf1gA-yN2BFwmo8AAAAAA",
+      "OV64eozF/AA-BFwWZdj0MAAAAAA"
+    ],
+    "type": "commercialArea"
+  },
+  "wyg-jasonrdl": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Jason Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr38OggA-R52KqG//IAAAAAA",
+      "OV6zr38OggA-O7kevJojQAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-sondagrdl": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Sondag Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr38OggA-O7kevJojQAAAAAA",
+      "OV6zr38OggA-gj/l/Daf4AAAAAA",
+      "OV6zr38OggA-cyxtlVWUYAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-jasonrdr": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Jason Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr38OggA-PU3HmLxuwAAAAAA",
+      "OV6zr38OggA-SDKEDKYScAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-sondagrdr": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Sondag Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr38OggA-sTMZiJjBYAAAAAA",
+      "OV6zr38OggA-PU3HmLxuwAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-bridgeaver": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Bridge Ave",
+    "layer": 0,
+    "nodes": [
+      "OV6zr38OggA-Im1httkBMAAAAAA",
+      "OV6zr38OggA-ayyb8OVU0AAAAAA"
+    ],
+    "type": "localMainRoad"
+  },
+  "wyg-bridgeavel": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Bridge Ave",
+    "layer": 0,
+    "nodes": [
+      "OV6zr38OggA-cPxYc3sNEAAAAAA",
+      "OV6zr38OggA-LOj0bnB0MAAAAAA"
+    ],
+    "type": "localMainRoad"
+  },
+  "wyg-foundationrdl": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Foundation Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr380qAA-0ahnG3nKAAAAAAA",
+      "OV6zr38OggA-Im1httkBMAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-foundationrdr": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Foundation Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr38OggA-LOj0bnB0MAAAAAA",
+      "OV6zr380qAA-0YjGWZBXcAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-portaver": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Port Ave",
+    "layer": 0,
+    "nodes": [
+      "OV6zr380qAA-UnGupKIfgAAAAAA",
+      "OV6zr38OggA-cyxtlVWUYAAAAAA",
+      "OV6zr38OggA-sTMZiJjBYAAAAAA",
+      "OV6zr380qAA-0ahnG3nKAAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-portrdr": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Port Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr380qAA-0YjGWZBXcAAAAAA",
+      "OV6zr380qAA-eQV99fipwAAAAAA",
+      "OV6zr380qAA-sNjPN1gTgAAAAAA",
+      "OV6zr380qAA-pFbS2xYJsAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-shipyardrdl": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Shipyard Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr380qAA-pFbS2xYJsAAAAAA",
+      "OV6zr380qAA-Pr8gVGJvoAAAAAA",
+      "OV6zr380qAA-Y4vV8sTUAAAAAAA",
+      "OV6zr380qAA-/U61QPTcwAAAAAA",
+      "OV6zr380qAA-8rTG2OPSYAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-shipyardrdr": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Shipyard Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr380qAA-11N9sVIT0AAAAAA",
+      "OV6zr380qAA-sPGNKixJAAAAAAA",
+      "OV6zr380qAA-dMdGJssKgAAAAAA",
+      "OV6zr380qAA-keNiq6uXQAAAAAA",
+      "OV6zr380qAA-UnGupKIfgAAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-kagalost": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Kagalo St",
+    "layer": 0,
+    "nodes": [
+      "OV6zr38OggA-cPxYc3sNEAAAAAA",
+      "OV6zr38OggA-ayyb8OVU0AAAAAA",
+      "OV6zr38OggA-R52KqG//IAAAAAA",
+      "OV6zr38OggA-SDKEDKYScAAAAAA",
+      "OV6zr39azgA-xIz6Q1FY8AAAAAA"
+    ],
+    "type": "localSecondaryRoad"
+  },
+  "wyg-sifisost": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Sifiso St",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-6ufRfxDGIAAAAAA",
+      "OV6zr39azgA-+F5FrGrzMAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-nuwestadrd1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Nuwestad Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-+F5FrGrzMAAAAAA",
+      "OV6zr39azgA-489j4u38oAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-oustadrd": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Oustad Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-xIz6Q1FY8AAAAAA",
+      "OV6zr39azgA-wM9vtryIEAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-nuwestadrd2": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Nuwestad Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-489j4u38oAAAAAA",
+      "OV6zr39azgA-il/zUr/dYAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-capitalway": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Capital Way",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-il/zUr/dYAAAAAA",
+      "OV6zr39azgA-PpWO6ApuwAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-noordride": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Noord Ride",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-PpWO6ApuwAAAAAA",
+      "OV6zr39azgA-WiT73d24EAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-weierave": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Prince Weier Ave",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-rrbtlA9V0AAAAAA",
+      "OV6zr39azgA-IEgNqbTDAAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-mallway": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Mall Way",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-GNk/LE8wwAAAAAA",
+      "OV6zr39azgA-NofCHC3ZoAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-robinave": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Robin Ave",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-1E/IhZfOwAAAAAA",
+      "OV6zr3+A9AA-EbyjQrQH8AAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-sipokazird": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Sipokazi Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-NofCHC3ZoAAAAAA",
+      "OV6zr3+A9AA-e4r3fPP8gAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-sansway": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Sans Way",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3+A9AA-e4r3fPP8gAAAAAA",
+      "OV6zr3+A9AA-EbyjQrQH8AAAAAA",
+      "OV6zr3+A9AA-L3gMipzbYAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-hallrd": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Hall Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr39azgA-IEgNqbTDAAAAAAA",
+      "OV6zr3+A9AA-PpJi1MFmoAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-center2": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3+A9AA-hwVdLd53EAAAAAA",
+      "OV6zr3+nGAA-44LEtCtPQAAAAAA"
+    ],
+    "type": "localQuaternaryRoad"
+  },
+  "wyg-hightechrd": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Hightech Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3+nGAA-kYJX6gv4EAAAAAA",
+      "OV6zr3+nGAA-pM7lrZyfoAAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-a54slipl": {
+    "attrs": {},
+    "description": "",
+    "displayname": "A54",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3+A9AA-EbyjQrQH8AAAAAA",
+      "OV6zr3+nGAA-+lt1ni+6oAAAAAA",
+      "OV6zr3+nGAA-G2pSi//bkAAAAAA"
+    ],
+    "type": "localHighwaySlip"
+  },
+  "wyg-a54r1": {
+    "attrs": {},
+    "description": "",
+    "displayname": "A54",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3+nGAA-NRVPqEgwQAAAAAA",
+      "OV6zr3+nGAA-BUASVn4wgAAAAAA",
+      "OV6zr3+nGAA-dT1yitBusAAAAAA",
+      "OV6zr3+nGAA-+lt1ni+6oAAAAAA"
+    ],
+    "type": "localHighwaySlip"
+  },
+  "wyg-a54r2": {
+    "attrs": {},
+    "description": "",
+    "displayname": "A54",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3+nGAA-NRVPqEgwQAAAAAA",
+      "OV6zr3+nGAA-QtfmZVV9MAAAAAA",
+      "OV6zr3+nGAA-eO/4ngrvIAAAAAA",
+      "OV6zr3+nGAA-dT1yitBusAAAAAA"
+    ],
+    "type": "localHighwaySlip"
+  },
+  "pnb-portdr": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Port Dr",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3+nGAA-5OqLvaUQgAAAAAA",
+      "OV6zr3+nGAA-Qv4VvfZRQAAAAAA",
+      "OV6zr3+nGAA-UVkp7pvJ4AAAAAA"
+    ],
+    "type": "localMainRoad"
+  },
+  "pnb-tunnelrd": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Tunnel Rd",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3+nGAA-+8s50NgYgAAAAAA",
+      "OV6zr3/NPgA-+RUYpw670AAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "pnb-azaleaave": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Azalea Ave",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/NPgA-nuPbOHv2MAAAAAA",
+      "OV6zr3/NPgA-+yp9Obka8AAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "pnb-azat1rd": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/NPgA-kYqb6IYeYAAAAAA",
+      "OV6zr3/NPgA-hJjr3HBw8AAAAAA",
+      "OV6zr3/NPgA-3gC3liWaEAAAAAA",
+      "OV6zr3/NPgA-P2Eey/Lf8AAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "pnb-nclt": {
+    "attrs": {},
+    "description": "",
+    "displayname": "",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/NPgA-2Lrgc7ZzIAAAAAA",
+      "OV6zr3/NPgA-EQcf7bklEAAAAAA",
+      "OV6zr3/NPgA-iuHChrizgAAAAAA",
+      "OV6zr3+nGAA-UVkp7pvJ4AAAAAA"
+    ],
+    "type": "localTertiaryRoad"
+  },
+  "wyg-mall": {
+    "attrs": {},
+    "description": "Open 08:00-21:00",
+    "displayname": "Wenyanga Mall",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/NPgA-FtWNGmY7QAAAAAA"
+    ],
+    "type": "simplePoint"
+  },
+  "wyg-sansinn": {
+    "attrs": {},
+    "description": "",
+    "displayname": "SansInn Wenyanga",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/NPgA-0BSUmEEqMAAAAAA"
+    ],
+    "type": "simplePoint"
+  },
+  "wyg-harbour": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Wenyanga Harbour",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/zZAA-aj/VWf1fEAAAAAA"
+    ],
+    "type": "ferryStop"
+  },
+  "d69": {
+    "attrs": {
+      "1653575341109": {
+        "name": "color",
+        "value": "purple"
+      }
+    },
+    "description": "",
+    "displayname": "D69",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/zZAA-FXLvXrPnIAAAAAA"
+    ],
+    "type": "railStation"
+  },
+  "wyg-metrorail": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Metrorail Wenyanga",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/zZAA-xUJtdB7RoAAAAAA"
+    ],
+    "type": "railStation"
+  },
+  "wyg-portwyg": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Port Wenyanga",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/zZAA-1+D8D6AsEAAAAAA"
+    ],
+    "type": "ferryStop"
+  },
+  "pnb-stopnslep": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Stop 'n Slep Port Nelsonburg",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/zZAA-Utc+gOtNMAAAAAA"
+    ],
+    "type": "hotel"
+  },
+  "pnb-aza": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Azalea Cruises",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/zZAA-IxcXTEEukAAAAAA"
+    ],
+    "type": "ferryStop"
+  },
+  "pnb-ncl": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Nansei Cruise Lines",
+    "layer": 0,
+    "nodes": [
+      "OV6zr3/zZAA-8h4LB7w0QAAAAAA"
+    ],
+    "type": "ferryStop"
+  },
+  "wyg-oustad": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Oustad",
+    "layer": 1,
+    "nodes": [
+      "OV6zr3/zZAA-11yEDKvh8AAAAAA",
+      "OV6zr3/zZAA-NdBAISW7cAAAAAA",
+      "OV6zr3/zZAA-JzHJi3r50AAAAAA",
+      "OV6zr3/zZAA-ICxsZZvZYAAAAAA",
+      "OV6zr3/zZAA-3/AhsdsPsAAAAAA",
+      "OV6zr3/zZAA-4T0ePcJYYAAAAAA",
+      "OV6zr3/zZAA-GH/cTWX5MAAAAAA",
+      "OV6zr3/zZAA-/WLgCEC9sAAAAAA",
+      "OV6zr3/zZAA-JKbNg3cG4AAAAAA",
+      "OV6zr3/zZAA-Yj5dd/Q4IAAAAAA",
+      "OV6zr4AZigA-+1HPe5L5sAAAAAA",
+      "OV6zr4AZigA-4cCm8V7w4AAAAAA",
+      "OV6zr4AZigA-HqpKCHZd4AAAAAA",
+      "OV6zr4AZigA-wEbefliaYAAAAAA",
+      "OV6zr4AZigA-SoCPKNjoMAAAAAA",
+      "OV6zr4AZigA-GBJ1JajCAAAAAAA",
+      "OV6zr4AZigA-b2hYe/UWcAAAAAA",
+      "OV6zr4AZigA-gKGJ77c+IAAAAAA",
+      "OV6zr4AZigA-WSvXbcTicAAAAAA",
+      "OV6zr4AZigA-tuVy3t6BEAAAAAA",
+      "OV6zr4AZigA-HsfT4hIDMAAAAAA",
+      "OV6zr4AZigA-ye8Ew5vj0AAAAAA",
+      "OV6zr4AZigA-FGlNhoPiAAAAAAA",
+      "OV6zr4AZigA-0g1uHxaTMAAAAAA",
+      "OV6zr4AZigA-wFbyDGVlIAAAAAA",
+      "OV6zr4AZigA-ps22CeE2gAAAAAA",
+      "OV6zr4AZigA-rMSuC2N0YAAAAAA",
+      "OV6zr4AZigA-Y42i0wl/8AAAAAA",
+      "OV6zr4A/sAA-MjxD+upRMAAAAAA",
+      "OV6zr4A/sAA-kbIpgAfA8AAAAAA",
+      "OV6zr4A/sAA-tXYQLfBXYAAAAAA",
+      "OV6zr4A/sAA-ZElagRriwAAAAAA",
+      "OV6zr4A/sAA-SsBZN/72MAAAAAA",
+      "OV6zr4A/sAA-6U6tj49y0AAAAAA",
+      "OV3fOgsNRgA-McPLupa+YAAAAAA",
+      "OV6zr4A/sAA-Tryj2mQNMAAAAAA",
+      "OV6zr4A/sAA-UJKZ7sGIoAAAAAA",
+      "OV6zr4A/sAA-jycpIhI4IAAAAAA",
+      "OV6zr4A/sAA-S8NvKO1gMAAAAAA",
+      "OV6zr4A/sAA-RJp/APy20AAAAAA",
+      "OV6zr4A/sAA-OeQWbXoD8AAAAAA",
+      "OV6zr4A/sAA-Jlv4tkte0AAAAAA",
+      "OV6zr4A/sAA-8biz3A6loAAAAAA",
+      "OV6zr4A/sAA-k23iiR2EUAAAAAA",
+      "OV6zr4A/sAA-Vw3Ka7FU4AAAAAA",
+      "OV6zr4Bl1AA-xxGqBuPBgAAAAAA",
+      "OV6zr4Bl1AA-EdmDA4tWoAAAAAA",
+      "OV6zr4Bl1AA-u8fg2h9FcAAAAAA",
+      "OV6zr4Bl1AA-I0b9ErGX0AAAAAA",
+      "OV6zr4Bl1AA-OcPHQoUtgAAAAAA",
+      "OV6zr4Bl1AA-73TV6+PF4AAAAAA",
+      "OV6zr4CL+gA-VtqlANu5kAAAAAA",
+      "OV6zr4CL+gA-0QeM0VNB8AAAAAA",
+      "OV6zr4CL+gA-OH4lf0ae4AAAAAA",
+      "OV6zr4CL+gA-ahxxBstYMAAAAAA",
+      "OV6zr4CL+gA-GpAEkeTzgAAAAAA",
+      "OV6zr4CL+gA-yxMtdz7BQAAAAAA",
+      "OV6zr4CL+gA-ikB4t4ZzQAAAAAA",
+      "OV6zr4CL+gA-nPbxu0sJ4AAAAAA",
+      "OV6zr4CL+gA-ihW9OUZ+kAAAAAA",
+      "OV6zr4CL+gA-1Au/hdHwoAAAAAA",
+      "OV6zr4CL+gA-O/B8y9yikAAAAAA",
+      "OV6zr4CL+gA-VGM9dzETkAAAAAA",
+      "OV6zr4CL+gA-wqwRWn7OcAAAAAA",
+      "OV6zr4CL+gA-DLrVNOtkkAAAAAA",
+      "OV6zr4CL+gA-ST61DlAs0AAAAAA",
+      "OV6zr4CyIAA-KbrK2H0QYAAAAAA",
+      "OV6zr4CyIAA-47CvBmnBMAAAAAA",
+      "OV6zr4CyIAA-YdMFV7ILYAAAAAA",
+      "OV6zr4CyIAA-9kDw6EY3IAAAAAA",
+      "OV6zr4CyIAA-2YXsnCyloAAAAAA",
+      "OV6zr4CyIAA-hEJXVw654AAAAAA",
+      "OV6zr4CyIAA-g0FTvQ2NYAAAAAA"
+    ],
+    "type": "district"
+  },
+  "wyg-nuwestad": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Nuwestad",
+    "layer": 1,
+    "nodes": [
+      "OV6zr4CyIAA-0tmlq7VFwAAAAAA",
+      "OV6zr4CyIAA-miG1l3LW8AAAAAA",
+      "OV6zr4CyIAA-JOcS2D5NcAAAAAA",
+      "OV6zr4CyIAA-w1Re+yVNsAAAAAA",
+      "OV6zr4CyIAA-lzQG4Q5yUAAAAAA",
+      "OV6zr4DYRgA-PMHu0UM5sAAAAAA",
+      "OV6zr4DYRgA-6qvUgrzSgAAAAAA",
+      "OV6zr4DYRgA-cwjJSsUwIAAAAAA",
+      "OV6zr4DYRgA-hT84OTjScAAAAAA",
+      "OV6zr4DYRgA-6rcOOQEI4AAAAAA",
+      "OV6zr4DYRgA-B+By0NDmUAAAAAA",
+      "OV6zr4DYRgA-Ow8jrLBT0AAAAAA",
+      "OV6zr4DYRgA-RJWw8PX/4AAAAAA",
+      "OV6zr4D+bAA-OyhsiWWAEAAAAAA",
+      "OV6zr4D+bAA-qNl7rskwAAAAAAA",
+      "OV6zr4D+bAA-8i1Uw7gUYAAAAAA",
+      "OV6zr4D+bAA-ZKkwfLpkoAAAAAA",
+      "OV6zr4D+bAA-lF1h7L7BkAAAAAA",
+      "OV6zr4D+bAA-wbZhABjZIAAAAAA",
+      "OV6zr4D+bAA-V3jgBSeUUAAAAAA",
+      "OV6zr4EkkAA-4/tKoJOsAAAAAA",
+      "OV6zr4EkkAA-DjsitZgLwAAAAAA",
+      "OV6zr4EkkAA-BbVeEAMuoAAAAAA",
+      "OV6zr4EkkAA-eewY5MTDAAAAAAA",
+      "OV6zr4EkkAA-Ofr8i0cIkAAAAAA",
+      "OV6zr4EkkAA-CyHklm5B8AAAAAA",
+      "OV6zr4EkkAA-1mdFyXiJcAAAAAA",
+      "OV6zr4EkkAA-e86xTRD9AAAAAAA",
+      "OV6zr4EkkAA-SPKdyrZ/AAAAAAA",
+      "OV6zr4EkkAA-mkFlUvqgsAAAAAA",
+      "OV6zr4EkkAA-eFvrVdD1YAAAAAA",
+      "OV6zr4EkkAA-IN2thY6lIAAAAAA",
+      "OV6zr4EkkAA-t3rR3/l2gAAAAAA",
+      "OV6zr4FKtgA-NKMtRgg1wAAAAAA",
+      "OV6zr4FKtgA-OBPnd5S0EAAAAAA",
+      "OV6zr4FKtgA-wStpmzdL8AAAAAA",
+      "OV6zr4FKtgA-q25wpK0FwAAAAAA",
+      "OV6zr4FKtgA-DWcIzkRJ8AAAAAA",
+      "OV6zr4FKtgA-Ng+3IA04kAAAAAA",
+      "OV6zr4FKtgA-y4654cw3YAAAAAA",
+      "OV6zr4FKtgA-9LgsEnK4QAAAAAA",
+      "OV6zr4Fw3AA-pZFdNU+uwAAAAAA",
+      "OV6zr4Fw3AA-sQ/fwE0MsAAAAAA",
+      "OV6zr4Fw3AA-/ipH1WmegAAAAAA",
+      "OV6zr4Fw3AA-bJoQR39f8AAAAAA",
+      "OV6zr4Fw3AA-h4zIKnmt8AAAAAA",
+      "OV6zr4Fw3AA-/ij8Knyj0AAAAAA",
+      "OV6zr4Fw3AA-9+orHJxH4AAAAAA",
+      "OV6zr4Fw3AA-DS3eCd4bwAAAAAA",
+      "OV6zr4Fw3AA-kEOA1QgRQAAAAAA",
+      "OV6zr4Fw3AA-77Q25bRNUAAAAAA"
+    ],
+    "type": "district"
+  },
+  "wyg": {
+    "attrs": {},
+    "description": "Port city in Lumeva; previously fourth largest city in Nansei-Gunto",
+    "displayname": "Wenyanga",
+    "layer": 2,
+    "nodes": [
+      "OV6zr4DYRgA-RJWw8PX/4AAAAAA",
+      "OV6zr4GXAgA-/gzdA/ap4AAAAAA",
+      "OV6zr4GXAgA-2dlLkMNRIAAAAAA",
+      "OV6zr4GXAgA-+jCDu8oN4AAAAAA",
+      "OV6zr4GXAgA-9UwfrUuMkAAAAAA",
+      "OV6zr4GXAgA-0Lq9v4xMUAAAAAA",
+      "OV6zr4GXAgA-Fe5wYDGBcAAAAAA",
+      "OV6zr4GXAgA-Iuubz35pcAAAAAA"
+    ],
+    "type": "town"
+  },
+  "wyg-turtleis": {
+    "attrs": {},
+    "description": "Protected island owned by Wenyanga",
+    "displayname": "Turtle Island",
+    "layer": 3,
+    "nodes": [
+      "OV6zr4GXAgA-OeC+HcqccAAAAAA",
+      "OV6zr4GXAgA-vvETS/R2IAAAAAA",
+      "OV6zr4G9KAA-cJsF7xXWMAAAAAA",
+      "OV6zr4G9KAA-7/ZiQzgnkAAAAAA",
+      "OV6zr4G9KAA-6yBU6Jr5kAAAAAA",
+      "OV6zr4G9KAA-+v2v/Fc2AAAAAAA",
+      "OV6zr4G9KAA-eslQ1ilGIAAAAAA",
+      "OV6zr4G9KAA-witmhD+zUAAAAAA",
+      "OV6zr4G9KAA-8Fa4kWmlAAAAAAA",
+      "OV6zr4G9KAA-UItexe0zoAAAAAA",
+      "OV6zr4G9KAA-PFHdORjWIAAAAAA",
+      "OV6zr4G9KAA-xelbUmfdkAAAAAA",
+      "OV6zr4G9KAA-LX31qYoeUAAAAAA",
+      "OV6zr4HjTgA-RQirWzjjwAAAAAA",
+      "OV6zr4HjTgA-/tn3LVk74AAAAAA",
+      "OV6zr4HjTgA-Obx7BNr1QAAAAAA",
+      "OV6zr4HjTgA-tg4i4tea4AAAAAA",
+      "OV6zr4HjTgA-EcLpPOHuUAAAAAA",
+      "OV6zr4HjTgA-h4uwQI5Q8AAAAAA",
+      "OV6zr4HjTgA-JzxlYuruMAAAAAA",
+      "OV6zr4HjTgA-8DtKoRmfoAAAAAA",
+      "OV6zr4HjTgA-rYWK9QWdEAAAAAA",
+      "OV6zr4HjTgA-D7j2pAwwAAAAAAA",
+      "OV6zr4HjTgA-LHKT3w3uQAAAAAA",
+      "OV6zr4IJcgA-qLJ0mDooEAAAAAA",
+      "OV6zr4IJcgA-dQQL44ld0AAAAAA",
+      "OV6zr4IJcgA-cw/FXXOpwAAAAAA",
+      "OV6zr4IJcgA-fO0m9c3WoAAAAAA",
+      "OV6zr4IJcgA-RGqulxCVoAAAAAA",
+      "OV6zr4IJcgA-CbSsYmZwoAAAAAA",
+      "OV6zr4IJcgA-xwLFFbnCEAAAAAA",
+      "OV6zr4IJcgA-nY3IpneNcAAAAAA",
+      "OV6zr4IJcgA-BbOKvnlU0AAAAAA",
+      "OV6zr4IJcgA-l1nSHs+4MAAAAAA",
+      "OV6zr4IvmAA-fMmh3EdgUAAAAAA",
+      "OV6zr4IvmAA-Uf0bdNo6wAAAAAA",
+      "OV6zr4IvmAA-+QSrqGAPEAAAAAA",
+      "OV6zr4IvmAA-64qMhubQMAAAAAA",
+      "OV6zr4IvmAA-Vi6EiUFVsAAAAAA",
+      "OV6zr4IvmAA-8LU2miLAoAAAAAA",
+      "OV6zr4JVvgA-baAVlnfp4AAAAAA",
+      "OV6zr4JVvgA-6L2c61Hi4AAAAAA",
+      "OV6zr4JVvgA-U8ZPrbcIwAAAAAA",
+      "OV6zr4J75AA-RQnJ/OSOIAAAAAA",
+      "OV6zr4J75AA-W7E+mv1ncAAAAAA",
+      "OV6zr4J75AA-J2qgc6SwsAAAAAA"
+    ],
+    "type": "landSmall"
+  },
+  "pnb": {
+    "attrs": {},
+    "description": "Cruise ship harbor town north of Wenyanga",
+    "displayname": "Port Nelsonburg",
+    "layer": 2,
+    "nodes": [
+      "OV6zr4J75AA-Ziz8Ne65cAAAAAA",
+      "OV6zr4J75AA-EEZYogBIsAAAAAA",
+      "OV6zr4J75AA-iiUF+J80sAAAAAA",
+      "OV6zr4J75AA-0o6ckdsZsAAAAAA"
+    ],
+    "type": "town"
+  },
+  "wyg-ssnova": {
+    "attrs": {},
+    "description": "",
+    "displayname": "SS Nova",
+    "layer": 0,
+    "nodes": [
+      "OV65BjeDfAA-i+IZ/WTcQAAAAAA"
+    ],
+    "type": "restaurant"
+  },
+  "wyg-oustadis": {
+    "attrs": {},
+    "description": "",
+    "displayname": "Oustad Island",
+    "layer": 3,
+    "nodes": [
+      "OV6zr3/zZAA-11yEDKvh8AAAAAA",
+      "OV6zr3/zZAA-NdBAISW7cAAAAAA",
+      "OV6zr3/zZAA-JzHJi3r50AAAAAA",
+      "OV6zr3/zZAA-ICxsZZvZYAAAAAA",
+      "OV6zr3/zZAA-3/AhsdsPsAAAAAA",
+      "OV6zr3/zZAA-4T0ePcJYYAAAAAA",
+      "OV6zr3/zZAA-GH/cTWX5MAAAAAA",
+      "OV6zr3/zZAA-/WLgCEC9sAAAAAA",
+      "OV6zr3/zZAA-JKbNg3cG4AAAAAA",
+      "OV6zr3/zZAA-Yj5dd/Q4IAAAAAA",
+      "OV6zr4AZigA-+1HPe5L5sAAAAAA",
+      "OV6zr4AZigA-4cCm8V7w4AAAAAA",
+      "OV6zr4AZigA-HqpKCHZd4AAAAAA",
+      "OV6zr4AZigA-wEbefliaYAAAAAA",
+      "OV6zr4AZigA-SoCPKNjoMAAAAAA",
+      "OV6zr4AZigA-GBJ1JajCAAAAAAA",
+      "OV6zr4AZigA-b2hYe/UWcAAAAAA",
+      "OV6zr4AZigA-gKGJ77c+IAAAAAA",
+      "OV6zr4AZigA-WSvXbcTicAAAAAA",
+      "OV6zr4AZigA-tuVy3t6BEAAAAAA",
+      "OV6zr4AZigA-HsfT4hIDMAAAAAA",
+      "OV6zr4AZigA-ye8Ew5vj0AAAAAA",
+      "OV6zr4AZigA-FGlNhoPiAAAAAAA",
+      "OV6zr4AZigA-0g1uHxaTMAAAAAA",
+      "OV6zr4AZigA-wFbyDGVlIAAAAAA",
+      "OV6zr4AZigA-ps22CeE2gAAAAAA",
+      "OV6zr4AZigA-rMSuC2N0YAAAAAA",
+      "OV6zr4AZigA-Y42i0wl/8AAAAAA",
+      "OV6zr4A/sAA-MjxD+upRMAAAAAA",
+      "OV6zr4A/sAA-kbIpgAfA8AAAAAA",
+      "OV6zr4A/sAA-tXYQLfBXYAAAAAA",
+      "OV6zr4A/sAA-ZElagRriwAAAAAA",
+      "OV6zr4A/sAA-SsBZN/72MAAAAAA",
+      "OV6zr4A/sAA-6U6tj49y0AAAAAA",
+      "OV3fOgsNRgA-McPLupa+YAAAAAA",
+      "OV6zr4A/sAA-Tryj2mQNMAAAAAA",
+      "OV6zr4A/sAA-UJKZ7sGIoAAAAAA",
+      "OV6zr4A/sAA-jycpIhI4IAAAAAA",
+      "OV6zr4A/sAA-S8NvKO1gMAAAAAA",
+      "OV6zr4A/sAA-RJp/APy20AAAAAA",
+      "OV6zr4A/sAA-OeQWbXoD8AAAAAA",
+      "OV6zr4A/sAA-Jlv4tkte0AAAAAA",
+      "OV6zr4A/sAA-8biz3A6loAAAAAA",
+      "OV6zr4A/sAA-k23iiR2EUAAAAAA",
+      "OV6zr4A/sAA-Vw3Ka7FU4AAAAAA",
+      "OV6zr4Bl1AA-xxGqBuPBgAAAAAA",
+      "OV6zr4Bl1AA-EdmDA4tWoAAAAAA",
+      "OV6zr4Bl1AA-u8fg2h9FcAAAAAA",
+      "OV6zr4Bl1AA-I0b9ErGX0AAAAAA",
+      "OV6zr4Bl1AA-OcPHQoUtgAAAAAA",
+      "OV6zr4Bl1AA-73TV6+PF4AAAAAA",
+      "OV6zr4CL+gA-VtqlANu5kAAAAAA",
+      "OV6zr4CL+gA-0QeM0VNB8AAAAAA",
+      "OV6zr4CL+gA-OH4lf0ae4AAAAAA",
+      "OV6zr4CL+gA-ahxxBstYMAAAAAA",
+      "OV6zr4CL+gA-GpAEkeTzgAAAAAA",
+      "OV6zr4CL+gA-yxMtdz7BQAAAAAA",
+      "OV6zr4CL+gA-ikB4t4ZzQAAAAAA",
+      "OV6zr4CL+gA-nPbxu0sJ4AAAAAA",
+      "OV6zr4CL+gA-ihW9OUZ+kAAAAAA",
+      "OV6zr4CL+gA-1Au/hdHwoAAAAAA",
+      "OV6zr4CL+gA-O/B8y9yikAAAAAA",
+      "OV6zr4CL+gA-VGM9dzETkAAAAAA",
+      "OV6zr4CL+gA-wqwRWn7OcAAAAAA",
+      "OV6zr4CL+gA-DLrVNOtkkAAAAAA",
+      "OV6zr4CL+gA-ST61DlAs0AAAAAA",
+      "OV6zr4CyIAA-KbrK2H0QYAAAAAA",
+      "OV6zr4CyIAA-47CvBmnBMAAAAAA",
+      "OV6zr4CyIAA-YdMFV7ILYAAAAAA",
+      "OV6zr4CyIAA-9kDw6EY3IAAAAAA",
+      "OV6zr4CyIAA-2YXsnCyloAAAAAA",
+      "OV6zr4CyIAA-hEJXVw654AAAAAA",
+      "OV6zr4CyIAA-g0FTvQ2NYAAAAAA"
+    ],
+    "type": "landLarge"
+  },
+  "pnb-island1": {
+    "type": "landSmall",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OYLM7S5HCAA-jxtJxmWjkAAAAAA",
+      "OYLM7S5HCAA-IXbi4Gh0sAAAAAA",
+      "OYLM7S5HCAA-UTDN/rpjwAAAAAA",
+      "OYLM7S5HCAA-1qgPTdwwwAAAAAA",
+      "OYLM7S5HCAA-RrN7glf1kAAAAAA",
+      "OYLM7S5HCAA-YIXF4T3yYAAAAAA",
+      "OYLM7S5HCAA-NryOIRRGgAAAAAA",
+      "OYLM7S5HCAA-w6ofKyb/8AAAAAA",
+      "OYLM7S5HCAA-t0JYhKlmYAAAAAA",
+      "OYLM7S5HCAA-rCbHsZ10gAAAAAA",
+      "OYLM7S5tLgA-aWoNYJ1MAAAAAA",
+      "OYLM7S5tLgA-XnJd5+LJQAAAAAA",
+      "OYLM7S5tLgA-SXmELVy8AAAAAAA",
+      "OYLM7S5tLgA-it8PO6m6wAAAAAA",
+      "OYLM7S5tLgA-F4fxqEI2kAAAAAA",
+      "OYLM7S5tLgA-xFKGshRtEAAAAAA",
+      "OYLM7S5tLgA-jgTo9oawAAAAAA",
+      "OYLM7S5tLgA-nA4GtMnhIAAAAAA",
+      "OYLM7S5tLgA-fjstwBrv0AAAAAA",
+      "OYLM7S5tLgA-hTmkzhn9cAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "pnb-island2": {
+    "type": "landSmall",
+    "displayname": "",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OYLM7S5tLgA-jHoi7vGsgAAAAAA",
+      "OYLM7S6TUgA-T9GGjSQIUAAAAAA",
+      "OYLM7S6TUgA-9hBOa3cXkAAAAAA",
+      "OYLM7S6TUgA-0Ymc0JAR0AAAAAA",
+      "OYLM7S6TUgA-tQahJT7AwAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "wyg-lakeGunto": {
+    "type": "waterLarge",
+    "displayname": "",
+    "description": "",
+    "layer": -0.5,
+    "nodes": [
+      "OYLM7S6TUgA-EpVU7DS24AAAAAA",
+      "OYLM7S6TUgA-7ml2k/WhIAAAAAA",
+      "OYLM7S6TUgA-NDm3kYvXUAAAAAA",
+      "OYLM7S6TUgA-yiGoIOIIAAAAAAA",
+      "OYLM7S6TUgA-F92Z04vysAAAAAA",
+      "OYLM7S6TUgA-f3BTRRgYkAAAAAA",
+      "OYLM7S65eAA-Tc+2SsSRIAAAAAA",
+      "OYLM7S65eAA-cf0ehoXFgAAAAAA",
+      "OYLM7S65eAA-tBbNEEj3sAAAAAA",
+      "OYLM7S65eAA-/59idOmmcAAAAAA",
+      "OYLM7S65eAA-opQp0jtGkAAAAAA",
+      "OYLM7S65eAA-BscSt5jvcAAAAAA",
+      "OV6zr4EkkAA-BbVeEAMuoAAAAAA",
+      "OYLM7S65eAA-5dJMgwJLkAAAAAA",
+      "OYLM7S65eAA-PtvVu530cAAAAAA",
+      "OYLM7S65eAA-Whu9AiSTYAAAAAA",
+      "OYLM7S7fngA-979tJv5v0AAAAAA",
+      "OYLM7S7fngA-WLWn6iJCQAAAAAA",
+      "OV6zr4FKtgA-q25wpK0FwAAAAAA",
+      "OYLM7S7fngA-7dZohbnrsAAAAAA",
+      "OYLM7S7fngA-Fpt1R/HBQAAAAAA",
+      "OYLM7S7fngA-CCxD5sJHAAAAAAA",
+      "OYLM7S7fngA-WqCMiC9q4AAAAAA",
+      "OYLM7S7fngA-OFzu1aAR0AAAAAA",
+      "OYLM7S7fngA-Ysr4AG1WUAAAAAA",
+      "OYLM7S7fngA-NsPm2Ku6sAAAAAA",
+      "OYLM7S8FxAA-VXCKAvN9oAAAAAA",
+      "OYLM7S8FxAA-W2/qcbluwAAAAAA",
+      "OYLM7S8FxAA-glhJGI5c4AAAAAA",
+      "OYLM7S8FxAA-Y5rrdVpJQAAAAAA",
+      "OYLM7S8FxAA-/R5gObllUAAAAAA",
+      "OYLM7S8FxAA-uFaSTaSs8AAAAAA",
+      "OYLM7S8FxAA-umCZ/lCSAAAAAAA",
+      "OYLM7S8FxAA-reWnX6dbsAAAAAA",
+      "OYLM7S8FxAA-qAq3fx8EYAAAAAA",
+      "OYLM7S8FxAA-XZQUsPYMkAAAAAA",
+      "OYLM7S8r6gA-9BZaAxEGIAAAAAA",
+      "OYLM7S8r6gA-fymHrVc7wAAAAAA",
+      "OYLM7S8r6gA-Vec9vbFLIAAAAAA",
+      "OYLM7S8r6gA-IdSoFjQO4AAAAAA",
+      "OYLM7S8r6gA-ZDT7Vd3CYAAAAAA",
+      "OYLM7S8r6gA-Vdjl1KEs8AAAAAA",
+      "OYLM7S8r6gA-uiT1F5Hm4AAAAAA",
+      "OYLM7S8r6gA-wJFYXtp+kAAAAAA",
+      "OYLM7S8r6gA-hhQ/+UNfsAAAAAA",
+      "OYLM7S9SDgA-B12ig7HMgAAAAAA",
+      "OYLM7S9SDgA-cQBX4JMUcAAAAAA",
+      "OYLM7S9SDgA-LAF8tLllwAAAAAA",
+      "OYLM7S9SDgA-4bSleWtBQAAAAAA",
+      "OYLM7S9SDgA-wH+yG5QaYAAAAAA",
+      "OYLM7S94NAA-/rXxvv3sEAAAAAA",
+      "OYLM7S94NAA-OTtmD+J14AAAAAA",
+      "OYLM7S94NAA-4sHKSp58YAAAAAA",
+      "OYLM7S94NAA-y8zcIGw7QAAAAAA",
+      "OYLM7S94NAA-nXLNaP+fYAAAAAA",
+      "OYLM7S94NAA-iUa9v/EPEAAAAAA",
+      "OYLM7S94NAA-SJ0euVLIoAAAAAA",
+      "OYLM7S+eWgA-Fto9rgP8oAAAAAA",
+      "OYLM7S+eWgA-sIid3Z8j0AAAAAA",
+      "OYLM7S/EgAA-xczSxzxDYAAAAAA",
+      "OYLM7S/qpgA-jhI99qyQ8AAAAAA",
+      "OYLM7S/qpgA-o3Zb0VEiUAAAAAA",
+      "OYLM7S/qpgA-xEEN0kr60AAAAAA",
+      "OYLM7S/qpgA-eF/CPtFPIAAAAAA",
+      "OYLM7S/qpgA-pZvMMwq7kAAAAAA",
+      "OYLM7S/qpgA-gM3SuhNk8AAAAAA",
+      "OYLM7S/qpgA-k1wZbBQq0AAAAAA",
+      "OYLM7S/qpgA-VzHoiUBVYAAAAAA",
+      "OYLM7TAQzAA-i0lgnknmsAAAAAA",
+      "OYLM7TAQzAA-EeFRmzNvIAAAAAA",
+      "OYLM7TAQzAA-a1oH4+T3YAAAAAA",
+      "OYLM7TAQzAA-f+5oCqoGYAAAAAA",
+      "OYLM7TAQzAA-k0n7D/s9QAAAAAA",
+      "OYLM7TAQzAA-YG4bGZP80AAAAAA",
+      "OYLM7TAQzAA-X98dWfEJgAAAAAA",
+      "OYLM7TAQzAA-mUojTfZ1gAAAAAA",
+      "OV6zr4J75AA-Ziz8Ne65cAAAAAA",
+      "OV6zr4J75AA-0o6ckdsZsAAAAAA",
+      "OV6zr4J75AA-iiUF+J80sAAAAAA",
+      "OV6zr4GXAgA-Fe5wYDGBcAAAAAA",
+      "OV6zr4GXAgA-0Lq9v4xMUAAAAAA",
+      "OYLM7TA28AA-Ug45KTbIoAAAAAA"
+    ],
+    "attrs": {}
+  }
+}
