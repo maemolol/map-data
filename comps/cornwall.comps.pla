@@ -1,5 +1,5 @@
 {
-  "CSTR": {
+  "cwl-CSTR": {
     "type": "localMainRoad",
     "displayname": "Centre St",
     "description": "",
@@ -11,7 +11,7 @@
     ],
     "attrs": {}
   },
-  "CST": {
+  "cwl-CST": {
     "type": "localMainRoad",
     "displayname": "Centre St",
     "description": "",
@@ -37,7 +37,7 @@
     ],
     "attrs": {}
   },
-  "FAV": {
+  "cwl-FAV": {
     "type": "localTertiaryRoad",
     "displayname": "Frog Ave",
     "description": "",
@@ -48,7 +48,7 @@
     ],
     "attrs": {}
   },
-  "FAV1": {
+  "cwl-FAV1": {
     "type": "localTertiaryRoad",
     "displayname": "Frog Ave",
     "description": "",
@@ -59,7 +59,7 @@
     ],
     "attrs": {}
   },
-  "YYO": {
+  "cwl-YYO": {
     "type": "transportBuilding",
     "displayname": "<b>George Jetson Cornwall City Airport</b>",
     "description": "",
@@ -87,9 +87,9 @@
     ],
     "attrs": {}
   },
-  "ML5": {
+  "cwl-ML4/5": {
     "type": "rail",
-    "displayname": "Metro Line 5",
+    "displayname": "Metro Line 4 and 5",
     "description": "",
     "layer": 0,
     "nodes": [
@@ -106,7 +106,7 @@
   },
   "ESO": {
     "type": "transportBuilding",
-    "displayname": "Ender St Overground",
+    "displayname": "Ender St Station (Lines 4 and 5)",
     "description": "",
     "layer": 0,
     "nodes": [
@@ -117,7 +117,7 @@
     ],
     "attrs": {}
   },
-  "FPS": {
+  "cwl-FPS": {
     "type": "transportBuilding",
     "displayname": "Frendat Park Station (Lines 4 and 5)",
     "description": "",
@@ -143,7 +143,7 @@
     ],
     "attrs": {}
   },
-  "ZAV": {
+  "cwl-ZAV": {
     "type": "localTertiaryRoad",
     "displayname": "Zephyr Ave",
     "description": "",
@@ -154,7 +154,7 @@
     ],
     "attrs": {}
   },
-  "RSt": {
+  "cwl-RST": {
     "type": "localTertiaryRoad",
     "displayname": "Rector St",
     "description": "",
@@ -165,7 +165,7 @@
     ],
     "attrs": {}
   },
-  "EAV": {
+  "cwl-EAV": {
     "type": "localTertiaryRoad",
     "displayname": "Emerson Ave",
     "description": "",
@@ -176,7 +176,7 @@
     ],
     "attrs": {}
   },
-  "DAV": {
+  "cwl-DAV": {
     "type": "localTertiaryRoad",
     "displayname": "Deadbush Ave",
     "description": "",
@@ -187,7 +187,7 @@
     ],
     "attrs": {}
   },
-  "CHST": {
+  "cwl-CHST": {
     "type": "localTertiaryRoad",
     "displayname": "Chamber St",
     "description": "",
@@ -198,7 +198,7 @@
     ],
     "attrs": {}
   },
-  "BDW": {
+  "cwl-BDW": {
     "type": "localTertiaryRoad",
     "displayname": "Broadway",
     "description": "",
@@ -212,7 +212,7 @@
     ],
     "attrs": {}
   },
-  "EST": {
+  "cwl-EST": {
     "type": "localTertiaryRoad",
     "displayname": "Ender St",
     "description": "",
@@ -223,7 +223,7 @@
     ],
     "attrs": {}
   },
-  "SSAV": {
+  "cwl-SSAV": {
     "type": "localTertiaryRoad",
     "displayname": "Selsea Ave",
     "description": "",
@@ -234,7 +234,7 @@
     ],
     "attrs": {}
   },
-  "VST": {
+  "cwl-VST": {
     "type": "localTertiaryRoad",
     "displayname": "Vesey St",
     "description": "",
@@ -247,7 +247,7 @@
     ],
     "attrs": {}
   },
-  "WST": {
+  "cwl-WST": {
     "type": "localTertiaryRoad",
     "displayname": "Wall St",
     "description": "",
@@ -258,7 +258,7 @@
     ],
     "attrs": {}
   },
-  "PST": {
+  "cwl-PST": {
     "type": "localTertiaryRoad",
     "displayname": "Parkson St",
     "description": "",
@@ -269,7 +269,7 @@
     ],
     "attrs": {}
   },
-  "MST": {
+  "cwl-MST": {
     "type": "localTertiaryRoad",
     "displayname": "Meditson St",
     "description": "",
@@ -280,7 +280,7 @@
     ],
     "attrs": {}
   },
-  "WP": {
+  "cwl-WP": {
     "type": "park",
     "displayname": "Worlds Park",
     "description": "",
@@ -293,7 +293,7 @@
     ],
     "attrs": {}
   },
-  "HST": {
+  "cwl-HST": {
     "type": "localTertiaryRoad",
     "displayname": "Harp St",
     "description": "",
@@ -304,7 +304,7 @@
     ],
     "attrs": {}
   },
-  "HAV": {
+  "cwl-HAV": {
     "type": "localTertiaryRoad",
     "displayname": "Helidelphia Ave",
     "description": "",
@@ -315,7 +315,7 @@
     ],
     "attrs": {}
   },
-  "CGST": {
+  "cwl-CGST": {
     "type": "localTertiaryRoad",
     "displayname": "Calgary St",
     "description": "",
@@ -326,7 +326,7 @@
     ],
     "attrs": {}
   },
-  "MRST": {
+  "cwl-MRST": {
     "type": "localTertiaryRoad",
     "displayname": "MRT St",
     "description": "",
@@ -337,7 +337,7 @@
     ],
     "attrs": {}
   },
-  "FLAV": {
+  "cwl-FLAV": {
     "type": "localTertiaryRoad",
     "displayname": "Fulham Ave",
     "description": "",
@@ -348,7 +348,7 @@
     ],
     "attrs": {}
   },
-  "HDR": {
+  "cwl-HDR": {
     "type": "localTertiaryRoad",
     "displayname": "Hillston Dr",
     "description": "",
@@ -360,7 +360,7 @@
     ],
     "attrs": {}
   },
-  "CRST": {
+  "cwl-CRST": {
     "type": "localTertiaryRoad",
     "displayname": "Croden St",
     "description": "",
@@ -371,7 +371,7 @@
     ],
     "attrs": {}
   },
-  "KAV": {
+  "cwl-KAV": {
     "type": "localTertiaryRoad",
     "displayname": "Kelvin Av",
     "description": "",
@@ -382,7 +382,7 @@
     ],
     "attrs": {}
   },
-  "AST": {
+  "cwl-AST": {
     "type": "localTertiaryRoad",
     "displayname": "Acacia St",
     "description": "",
@@ -393,7 +393,7 @@
     ],
     "attrs": {}
   },
-  "PDR": {
+  "cwl-PDR": {
     "type": "localTertiaryRoad",
     "displayname": "PE Dr",
     "description": "",
@@ -411,7 +411,7 @@
     ],
     "attrs": {}
   },
-  "FST": {
+  "cwl-FST": {
     "type": "localTertiaryRoad",
     "displayname": "Ford St",
     "description": "",
@@ -436,7 +436,7 @@
     ],
     "attrs": {}
   },
-  "LWA": {
+  "cwl-LWA": {
     "type": "localTertiaryRoad",
     "displayname": "Lake Way",
     "description": "",
@@ -452,7 +452,7 @@
     ],
     "attrs": {}
   },
-  "ALA": {
+  "cwl-ALA": {
     "type": "localTertiaryRoad",
     "displayname": "Ashfield Lane",
     "description": "",
@@ -475,7 +475,7 @@
     ],
     "attrs": {}
   },
-  "TW": {
+  "cwl-TW": {
     "type": "district",
     "displayname": "Triwood",
     "description": "",
@@ -488,7 +488,7 @@
     ],
     "attrs": {}
   },
-  "CH": {
+  "cwl-CH": {
     "type": "cityHall",
     "displayname": "Cornwall City Hall",
     "description": "",
@@ -501,7 +501,7 @@
     ],
     "attrs": {}
   },
-  "RWY": {
+  "cwl-RWY": {
     "type": "runway",
     "displayname": "",
     "description": "",
@@ -512,7 +512,7 @@
     ],
     "attrs": {}
   },
-  "TM": {
+  "cwl-TM": {
     "type": "taxiway",
     "displayname": "",
     "description": "",
@@ -523,53 +523,7 @@
     ],
     "attrs": {}
   },
-  "T1": {
-    "type": "taxiway",
-    "displayname": "",
-    "description": "",
-    "layer": 0,
-    "nodes": [
-      "OaE9f2HnWAA-UonJw9TJiAAAAAA",
-      "OaE9f2INfAA-0T5rjkNEgAAAAAA"
-    ],
-    "attrs": {}
-  },
-  "T2": {
-    "type": "taxiway",
-    "displayname": "",
-    "description": "",
-    "layer": 0,
-    "nodes": [
-      "OaE9f2INfAA-zCGGm9OsqAAAAAA",
-      "OaE9f2INfAA-NGJQSH1XcAAAAAA"
-    ],
-    "attrs": {}
-  },
-  "T3": {
-    "type": "taxiway",
-    "displayname": "",
-    "description": "",
-    "layer": 0,
-    "nodes": [
-      "OaE9f2INfAA-mWHZ67Kb4AAAAAA",
-      "OaE9f2INfAA-//pNyygQeAAAAAA"
-    ],
-    "attrs": {}
-  },
-  "TWR": {
-    "type": "residentialArea",
-    "displayname": "",
-    "description": "",
-    "layer": 0,
-    "nodes": [
-      "OaE9f2HnWAA-uMjLWV+DuAAAAAA",
-      "OaE9f2HnWAA-jojbYxACCAAAAAA",
-      "OaE9f2HnWAA-9jQBwKKTmAAAAAA",
-      "OaE9f2HnWAA-V/ZmOQLdaAAAAAA"
-    ],
-    "attrs": {}
-  },
-  "PRST": {
+  "cwl-PRST": {
     "type": "localTertiaryRoad",
     "displayname": "Park St",
     "description": "",
@@ -580,7 +534,7 @@
     ],
     "attrs": {}
   },
-  "ADR": {
+  "cwl-ADR": {
     "type": "localTertiaryRoad",
     "displayname": "Airport Drive",
     "description": "",
@@ -591,6 +545,173 @@
       "OaE9f2DcUAA-gaF/DdaW8AAAAAA",
       "OaE9f2INfAA-X5uDybcL8AAAAAA",
       "OaE9f2INfAA-X5uDybcL8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-GateB1": {
+    "type": "gate",
+    "displayname": "Gate B1",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4Ry3gA-59kmPxLCgAAAAAA",
+      "OaFmp4Ry3gA-sTjc72wrOAAAAAA",
+      "OaFmp4Ry3gA-KKy62MyfwAAAAAA",
+      "OaFmp4Ry3gA-7drZIqXcqAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-GateB2": {
+    "type": "gate",
+    "displayname": "Gate B2",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4Ry3gA-7drZIqXcqAAAAAA",
+      "OaFmp4Ry3gA-KKy62MyfwAAAAAA",
+      "OaFmp4Ry3gA-NTIGaeWKOAAAAAA",
+      "OaFmp4Ry3gA-NG0RdjHJSAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-GateB3": {
+    "type": "gate",
+    "displayname": "Gate B3",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4Ry3gA-NG0RdjHJSAAAAAA",
+      "OaFmp4Ry3gA-NTIGaeWKOAAAAAA",
+      "OaFmp4Ry3gA-SjCe58kg6AAAAAA",
+      "OaFmp4Ry3gA-wW/1lR+WsAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-MP": {
+    "type": "park",
+    "displayname": "Melezel Park",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4Ry3gA-6MadsbHKAAAAAA",
+      "OaFmp4Ry3gA-eGXtSR+BSAAAAAA",
+      "OaFmp4Ry3gA-LhSGIDMssAAAAAA",
+      "OaE9f2EonAA-JpXuc5M/OAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "NE30": {
+    "type": "transportBuilding",
+    "displayname": "MRT NE30 Station (Cornwall)",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4SZBAA-VQEefr5QEAAAAAA",
+      "OaE9f2GbDAA-b9U91+g36AAAAAA",
+      "OaE9f2GbDAA-KzM0szcrkAAAAAA",
+      "OaFmp4SZBAA-1d1R1z4J6AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "NE": {
+    "type": "intercityRail",
+    "displayname": "MRT Northern Line",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4SZBAA-Pa/QS80iqAAAAAA",
+      "OaFmp4SZBAA-mlcujMO8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-H3-H6": {
+    "type": "helipad",
+    "displayname": "Helipads H3-H6",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4SZBAA-oSRDX6ESsAAAAAA",
+      "OaE9f2DcUAA-gaF/DdaW8AAAAAA",
+      "OaFmp4SZBAA-BYaVpzkOSAAAAAA",
+      "OaFmp4Ry3gA-SjCe58kg6AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-GateA1": {
+    "type": "gate",
+    "displayname": "Gate A1",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4SZBAA-s+48KJM5AAAAAAA",
+      "OaFmp4SZBAA-gZtb4WEaCAAAAAA",
+      "OaFmp4SZBAA-wl7dVdCTCAAAAAA",
+      "OaFmp4SZBAA-UALh5I+9+AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-GateA2": {
+    "type": "helipad",
+    "displayname": "Gate A2",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4SZBAA-Rgpn0NfhMAAAAAA",
+      "OaFmp4SZBAA-s+48KJM5AAAAAAA",
+      "OaFmp4SZBAA-UALh5I+9+AAAAAA",
+      "OaFmp4SZBAA-BE/3EmP48AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-GateA3": {
+    "type": "gate",
+    "displayname": "Gate A3",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4SZBAA-2SAL2Zi8UAAAAAA",
+      "OaFmp4SZBAA-Rgpn0NfhMAAAAAA",
+      "OaFmp4SZBAA-X0/s8fGNOAAAAAA",
+      "OaFmp4SZBAA-BYaVpzkOSAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-H1-H2": {
+    "type": "helipad",
+    "displayname": "Helipads H1-H2",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaE9f2DcUAA-0cSH8SOLMAAAAAA",
+      "OaFmp4SZBAA-Yw5FMVGGsAAAAAA",
+      "OaFmp4SZBAA-S/zzj1B/aAAAAAA",
+      "OaFmp4SZBAA-hAARcoKpQAAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-train": {
+    "type": "transportBuilding",
+    "displayname": "Cornwall Great Union Terminal",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4SZBAA-c2WLQLvRKAAAAAA",
+      "OaFmp4S/KgA-lcDXt7y3eAAAAAA",
+      "OaFmp4S/KgA-xHs0cKLHoAAAAAA",
+      "OaFmp4S/KgA-DlS8K0bn8AAAAAA"
+    ],
+    "attrs": {}
+  },
+  "cwl-hospital": {
+    "type": "healthArea",
+    "displayname": "Cornwall General Hospital",
+    "description": "",
+    "layer": 0,
+    "nodes": [
+      "OaFmp4S/KgA-8vxZaji0+AAAAAA",
+      "OaFmp4S/KgA-skbk+xDxsAAAAAA",
+      "OaFmp4S/KgA-bd1iEG3joAAAAAA",
+      "OaFmp4S/KgA-Pbu8aUZXsAAAAAA"
     ],
     "attrs": {}
   }
