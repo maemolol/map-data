@@ -3482,7 +3482,7 @@
     ],
     "type": "railStation"
   },
-  "kaze-flr-konranmachi": {
+  "kze-flr-konranmachi": {
     "attrs": {},
     "description": "",
     "displayname": "混乱町",
@@ -7459,7 +7459,7 @@
     ],
     "type": "ferryLine"
   },
-  "wboat-kze-KN1": {
+  "kze-wboat-KN1": {
     "attrs": {},
     "description": "",
     "displayname": "風舟KN線",
@@ -7525,7 +7525,7 @@
     ],
     "type": "ferryLine"
   },
-  "wboat-kze-HE": {
+  "kze-wboat-HE": {
     "attrs": {},
     "description": "",
     "displayname": "Windboat HE Route",

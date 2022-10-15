@@ -355,7 +355,7 @@
     ],
     "type": "building"
   },
-  "d69-station": {
+  "wyg-d69-station": {
     "attrs": {},
     "description": "",
     "displayname": "D69 Station",
@@ -847,7 +847,7 @@
     ],
     "type": "ferryStop"
   },
-  "d69": {
+  "wyg-d69": {
     "attrs": {
       "1653575341109": {
         "name": "color",

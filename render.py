@@ -3,13 +3,17 @@ from argparse import ArgumentParser
 from glob import glob
 from pathlib import Path
 
-import renderer
+import vector
+from renderer.render import prepare_render, render_part1_ray, render_part2, render_part3_ray
+from renderer.types.pla2 import Pla2File
+from renderer.types.zoom_params import ZoomParams
 
 
 def get_batch(ns: str) -> int:
     with open("batchprogress.json", "r") as f:
         data = json.load(f)
         return data.get(ns, -1)
+
 
 def set_batch(ns: str, batch: int):
     with open("batchprogress.json", "r+") as f:
@@ -22,53 +26,43 @@ def set_batch(ns: str, batch: int):
         f.truncate()
         json.dump(data, f, indent=2)
 
-def read_file(path) -> dict:  # extract from JSON as dict
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        return data
-
 
 def main():
-    all_node_json = {}
-    all_comps_json = {}
-    for node_file in glob("nodes/*"):
-        all_node_json.update(read_file(node_file))
-    for comp_file in glob("comps/*"):
-        all_comps_json.update(read_file(comp_file))
-
     parser = ArgumentParser()
     parser.add_argument("-n", '--namespaces', nargs="+", default=[])
     args = parser.parse_args()
 
+    renders = []
     if args.namespaces:
-        rendered_node_json = {}
-        rendered_comps_json = {}
         for ns in args.namespaces:
-            rendered_node_json.update(read_file(f"nodes/{ns}.nodes.pla"))
-            rendered_comps_json.update(read_file(f"comps/{ns}.comps.pla"))
+            renders.extend(Pla2File.from_file(Path(f"files/{ns}.pla2.msgpack")).components)
     else:
-        rendered_node_json = all_node_json
-        rendered_comps_json = all_comps_json
-
-    rendered_nodes = renderer.NodeList(rendered_node_json)
-    rendered_comps = renderer.ComponentList(rendered_comps_json, rendered_node_json)
+        for file in glob("files/*"):
+            renders.extend(Pla2File.from_file(Path(file)).components)
+    renders = list({(c.namespace, c.id): c for c in renders}.values())
+    renders = Pla2File(
+        namespace="",
+        components=renders
+    )
 
     print(f"Rendering {', '.join(args.namespaces) or 'everything'}")
-    zoom = renderer.ZoomParams(0, 9, 32)
+    zoom = ZoomParams(0, 9, 32)
     export_id = ",".join(args.namespaces) if args.namespaces else "all"
 
     if get_batch(export_id) == -1:
-        renderer.base.prepare_render(rendered_comps, rendered_nodes, zoom, export_id,
-                                     offset=renderer.Coord(0, 32))
+        prepare_render(renders, zoom, export_id,
+                       offset=vector.obj(x=0, y=32))
         set_batch(export_id, 0)
     if get_batch(export_id) == 0:
-        renderer.base.render_part1_ray(rendered_comps, rendered_nodes, zoom, export_id, batch_size=8)
+        render_part1_ray(renders, zoom, export_id, batch_size=8)
         set_batch(export_id, 1)
     if get_batch(export_id) == 1:
-        renderer.base.render_part2(export_id)
+        render_part2(export_id, Path("./temp"))
         set_batch(export_id, 2)
     if get_batch(export_id) == 2:
-        renderer.base.render_part3_ray(export_id, save_dir=Path("./tiles"))
+        render_part3_ray(export_id, save_dir=Path("./tiles"))
         set_batch(export_id, -1)
 
-if __name__ == "__main__": main()
+
+if __name__ == "__main__":
+    main()
