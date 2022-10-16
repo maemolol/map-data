@@ -4,7 +4,7 @@ from glob import glob
 from pathlib import Path
 
 import vector
-from renderer.render import prepare_render, render_part1_ray, render_part2, render_part3_ray
+from renderer.render import prepare_render, render_part1, render_part2, render_part3
 from renderer.types.pla2 import Pla2File
 from renderer.types.zoom_params import ZoomParams
 
@@ -54,13 +54,13 @@ def main():
                        offset=vector.obj(x=0, y=32))
         set_batch(export_id, 0)
     if get_batch(export_id) == 0:
-        render_part1_ray(renders, zoom, export_id, batch_size=8)
+        render_part1(zoom, export_id, batch_size=8)
         set_batch(export_id, 1)
     if get_batch(export_id) == 1:
         render_part2(export_id, Path("./temp"))
         set_batch(export_id, 2)
     if get_batch(export_id) == 2:
-        render_part3_ray(export_id, save_dir=Path("./tiles"))
+        render_part3(export_id, save_dir=Path("./tiles"))
         set_batch(export_id, -1)
 
 
