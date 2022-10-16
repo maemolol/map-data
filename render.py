@@ -54,7 +54,7 @@ def main():
                        offset=vector.obj(x=0, y=32))
         set_batch(export_id, 0)
     if get_batch(export_id) == 0:
-        render_part1(zoom, export_id, batch_size=8)
+        render_part1(zoom, export_id, batch_size=8, chunk_size=4)
         set_batch(export_id, 1)
     if get_batch(export_id) == 1:
         render_part2(export_id, Path("./temp"))
