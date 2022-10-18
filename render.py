@@ -52,19 +52,19 @@ def main():
     print(f"Rendering {', '.join(args.namespaces) or 'everything'}")
     export_id = ",".join(args.namespaces) if args.namespaces else "all"
 
-    ray.init(num_cpus=psutil.cpu_count() * 2)
+    ray.init(num_cpus=psutil.cpu_count())
     if get_batch(export_id) == -1:
         prepare_render(renders, zoom, export_id,
                        offset=vector.obj(x=0, y=32), zooms=args.zooms or None)
         set_batch(export_id, 0)
     if get_batch(export_id) == 0:
-        render_part1(zoom, export_id, batch_size=8, chunk_size=4)
+        render_part1(zoom, export_id, batch_size=psutil.cpu_count(), chunk_size=4)
         set_batch(export_id, 1)
     if get_batch(export_id) == 1:
         render_part2(export_id, Path("./temp"))
         set_batch(export_id, 2)
     if get_batch(export_id) == 2:
-        render_part3(export_id, save_dir=Path("./tiles"), batch_size=2*8)
+        render_part3(export_id, save_dir=Path("./tiles"), batch_size=2*psutil.cpu_count())
         set_batch(export_id, -1)
 
 
