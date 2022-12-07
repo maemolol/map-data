@@ -7,7 +7,7 @@ import ray
 import vector
 import psutil
 from renderer.render import prepare_render, render_part1, render_part2, render_part3
-from renderer.types.pla2 import Pla2File, Component
+from renderer.types.pla2 import Pla2File
 from renderer.types.zoom_params import ZoomParams
 
 
