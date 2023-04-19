@@ -1,14 +1,14 @@
-import json
 from argparse import ArgumentParser
 from glob import glob
 from pathlib import Path
 
 import renderer.render
 import psutil
-from renderer import Vector, MultiprocessConfig
+from renderer.misc_types.coord import Vector
 from renderer.misc_types.pla2 import Pla2File
 from renderer.misc_types.config import Config
 from renderer.misc_types.zoom_params import ZoomParams
+from renderer.render import MultiprocessConfig
 
 
 def main():
@@ -38,7 +38,7 @@ def main():
 
     print(f"Rendering {', '.join(args.namespaces) or 'everything'}")
 
-    renderer.render(
+    renderer.render.render(
         renders,
         config,
         save_dir=Path("./tiles"),
