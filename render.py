@@ -44,7 +44,8 @@ def main():
         save_dir=Path("./tiles"),
         offset=Vector(0, 32),
         zooms=args.zooms or None,
-        part3_mp_config=MultiprocessConfig(batch_size=2*psutil.cpu_count())
+        part3_mp_config=MultiprocessConfig(batch_size=2*psutil.cpu_count()),
+        prepare_mp_config=MultiprocessConfig(serial=True)
     )
 
 
