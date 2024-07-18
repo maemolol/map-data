@@ -1,4 +1,7 @@
 # map-data
+![GitHub repo size](https://img.shields.io/github/repo-size/MRT-Map/map-data)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mrt-map/map-data?label=last%20update)
+
 Map data for OpenMRTMap.
 
 This repository consists of `pla2` files (in `files`) and map tiles (in `tiles`).
