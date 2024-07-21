@@ -25,7 +25,7 @@ def main():
     print(f"Rendering {', '.join(args.namespaces) or 'everything'}")
 
     for zoom in args.zooms or (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
-        for tile, b in render(
+        for tile, b in render_tiles(
             renders,
             Skin.default(),
             zoom,
