@@ -1,7 +1,10 @@
+import io
+import os
 from argparse import ArgumentParser
 from glob import glob
 from pathlib import Path
 
+import PIL.Image
 from tile_renderer import render_tiles
 from tile_renderer.types.coord import Coord
 from tile_renderer.types.pla2 import Pla2File
@@ -26,16 +29,18 @@ def main():
 
     for zoom in args.zooms or (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
         for tile, b in render_tiles(
-            renders,
-            Skin.default(),
-            zoom,
-            32,
-            256,
-            Coord(0, 32),
+            components=renders,
+            skin=Skin.default(),
+            zoom=zoom,
+            max_zoom_range=32,
+            tile_size=256,
+            offset=Coord(0, 32),
+            processes=os.cpu_count()*5
         ).items():
             path = Path(__file__).parent / "tiles" / str(9-tile.z) / str(tile.x) / (str(tile.y)+".webp")
-            path.parent.mkdir(exist_ok=True)
+            path.parent.mkdir(exist_ok=True, parents=True)
             path.write_bytes(b)
+            PIL.Image.open(io.BytesIO(b)).save(path)
 
 if __name__ == "__main__":
     main()
