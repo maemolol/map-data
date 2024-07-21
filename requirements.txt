@@ -1,0 +1,1 @@
+tile_renderer @ git+https://github.com/mrt-map/tile-renderer@v5
