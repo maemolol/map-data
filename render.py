@@ -3,7 +3,7 @@ from glob import glob
 from pathlib import Path
 
 from tile_renderer import render_tiles
-from tile_renderer.types.coord import Vector
+from tile_renderer.types.coord import Coord
 from tile_renderer.types.pla2 import Pla2File
 from tile_renderer.types.skin import Skin
 
