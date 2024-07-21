@@ -2,14 +2,10 @@ from argparse import ArgumentParser
 from glob import glob
 from pathlib import Path
 
-import renderer.render
-import psutil
-from renderer.misc_types.coord import Vector
-from renderer.misc_types.pla2 import Pla2File
-from renderer.misc_types.config import Config
-from renderer.misc_types.zoom_params import ZoomParams
-from renderer.render import MultiprocessConfig
-
+from tile_renderer import render_tiles
+from tile_renderer.types.coord import Vector
+from tile_renderer.types.pla2 import Pla2File
+from tile_renderer.types.skin import Skin
 
 def main():
     parser = ArgumentParser()
@@ -25,29 +21,21 @@ def main():
         for file in glob("files/*"):
             renders.extend(Pla2File.from_file(Path(file)).components)
     renders = list({(c.namespace, c.id): c for c in renders}.values())
-    renders = Pla2File(
-        namespace="",
-        components=renders
-    )
-
-    config = Config(
-        zoom=ZoomParams(0, 9, 32),
-        temp_dir=Path("./temp"),
-        export_id=",".join(args.namespaces) if args.namespaces else "all"
-    )
-
+    
     print(f"Rendering {', '.join(args.namespaces) or 'everything'}")
 
-    renderer.render.render(
-        renders,
-        config,
-        save_dir=Path("./tiles"),
-        offset=Vector(0, 32),
-        zooms=args.zooms or None,
-        part3_mp_config=MultiprocessConfig(batch_size=2*psutil.cpu_count()),
-        prepare_mp_config=MultiprocessConfig(serial=True)
-    )
-
+    for zoom in args.zooms or (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
+        for tile, b in render(
+            renders,
+            Skin.default(),
+            zoom,
+            32,
+            256,
+            Coord(0, 32),
+        ).items():
+            path = Path(__file__).parent / "tiles" / str(9-tile.z) / str(tile.x) / (str(tile.y)+".webp")
+            path.parent.mkdir(exist_ok=True)
+            path.write_bytes(b)
 
 if __name__ == "__main__":
     main()
