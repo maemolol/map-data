@@ -32,7 +32,7 @@ def main():
             components=renders,
             skin=Skin.default(),
             zoom=zoom,
-            max_zoom_range=64,
+            max_zoom_range=32,
             tile_size=256,
             offset=Coord(0, 32),
             processes=os.cpu_count()+1
