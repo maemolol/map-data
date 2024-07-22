@@ -27,7 +27,7 @@ def main():
     
     print(f"Rendering {', '.join(args.namespaces) or 'everything'}")
 
-    for zoom in args.zooms or (0, 1, 2, 3, 4, 5, 6, 7, 8):
+    for zoom in args.zooms or (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
         for tile, b in render_tiles(
             components=renders,
             skin=Skin.default(),
@@ -37,7 +37,7 @@ def main():
             offset=Coord(0, 32),
             processes=os.cpu_count()+1
         ).items():
-            path = Path(__file__).parent / "tiles" / str(8-tile.z) / str(tile.x) / (str(tile.y)+".webp")
+            path = Path(__file__).parent / "tiles" / str(9-tile.z) / str(tile.x) / (str(tile.y)+".webp")
             path.parent.mkdir(exist_ok=True, parents=True)
             path.write_bytes(b)
             PIL.Image.open(io.BytesIO(b)).save(path)
