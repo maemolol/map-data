@@ -17,7 +17,7 @@ jobs:
           python-version: '3.12' 
       - run: cargo install resvg usvg
       - run: pip install -Ur requirements.txt
-      - run: python /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tile_renderer/types/skin/_generate_defaults.py
+      - run: python /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tile_renderer/types/skin/_generate_default.py
       - run: python render.py -z 1 2 3 4 5 6 7 8 9
       - run: |
             git config --global user.name "github actions"
