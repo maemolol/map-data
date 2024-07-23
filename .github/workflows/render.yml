@@ -25,5 +25,3 @@ jobs:
       - run: git add .
       - run: git commit -am "update @ $(date +%Y%m%dT%H:%M:%S%Z)"
       - run: git push
-
-    
