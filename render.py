@@ -10,10 +10,11 @@ from tile_renderer.types.coord import Coord
 from tile_renderer.types.pla2 import Pla2File
 from tile_renderer.types.skin import Skin
 
+
 def main():
     parser = ArgumentParser()
-    parser.add_argument("-n", '--namespaces', nargs="+", default=[])
-    parser.add_argument("-z", '--zooms', nargs="+", type=int, default=[])
+    parser.add_argument("-n", "--namespaces", nargs="+", default=[])
+    parser.add_argument("-z", "--zooms", nargs="+", type=int, default=[])
     args = parser.parse_args()
 
     renders = []
@@ -24,7 +25,7 @@ def main():
         for file in glob("files/*"):
             renders.extend(Pla2File.from_file(Path(file)).components)
     renders = list({(c.namespace, c.id): c for c in renders}.values())
-    
+
     print(f"Rendering {', '.join(args.namespaces) or 'everything'}")
 
     for zoom in args.zooms or (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
@@ -34,16 +35,17 @@ def main():
             zoom=zoom,
             max_zoom_range=32,
             tile_size=256,
-            offset=Coord(0, -64),
-            processes=os.cpu_count()+1
+            offset=Coord(0, -128),
+            processes=os.cpu_count() + 1,
         ).items():
-            path = Path(__file__).parent / "tiles" / str(9-tile.z) / str(tile.x) / (str(tile.y)+".webp")
+            path = Path(__file__).parent / "tiles" / str(9 - tile.z) / str(tile.x) / (str(tile.y) + ".webp")
             path.parent.mkdir(exist_ok=True, parents=True)
             path.write_bytes(b)
             try:
                 PIL.Image.open(io.BytesIO(b)).save(path)
             except PIL.UnidentifiedImageError as e:
                 raise ValueError(b) from e
+
 
 if __name__ == "__main__":
     main()
