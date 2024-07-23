@@ -5,10 +5,11 @@ from glob import glob
 from pathlib import Path
 
 import PIL.Image
-from tile_renderer import render_tiles
-from tile_renderer.types.coord import Coord
-from tile_renderer.types.pla2 import Pla2File
-from tile_renderer.types.skin import Skin
+from tile_renderer.render_tiles import render_tiles
+from tile_renderer.coord import Coord
+from tile_renderer.pla2 import Pla2File
+# noinspection PyProtectedMember
+from tile_renderer.skin import Skin, _generate_default
 
 
 def main():
@@ -28,6 +29,8 @@ def main():
 
     print(f"Rendering {', '.join(args.namespaces) or 'everything'}")
 
+    _generate_default.main()
+
     for zoom in args.zooms or (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
         for tile, b in render_tiles(
             components=renders,
@@ -35,7 +38,7 @@ def main():
             zoom=zoom,
             max_zoom_range=32,
             tile_size=256,
-            offset=Coord(0, -128),
+            offset=Coord(0, -32),
             processes=os.cpu_count() + 1,
         ).items():
             path = Path(__file__).parent / "tiles" / str(9 - tile.z) / str(tile.x) / (str(tile.y) + ".webp")
