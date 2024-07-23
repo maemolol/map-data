@@ -40,7 +40,10 @@ def main():
             path = Path(__file__).parent / "tiles" / str(9-tile.z) / str(tile.x) / (str(tile.y)+".webp")
             path.parent.mkdir(exist_ok=True, parents=True)
             path.write_bytes(b)
-            PIL.Image.open(io.BytesIO(b)).save(path)
+            try:
+                PIL.Image.open(io.BytesIO(b)).save(path)
+            except PIL.UnidentifiedImageError as e:
+                raise ValueError(b) from e
 
 if __name__ == "__main__":
     main()
