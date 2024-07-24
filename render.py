@@ -40,6 +40,7 @@ def main():
             tile_size=256,
             offset=Coord(0, -32),
             processes=os.cpu_count() + 1,
+            chunk_size=16,
         ).items():
             path = Path(__file__).parent / "tiles" / str(9 - tile.z) / str(tile.x) / (str(tile.y) + ".webp")
             path.parent.mkdir(exist_ok=True, parents=True)
