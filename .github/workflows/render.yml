@@ -23,4 +23,5 @@ jobs:
             git config --global user.email "username@users.noreply.github.com"
       - run: git add .
       - run: git commit -am "update @ $(date +%Y%m%dT%H:%M:%S%Z)"
+      - run: git pull --rebase -Xtheirs
       - run: git push
