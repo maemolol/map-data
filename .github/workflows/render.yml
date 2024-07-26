@@ -1,7 +1,6 @@
 on:
   workflow_dispatch:
   push:
-    branches: [ "v5" ]
 
 permissions:
   contents: write
