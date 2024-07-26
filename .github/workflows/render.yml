@@ -6,6 +6,9 @@ on:
 permissions:
   contents: write
 
+env:
+  LOG: INFO
+
 jobs:
   update:
     runs-on: macos-latest
@@ -17,7 +20,7 @@ jobs:
           python-version: '3.12' 
       - run: cargo install resvg usvg
       - run: pip install -Ur requirements.txt
-      - run: python render.py 9
+      - run: python render.py -z 9
       - run: echo "message=update @ $(date +%Y%m%dT%H:%M:%S%Z)" >> "$GITHUB_ENV"
       - uses: EndBug/add-and-commit@v9
         with:
