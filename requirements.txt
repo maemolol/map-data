@@ -1,2 +1,2 @@
-tile_renderer @ git+https://github.com/mrt-map/tile-renderer@v5
+tile-renderer
 pillow
