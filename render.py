@@ -36,7 +36,7 @@ def main():
             zoom=zoom,
             max_zoom_range=32,
             tile_size=256,
-            offset=Coord(0, -32),
+            offset=Coord(-0.5, -32),
             processes=os.cpu_count() + 1,
             chunk_size=16,
         ).items():
