@@ -23,7 +23,7 @@ jobs:
       - uses: baptiste0928/cargo-install@v3
         with:
           crate: usvg
-      - run: apt-get update; apt-get install -y libgeos-dev
+      - run: brew install geos
       - run: pip install -Ur requirements.txt
       - run: python render.py
       - run: echo "message=update @ $(date +%Y%m%dT%H:%M:%S%Z)" >> "$GITHUB_ENV"
