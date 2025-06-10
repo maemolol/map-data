@@ -11,6 +11,8 @@ from tile_renderer.pla2 import Pla2File
 # noinspection PyProtectedMember
 from tile_renderer.skin import Skin
 
+from rich.traceback import install
+install(show_locals=True)
 
 def main():
     parser = ArgumentParser()
