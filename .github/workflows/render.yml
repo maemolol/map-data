@@ -8,6 +8,10 @@ permissions:
 env:
   LOG: INFO
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: macos-latest
