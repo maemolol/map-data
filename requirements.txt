@@ -1,2 +1,2 @@
 tile-renderer
-pillow==12.1.0
+pillow==12.1.1
